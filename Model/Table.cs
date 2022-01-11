@@ -24,8 +24,7 @@
             this.started = DateTime.Now;
             this.CurrentRow = 0;
             this.currentCol = 0;
-            // TODO: load words already played 
-            string solutionString = Words.Instance.RandomPick(new HashSet<string> { "hello" });
+            string solutionString = Words.Instance.RandomPick(History.Instance.PlayedWords());
             this.solution = new Word(solutionString);
             Debug.WriteLine("Solution: " + this.solution.AsString()); 
             this.words = new Word[rows];
@@ -37,6 +36,8 @@
                 this.placements[i] = word.Evaluate(solution, out bool _);
             }
         }
+
+        public string Solution => this.solution.AsString();
 
         public TimeSpan GameTime => DateTime.Now - this.started;
 

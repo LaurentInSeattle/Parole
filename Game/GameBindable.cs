@@ -10,6 +10,7 @@
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Input;
+    using System.Windows.Threading;
 
     public enum State
     {
@@ -22,7 +23,8 @@
         private State gameState;
         private Table table;
         private LetterBindable [,] letterBindables;
-        private DateTime startTime; 
+        private DateTime startTime;
+        private DispatcherTimer? clockTimer; 
 
         private BackgroundWorker endGameAnimationWorker;
 
@@ -60,9 +62,11 @@
             Messenger.Instance.Register<KeyMessage>(this.OnKeyPress);
             Messenger.Instance.Register<ControlMessage>(this.OnControlKeyPress);
             Words.Instance.Load();
+            History.Instance.Load();
             this.SetupTableGrid();
             this.keyBindables = new Dictionary<string, KeyBindable>(); 
             this.SetupKeyboardGrid();
+            this.ShowStatistics();
         }
 
         private void SetupKeyboardGrid()
@@ -138,6 +142,33 @@
             this.ClearKeyboard();
             this.StartVisibility = Visibility.Hidden;
             this.Hide();
+            this.clockTimer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromMilliseconds(1300),
+                IsEnabled = true,
+            };
+            this.clockTimer.Tick += this.OnClockTimerTick;
+            this.clockTimer.Start();    
+        }
+
+        private void OnClockTimerTick(object? sender, EventArgs e)
+        {
+            this.ClockVisibility = Visibility.Visible;
+            TimeSpan elapsed = DateTime.Now - this.startTime;
+            this.Clock = elapsed.ToString(@"d\.hh\:mm\:ss");
+        }
+
+        private void StopClockTimer()
+        {
+            if (this.clockTimer != null)
+            {
+                this.clockTimer.Stop();
+                this.clockTimer.Tick -= this.OnClockTimerTick;
+                this.clockTimer = null;
+            } 
+
+            this.ClockVisibility = Visibility.Hidden;
+            this.Clock = string.Empty;
         }
 
         private void OnKeyPress(KeyMessage keyMessage) 
@@ -183,17 +214,7 @@
                         this.RefreshKeyboard(); 
                         if (this.table.IsGameOver)
                         {
-                            this.StartVisibility = Visibility.Visible;
-                            if ( this.table.IsWon)
-                            {
-                                // Message: Win
-                                this.Show("Partita Finita: Hai Vinto!");
-                            }
-                            else
-                            {
-                                // Message: Lost
-                                this.Show("Partita Finita: Perdi...");
-                            }
+                            this.OnGameOver(); 
                         }
                     } 
                     else
@@ -277,6 +298,52 @@
             }
         }
 
+        private void OnGameOver ( )
+        {
+            this.gameState = State.Ended;
+            this.StartVisibility = Visibility.Visible;
+            this.StopClockTimer();
+            if (this.table.IsWon)
+            {
+                // Message: Win
+                this.Show("Partita Finita\n Hai Vinto!");
+            }
+            else
+            {
+                // Message: Lost
+                this.Show("Partita Finita\n Perdi...");
+            }
+
+            var gameEntry =
+                new History.GameEntry
+                {
+                    Duration = DateTime.Now - this.startTime,
+                    IsWon = this.table.IsWon,
+                    Started = this.startTime,
+                    Steps = this.table.CurrentRow,
+                    Word = this.table.Solution,
+                };
+            History.Instance.Add(gameEntry);
+            History.Instance.Save();
+            this.ShowStatistics(); 
+        }
+
+        private void ShowStatistics ()
+        {
+            var statistics = History.Instance.EvaluateStatistics();
+
+            this.Plays = 
+                string.Format(
+                    "Giocato {0} partite per {1} minuti.", 
+                    statistics.Wins + statistics.Losses, 
+                    (int) ( 0.5 + statistics.Duration.TotalMinutes));
+            this.Wins = string.Format("Vince : {0} ", statistics.Wins);
+            this.Losses = string.Format("Perdite : {0} ", statistics.Losses);
+            this.WinRate = string.Format("Tasso di Vincita : {0} % ", statistics.WinRate);
+            this.BestStreak = string.Format("Serie più lunga : {0}", statistics.BestStreak);
+            this.CurrentStreak = string.Format("Serie in corso : {0}", statistics.CurrentStreak);
+        }
+
         public bool IsEndGameInfoVisible
         {
             get => this.Get<bool>();
@@ -287,6 +354,8 @@
             }
         }
 
+        #region Bound Properties 
+
         /// <summary> Gets or sets the StartCommand bound property.</summary>
         public ICommand StartCommand { get => this.Get<ICommand>(); set => this.Set(value); }
 
@@ -296,9 +365,26 @@
 
         public Visibility MessageVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
+        public string Clock { get => this.Get<string>(); set => this.Set(value); }
+
+        public Visibility ClockVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
+
         public Visibility EndGameInfoVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
         public Visibility FirstStartVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
+        public string Plays { get => this.Get<string>(); set => this.Set(value); }
+
+        public string Wins { get => this.Get<string>(); set => this.Set(value); }
+
+        public string Losses { get => this.Get<string>(); set => this.Set(value); }
+
+        public string WinRate { get => this.Get<string>(); set => this.Set(value); }
+
+        public string BestStreak { get => this.Get<string>(); set => this.Set(value); }
+
+        public string CurrentStreak { get => this.Get<string>(); set => this.Set(value); }
+
+        #endregion Bound Properties 
     }
 }
