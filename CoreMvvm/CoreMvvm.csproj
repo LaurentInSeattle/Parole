@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+      <TargetFramework>net6.0-windows8.0</TargetFramework>
+      <UseWPF>true</UseWPF>
+      <RootNamespace>Lyt.CoreMvvm</RootNamespace>
+  </PropertyGroup>
+</Project>

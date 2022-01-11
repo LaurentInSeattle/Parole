@@ -1,0 +1,82 @@
+﻿namespace Parole.Game
+{
+    using Lyt.CoreMvvm;
+
+    using Parole.Model;
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using System.Windows.Input;
+    using System.Windows.Media;
+
+    public sealed class KeyBindable : Bindable<KeyControl>
+    {
+        public KeyBindable() : base()
+        {
+            this.Clear();
+            this.ClickCommand = new Command(this.OnClick);
+        }
+
+        public void Update(CharacterPlacement characterPlacement)
+        {
+            var ti = Theme.Instance;
+            this.BorderBrush = ti.BoxBorder;
+            this.TextBrush = ti.Text;
+            this.BackgroundBrush = characterPlacement switch
+            {
+                CharacterPlacement.Absent => ti.BoxAbsent,
+                CharacterPlacement.Present => ti.BoxPresent,
+                CharacterPlacement.Exact => ti.BoxExact,
+                _ => ti.BoxUnknown,
+            };
+        }
+
+        public void Clear()
+        {
+            var ti = Theme.Instance;
+            this.BorderBrush = ti.BoxBorder;
+            this.BackgroundBrush = ti.BoxUnknown;
+        }
+
+        public void SetText(string text)
+        {
+            var ti = Theme.Instance;
+            this.TextBrush = ti.Text;
+            this.Text = text;
+        }
+
+        private void OnClick(object _)
+        {
+            if ( this.Text == "Enter")
+            {
+                Messenger.Instance.Send<ControlMessage>(new ControlMessage(Key.Enter));
+            }
+            else if (this.Text == "⇦")
+            {
+                Messenger.Instance.Send<ControlMessage>(new ControlMessage(Key.Back));
+            }
+            else
+            {
+                Messenger.Instance.Send<KeyMessage>(new KeyMessage(this.Text));
+            }
+        }
+
+        #region Bound Properties 
+
+        public Brush BorderBrush { get => this.Get<Brush>(); set => this.Set(value); }
+
+        public Brush BackgroundBrush { get => this.Get<Brush>(); set => this.Set(value); }
+
+        public Brush TextBrush { get => this.Get<Brush>(); set => this.Set(value); }
+
+        public string Text { get => this.Get<string>(); set => this.Set(value); }
+
+        /// <summary> Gets or sets the ClickCommand bound property.</summary>
+        public ICommand ClickCommand { get => this.Get<ICommand>(); set => this.Set(value); }
+
+        #endregion Bound Properties 
+    }
+}

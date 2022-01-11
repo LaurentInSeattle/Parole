@@ -1,0 +1,30 @@
+﻿<UserControl 
+    x:Class="Parole.Game.LetterControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:local="clr-namespace:Parole.Game"
+    mc:Ignorable="d" 
+    d:DesignHeight="160" d:DesignWidth="160"
+    Height="160" Width="160"
+    >
+    <Grid
+        Margin="4"
+        >
+        <Border
+            BorderThickness="1"
+            BorderBrush="{Binding BorderBrush}"
+            Background="{Binding BackgroundBrush}"
+            >
+            <TextBlock
+                Foreground="{Binding TextBrush}"
+                FontSize="132"
+                FontWeight="Bold"
+                Text="{Binding Text}"
+                Margin="0 -20 0 0 "
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                />
+        </Border>
+    </Grid>
+</UserControl>
