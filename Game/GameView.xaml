@@ -17,11 +17,11 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="10"/>
+            <RowDefinition Height="16"/>
             <RowDefinition Height="960"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="40"/>
             <RowDefinition Height="240"/>
-            <RowDefinition Height="10"/>
+            <RowDefinition Height="16"/>
         </Grid.RowDefinitions>
         <Grid 
             x:Name="messageGrid"
@@ -91,7 +91,7 @@
         <Grid 
             x:Name="keyboardGrid"
             ShowGridLines="False"
-            Grid.Row="3" Grid.Column="1"
+            Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"
             >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>

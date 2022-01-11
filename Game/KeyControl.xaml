@@ -8,7 +8,7 @@
     mc:Ignorable="d" 
     d:DesignHeight="60" d:DesignWidth="100">
     <Grid
-        Margin="4"
+        Margin="8 4"
         >
         <Button
             Command="{Binding ClickCommand}"
@@ -18,7 +18,7 @@
                 BorderBrush="{Binding BorderBrush}"
                 Background="{Binding BackgroundBrush}"
                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                Height="52" Width="92"
+                Height="52" Width="124"
                 Margin="0" Padding="0"
                 >
                 <TextBlock

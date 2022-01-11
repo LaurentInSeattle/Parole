@@ -43,7 +43,7 @@
         private void MainWindowPreviewKeyUp(object sender, KeyEventArgs e)
         {
             var key = e.Key;
-            Debug.WriteLine("Entered: " + key.ToString());   
+            // Debug.WriteLine("Entered: " + key.ToString());   
 
             bool foundCharacter = (from knownKey in this.keys where knownKey == key select key).Any();
             bool foundControl = (from knownKey in this.controlKeys where knownKey == key select key).Any();
@@ -58,14 +58,14 @@
                 string keyString = key.ToString();
                 if (!string.IsNullOrEmpty(keyString))
                 {
-                    Debug.WriteLine("sending char: " + key.ToString());
+                    // Debug.WriteLine("sending char: " + key.ToString());
                     Messenger.Instance.Send<KeyMessage>(new KeyMessage(keyString));
                     e.Handled = true;
                 }
             }
             else if (foundControl)
             {
-                Debug.WriteLine("sending ctrl: " + key.ToString());
+                // Debug.WriteLine("sending ctrl: " + key.ToString());
                 Messenger.Instance.Send<ControlMessage>(new ControlMessage(key));
                 e.Handled = true;
             }

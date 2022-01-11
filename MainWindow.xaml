@@ -9,6 +9,7 @@
     mc:Ignorable="d"
     WindowStartupLocation="CenterScreen"
     WindowState="Normal"
+    Width="920" Height="1040"
     Title="Parole" 
     Background="Black"
     >

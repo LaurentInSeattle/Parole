@@ -137,6 +137,7 @@
             this.ClearTableGrid();
             this.ClearKeyboard();
             this.StartVisibility = Visibility.Hidden;
+            this.Hide();
         }
 
         private void OnKeyPress(KeyMessage keyMessage) 
@@ -182,14 +183,23 @@
                         this.RefreshKeyboard(); 
                         if (this.table.IsGameOver)
                         {
-                            this.StartVisibility = Visibility.Visible; 
+                            this.StartVisibility = Visibility.Visible;
+                            if ( this.table.IsWon)
+                            {
+                                // Message: Win
+                                this.Show("Partita Finita: Hai Vinto!");
+                            }
+                            else
+                            {
+                                // Message: Lost
+                                this.Show("Partita Finita: Perdi...");
+                            }
                         }
                     } 
                     else
                     {
                         // Message: Not in list 
-                        this.Message = "Parola Sconosciuta"; 
-                        this.MessageVisibility = Visibility.Visible;
+                        this.Show("Parola Sconosciuta") ; 
                     }
                 } 
             }
@@ -199,6 +209,18 @@
                 this.table.OnBackspace();
                 this.RefreshRow(this.table.CurrentRow);
             }
+        }
+
+        private void Hide()
+        {
+            this.Message = string.Empty;
+            this.MessageVisibility = Visibility.Hidden;
+        }
+
+        private void Show ( string message )
+        {
+            this.Message = message;
+            this.MessageVisibility = Visibility.Visible;
         }
 
         private void RefreshRow(int row)
