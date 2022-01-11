@@ -39,6 +39,8 @@
 
         public bool IsComplete => !this.characters.Contains(space);
 
+        public bool IsEvaluated { get; private set; }
+
         public bool IsEmpty(int column) => this.characters[column] == space; 
 
         public void Clear(int column)
@@ -109,6 +111,7 @@
                 }
             }
 
+            this.IsEvaluated = true;
             isFound = found;
             return placement;
         }

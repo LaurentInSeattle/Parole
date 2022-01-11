@@ -46,9 +46,9 @@
                     this.Background = Brushes.Black;
                     this.Text = Brushes.AntiqueWhite;
                     this.BoxBorder = Brushes.Aquamarine;
-                    this.BoxUnknown = Brushes.DarkGray;
+                    this.BoxUnknown = Brushes.DarkSlateBlue;
                     this.BoxPresent = Brushes.DarkOrange;
-                    this.BoxAbsent = Brushes.LightGray;
+                    this.BoxAbsent = Brushes.DarkSlateGray;
                     this.BoxExact = Brushes.MediumSeaGreen;
                     break;
             }

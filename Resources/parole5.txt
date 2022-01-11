@@ -35,7 +35,7 @@ Fabio 	facce 	facto 	faire 	fallo 	falsa 	falsi 	falso 	fango
 fanno 	fanti 	farci 	farla 	farle 	farli 	farlo 	farmi 	farne 	farsi
 farvi 	fasce 	fasci 	fatta 	fatte 	fatti 	fatto 	ferma 	fermi 	fermo
 Ferri 	ferro 	festa 	feste 	feudo 	fiato 	fibre 	fiera 	fieri 	figli
-fiore 	fiori 	firma 	first 	fissa 	fisse 	fissi 	fisso 	fitta 	fitto
+fiore 	fiori 	firma 	fissa 	fisse 	fissi 	fisso 	fitta 	fitto
 fiume 	fiumi 	fogli 	folla 	folle 	fonda 	fondi 	fondo 	fonte 	fonti
 Forlì 	forma 	forme 	forno 	forse 	forte 	forti 	forza 	forze 	fossa
 fosse 	fossi 	frase 	frasi 	frate 	frati 	freno 	Freud 	frode 	fuoco
@@ -46,8 +46,8 @@ grani 	grano 	grato 	grave 	gravi 	greca 	greci 	greco 	grida 	grido
 guida 	Guido 	guisa 	gusti 	gusto 	hanno 	homme 	Iddio
 infra 	inizi 	inter 	invio 	ipsum 	isola 	isole 	italo 	
 iuris 	laghi 	laica 	laici 	laico 	larga 	largo 	larve 	lasci
-latte 	Laura 	Lazio 	Lecce 	legge 	leggi 	leghe 	legno 	lembo 	Lenin
-lenta 	lente 	lenti 	lento 	Leone 	letta 	letti 	letto 	leurs 	Liber
+latte 	Laura 	Lazio 	Lecce 	legge 	leggi 	leghe 	legno 	lembo
+lenta 	lente 	lenti 	lento 	Leone 	letta 	letti 	letto 	Liber
 libri 	libro 	lieto 	lieve 	lievi 	linea 	linee 	Lione 	lista
 liste 	Livio 	lordo 	lotta 	lotte 	Louis 	Lucca 	Lucia 	Lucio 	Luigi
 Luisa 	lunga 	lungi 	lungo 	luogo 	lusso 	lutto 	madre 	madri 	mafia
@@ -70,7 +70,7 @@ passa 	passi 	passo 	passò 	pasta 	patti 	patto 	paura 	Pavia 	pegno
 pelle 	penna 	pensa 	pensi 	penso 	pensò 	perde 	perso 	pesca 	pesce
 pesci 	peste 	Peter 	petto 	pezzi 	pezzo 	piace 	piana 	piani 	piano
 piede 	piedi 	piega 	piena 	piene 	pieni 	pieno 	Piero 	pietà 	
-plebe 	poche 	pochi 	poema 	poeta 	poeti 	point 	polso 	pompa 	ponte
+plebe 	poche 	pochi 	poema 	poeta 	poeti 	polso 	pompa 	ponte
 ponti 	porre 	porsi 	porta 	porte 	porti 	porto 	portò 	possa 	posso
 posta 	poste 	posti 	posto 	poter 	potrà 	pozzo 	prati 	Prato
 preda 	pregi 	prego 	preme 	premi 	presa 	prese 	presi 	preso

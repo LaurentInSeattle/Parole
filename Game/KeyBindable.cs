@@ -32,13 +32,20 @@
                 CharacterPlacement.Exact => ti.BoxExact,
                 _ => ti.BoxUnknown,
             };
+
+            if (characterPlacement == CharacterPlacement.Absent)
+            {
+                this.IsDisabled = true; 
+            }
         }
+        public bool IsDisabled {  get; private set; }   
 
         public void Clear()
         {
             var ti = Theme.Instance;
             this.BorderBrush = ti.BoxBorder;
             this.BackgroundBrush = ti.BoxUnknown;
+            this.IsDisabled = false;
         }
 
         public void SetText(string text)
@@ -60,7 +67,10 @@
             }
             else
             {
-                Messenger.Instance.Send<KeyMessage>(new KeyMessage(this.Text));
+                if (!this.IsDisabled)
+                {
+                    Messenger.Instance.Send<KeyMessage>(new KeyMessage(this.Text));
+                } 
             }
         }
 

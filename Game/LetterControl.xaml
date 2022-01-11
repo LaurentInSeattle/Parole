@@ -10,16 +10,18 @@
     Height="160" Width="160"
     >
     <Grid
-        Margin="4"
+        Margin="6"
         >
         <Border
+            SnapsToDevicePixels="True"
             BorderThickness="1"
             BorderBrush="{Binding BorderBrush}"
             Background="{Binding BackgroundBrush}"
+            CornerRadius="2"
             >
             <TextBlock
                 Foreground="{Binding TextBrush}"
-                FontSize="132"
+                FontSize="130"
                 FontWeight="Bold"
                 Text="{Binding Text}"
                 Margin="0 -20 0 0 "

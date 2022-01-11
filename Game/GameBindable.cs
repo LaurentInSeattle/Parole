@@ -5,6 +5,7 @@
     using Parole.Model;
 
     using System;
+    using System.Collections.Generic;
     using System.ComponentModel;
     using System.Windows;
     using System.Windows.Controls;
@@ -25,13 +26,15 @@
 
         private BackgroundWorker endGameAnimationWorker;
 
-        private string[,] keyboardLayout = new string[4, 8]
+        private readonly string[,] keyboardLayout = new string[4, 8]
         {
             { "Q" , "E" , "R", "T", "U", "I", "O", "P"},
             { "A" , "S" , "D", "F", "G", "H", "L", " "},
             { "Z" , "C" , "V", "B", "N", "M", " ", "⇦"},
             { "à" , "è" , "é", "ì", "ò", "ù", " ", "Enter"},
         };
+
+        private Dictionary<string, KeyBindable> keyBindables; 
 
         public GameBindable(GameView gameView) : base(gameView)
         {
@@ -58,6 +61,7 @@
             Messenger.Instance.Register<ControlMessage>(this.OnControlKeyPress);
             Words.Instance.Load();
             this.SetupTableGrid();
+            this.keyBindables = new Dictionary<string, KeyBindable>(); 
             this.SetupKeyboardGrid();
         }
 
@@ -77,9 +81,10 @@
                     var keyBindable = Binder<KeyControl, KeyBindable>.Create();
                     keyBindable.SetText(key.ToString());
                     var control = keyBindable.View;
-                    grid.Children.Add(control);
+                    _ = grid.Children.Add(control);
                     control.SetValue(Grid.RowProperty, row);
                     control.SetValue(Grid.ColumnProperty, col);
+                    this.keyBindables.Add(key, keyBindable);
                 }
             }
         }
@@ -95,7 +100,7 @@
                     var letterBindable = Binder<LetterControl, LetterBindable>.Create();
                     this.letterBindables[row, col] = letterBindable;   
                     var control = letterBindable.View;
-                    grid.Children.Add(control);
+                    _ = grid.Children.Add(control);
                     control.SetValue(Grid.RowProperty, row);
                     control.SetValue(Grid.ColumnProperty, col);
                 }
@@ -114,6 +119,14 @@
             }
         }
 
+        private void ClearKeyboard()
+        {
+            foreach (var keyBindable in this.keyBindables.Values)
+            {
+                keyBindable.Clear();
+            }
+        }
+
         private bool IsGameRunning => this.gameState == State.Running;
 
         private void OnStartGame(object _ )
@@ -122,11 +135,17 @@
             this.gameState = State.Running;
             this.startTime = DateTime.Now;
             this.ClearTableGrid();
+            this.ClearKeyboard();
+            this.StartVisibility = Visibility.Hidden;
         }
 
-        private void OnKeyPress(KeyMessage keyMessage)
+        private void OnKeyPress(KeyMessage keyMessage) 
+            => Dispatch.OnUiThread(this.OnKeyPressUi, keyMessage);
+        
+        private void OnKeyPressUi(KeyMessage keyMessage)
         {
             // Debug.WriteLine(keyMessage.Key);
+            this.MessageVisibility = Visibility.Hidden;
             if (!this.IsGameRunning)
             {
                 return;
@@ -137,8 +156,12 @@
             this.RefreshRow(this.table.CurrentRow);
         }
 
-        private void OnControlKeyPress(ControlMessage controlMessage)
+        private void OnControlKeyPress(ControlMessage controlMessage) 
+            => Dispatch.OnUiThread(this.OnControlKeyPressUi, controlMessage);
+
+        private void OnControlKeyPressUi(ControlMessage controlMessage)
         {
+            this.MessageVisibility = Visibility.Hidden;
             // Debug.WriteLine(controlMessage.Key.ToString());
             if (!this.IsGameRunning)
             {
@@ -148,10 +171,27 @@
             var key = controlMessage.Key;
             if (key == Key.Enter)
             {
-                // Evaluate
-                this.table.OnEnter();
-                int row = this.table.IsGameOver ? this.table.CurrentRow : this.table.CurrentRow - 1;
-                this.RefreshRowOnEnter(row);
+                var word = this.table.WordAt(this.table.CurrentRow);
+                if (word.IsComplete)
+                {
+                    // Evaluate
+                    if (this.table.OnEnter())
+                    {
+                        int row = this.table.IsGameOver ? this.table.CurrentRow : this.table.CurrentRow - 1;
+                        this.RefreshRowOnEnter(row);
+                        this.RefreshKeyboard(); 
+                        if (this.table.IsGameOver)
+                        {
+                            this.StartVisibility = Visibility.Visible; 
+                        }
+                    } 
+                    else
+                    {
+                        // Message: Not in list 
+                        this.Message = "Parola Sconosciuta"; 
+                        this.MessageVisibility = Visibility.Visible;
+                    }
+                } 
             }
             else
             {
@@ -182,6 +222,39 @@
             }
         }
 
+        private void RefreshKeyboard()
+        {
+            var absent = this.table.AbsentLetters();
+            foreach (char letter in absent)
+            {
+                string letterString = letter.ToString();    
+                if(this.keyBindables.TryGetValue(letterString, out var keyBindable))
+                {
+                    keyBindable.Update(CharacterPlacement.Absent);
+                }
+            }
+
+            var present = this.table.PresentLetters();
+            foreach (char letter in present)
+            {
+                string letterString = letter.ToString();
+                if (this.keyBindables.TryGetValue(letterString, out var keyBindable))
+                {
+                    keyBindable.Update(CharacterPlacement.Present);
+                }
+            }
+
+            var exact = this.table.ExactLetters();
+            foreach (char letter in exact)
+            {
+                string letterString = letter.ToString();
+                if (this.keyBindables.TryGetValue(letterString, out var keyBindable))
+                {
+                    keyBindable.Update(CharacterPlacement.Exact);
+                }
+            }
+        }
+
         public bool IsEndGameInfoVisible
         {
             get => this.Get<bool>();
@@ -194,6 +267,12 @@
 
         /// <summary> Gets or sets the StartCommand bound property.</summary>
         public ICommand StartCommand { get => this.Get<ICommand>(); set => this.Set(value); }
+
+        public Visibility StartVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
+
+        public string Message { get => this.Get<string>(); set => this.Set(value); }
+
+        public Visibility MessageVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
         public Visibility EndGameInfoVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 

@@ -23,12 +23,38 @@
             <RowDefinition Height="240"/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
-        <Button
+        <Grid 
+            x:Name="messageGrid"
             Grid.Row="1" Grid.Column="2"
-            Margin="4" Height="42" VerticalAlignment="Top"
-            Content="Start"
-            Command="{Binding StartCommand}"
-            />
+            ShowGridLines="False"
+            >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button
+                Grid.Row="0" Grid.Column="0"
+                Margin="8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Content="Inizio"
+                FontSize="60"
+                Command="{Binding StartCommand}"
+                Visibility="{Binding StartVisibility}"
+                />
+            <TextBlock
+                Grid.Row="1" Grid.Column="0"
+                Margin="8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                TextWrapping="Wrap"
+                TextAlignment="Center"
+                Text="{Binding Message}"
+                Foreground="DarkOrange"
+                FontSize="42"
+                Visibility="{Binding MessageVisibility}"
+                />
+        </Grid>
         <Grid 
             x:Name="tableGrid"
             Grid.Row="1" Grid.Column="1"

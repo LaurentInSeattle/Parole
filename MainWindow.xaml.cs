@@ -6,6 +6,7 @@
 
     using System;
     using System.Diagnostics;
+    using System.Linq;
     using System.Windows;
     using System.Windows.Input;
     using System.Windows.Media;
@@ -13,8 +14,6 @@
     /// <summary> Interaction logic for MainWindow.xaml </summary>
     public partial class MainWindow : Window
     {
-        private int skipKeys; 
-
         private readonly Key[] keys = new Key[]
         {
             Key.A, Key.B, Key.C,
@@ -38,41 +37,40 @@
         {
             this.InitializeComponent();
             this.Loaded += (s, e) => new GameBindable(this.gameView);
-            CompositionTarget.Rendering += new EventHandler(this.CompositionTargetRendering);
+            this.PreviewKeyUp += this.MainWindowPreviewKeyUp;
         }
 
-
-        private void CompositionTargetRendering(object? sender, EventArgs e)
+        private void MainWindowPreviewKeyUp(object sender, KeyEventArgs e)
         {
-            -- this.skipKeys;
-            if ( this.skipKeys >= 0)
+            var key = e.Key;
+            Debug.WriteLine("Entered: " + key.ToString());   
+
+            bool foundCharacter = (from knownKey in this.keys where knownKey == key select key).Any();
+            bool foundControl = (from knownKey in this.controlKeys where knownKey == key select key).Any();
+            if ( !foundCharacter && ! foundControl)
             {
-                return;
+                e.Handled = false;
+                return; 
             }
 
-            foreach (var key in keys)
+            if (foundCharacter)
             {
-                if ((Keyboard.GetKeyStates(key) & KeyStates.Down) > 0)
+                string keyString = key.ToString();
+                if (!string.IsNullOrEmpty(keyString))
                 {
-                    this.skipKeys = 17;
-                    // Debug.WriteLine(key.ToString()); 
-                    string keyString = key.ToString();
-                    if (!string.IsNullOrEmpty(keyString))
-                    {
-                        Messenger.Instance.Send<KeyMessage>(new KeyMessage(keyString));
-                    } 
+                    Debug.WriteLine("sending char: " + key.ToString());
+                    Messenger.Instance.Send<KeyMessage>(new KeyMessage(keyString));
+                    e.Handled = true;
                 }
+            }
+            else if (foundControl)
+            {
+                Debug.WriteLine("sending ctrl: " + key.ToString());
+                Messenger.Instance.Send<ControlMessage>(new ControlMessage(key));
+                e.Handled = true;
             }
 
-            foreach (var key in controlKeys)
-            {
-                if ((Keyboard.GetKeyStates(key) & KeyStates.Down) > 0)
-                {
-                    this.skipKeys = 17;
-                    // Debug.WriteLine(key.ToString()); 
-                    Messenger.Instance.Send<ControlMessage>(new ControlMessage(key));
-                }
-            }
+            e.Handled = false;
         }
     }
 }

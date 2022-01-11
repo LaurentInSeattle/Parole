@@ -55,21 +55,35 @@
         public void OnBackspace()
         {
             var word = this.words[this.CurrentRow];
-            if (this.currentCol >= 0)
+
+            if (this.currentCol == Word.Length - 1)
             {
-                if ((this.currentCol > 0) && word.IsEmpty(this.currentCol))
+                if (word.IsEmpty(this.currentCol))
+                {
+                    word.Clear(this.currentCol - 1);
+                    --this.currentCol;
+                }
+                else
+                {
+                    word.Clear(this.currentCol);
+                }
+            }
+            else if (this.currentCol > 0)
+            {
+                if (word.IsEmpty(this.currentCol))
                 {
                     word.Clear(this.currentCol - 1);
                 }
                 else
                 {
                     word.Clear(this.currentCol);
-                } 
-            }
+                }
 
-            if (this.currentCol > 0)
-            {
                 --this.currentCol;
+            }
+            else
+            {
+                word.Clear(this.currentCol);
             }
         }
 
@@ -82,9 +96,15 @@
             }
         }
 
-        public void OnEnter()
+        public bool OnEnter()
         {
-            this.placements[this.CurrentRow] = this.words[this.CurrentRow].Evaluate(solution, out bool isFound);
+            var word = this.words[this.CurrentRow];
+            if( !Words.Instance.IsPresent(word))
+            {
+                return false;
+            }
+
+            this.placements[this.CurrentRow] = word.Evaluate(solution, out bool isFound);
             if ( isFound )
             {
                 // Win ! 
@@ -109,6 +129,38 @@
                     this.currentCol = 0;    
                 }
             }
+
+            return true;
+        }
+
+        public HashSet<char> ExactLetters() => this.LettersPlacedAs(CharacterPlacement.Exact);
+
+        public HashSet<char> AbsentLetters() => this.LettersPlacedAs(CharacterPlacement.Absent);
+
+        public HashSet<char> PresentLetters() => this.LettersPlacedAs(CharacterPlacement.Present);
+
+        private HashSet<char> LettersPlacedAs(CharacterPlacement characterPlacement)
+        { 
+            var letters = new HashSet<char>();
+            for (int row = 0; row < rows; ++row)
+            {
+                var word = this.words[row] ;
+                if ( ! word.IsEvaluated)
+                {
+                    continue;
+                }
+
+                var placement = this.placements[row] ;
+                for (int col = 0; col < Word.Length; ++col)
+                {
+                    if (placement[col] == characterPlacement)
+                    {
+                        letters.Add(word.Get(col));
+                    }
+                } 
+            }
+
+            return letters;
         }
     }
 }
