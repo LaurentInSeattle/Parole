@@ -10,5 +10,7 @@
         public Grid TableGrid => this.tableGrid;
 
         public Grid KeyboardGrid => this.keyboardGrid;
+
+        public HistogramControl HistogramControl => this.histogramControl;
     }
 }

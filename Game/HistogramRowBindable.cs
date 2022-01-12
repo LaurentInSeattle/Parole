@@ -2,17 +2,22 @@
 {
     using Lyt.CoreMvvm;
 
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     public sealed class HistogramRowBindable : Bindable<HistogramRowControl>
     {
-        public HistogramRowBindable(HistogramRowControl histogramRowControl) : base(histogramRowControl)
-        {
+        public HistogramRowBindable() : base() { }
 
+        public void Update(int guessCount, int count, int max)
+        {
+            this.GuessCount = guessCount.ToString("D");
+            this.Count = count.ToString("D");
+            this.RectangleWidth = 220.0 * count / (double)max;
         }
+
+        public string Count { get => this.Get<string>(); set => this.Set(value); }
+
+        public string GuessCount { get => this.Get<string>(); set => this.Set(value); }
+
+        public double RectangleWidth { get => this.Get<double>(); set => this.Set(value); }
+
     }
 }

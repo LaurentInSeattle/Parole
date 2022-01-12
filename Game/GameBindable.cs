@@ -64,7 +64,8 @@
             Words.Instance.Load();
             History.Instance.Load();
             this.SetupTableGrid();
-            this.keyBindables = new Dictionary<string, KeyBindable>(); 
+            this.keyBindables = new Dictionary<string, KeyBindable>();
+            this.Histogram = new HistogramBindable(this.View.HistogramControl);
             this.SetupKeyboardGrid();
             this.ShowStatistics();
         }
@@ -342,6 +343,7 @@
             this.WinRate = string.Format("Tasso di Vincita : {0} % ", statistics.WinRate);
             this.BestStreak = string.Format("Serie più lunga : {0}", statistics.BestStreak);
             this.CurrentStreak = string.Format("Serie in corso : {0}", statistics.CurrentStreak);
+            this.Histogram.Update(statistics);
         }
 
         public bool IsEndGameInfoVisible
@@ -384,6 +386,8 @@
         public string BestStreak { get => this.Get<string>(); set => this.Set(value); }
 
         public string CurrentStreak { get => this.Get<string>(); set => this.Set(value); }
+
+        public HistogramBindable Histogram { get => this.Get<HistogramBindable>(); set => this.Set(value); }
 
         #endregion Bound Properties 
     }

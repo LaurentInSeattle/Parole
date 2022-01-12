@@ -12,11 +12,11 @@
     <Grid
         >
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="260"/>
-            <ColumnDefinition Width="20"/>
-            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="4"/>
+            <ColumnDefinition Width="36"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="26"/>
+            <ColumnDefinition Width="4"/>
         </Grid.ColumnDefinitions>
         <TextBlock
             Grid.Column="1"
@@ -24,13 +24,13 @@
             TextAlignment="Center"
             Text="{Binding GuessCount}"
             Foreground="DarkOrange"
-            FontSize="16"
+            FontSize="20"
             />
         <Rectangle
             Grid.Column="2"
             Margin="0" HorizontalAlignment="Left"
-            Height="32"
-            Width="{Binding RectangleWidth}"
+            Width="{Binding RectangleWidth}" 
+            Height="16" VerticalAlignment="Center" 
             Fill="DarkOrange"
             />
         <TextBlock
@@ -39,7 +39,7 @@
             TextAlignment="Center"
             Text="{Binding Count}"
             Foreground="DarkOrange"
-            FontSize="16"
+            FontSize="20"
             />
     </Grid>
 </UserControl>

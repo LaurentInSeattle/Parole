@@ -75,12 +75,6 @@
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="40"/>
-                    <RowDefinition Height="32"/>
-                    <RowDefinition Height="32"/>
-                    <RowDefinition Height="32"/>
-                    <RowDefinition Height="32"/>
-                    <RowDefinition Height="32"/>
-                    <RowDefinition Height="32"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <TextBlock
@@ -146,14 +140,12 @@
                     Foreground="DarkOrange"
                     FontSize="20"
                     />
-                <TextBlock
+                <local:HistogramControl
+                    x:Name="histogramControl"
+                    DataContext="{Binding Histogram}"
                     Grid.Row="7" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="1"
-                    Foreground="DarkOrange"
-                    FontSize="20"
+                    Margin="0 0 0 0"
+                    VerticalAlignment="Top" HorizontalAlignment="Stretch"
                     />
             </Grid>
         </Grid>
