@@ -38,7 +38,7 @@
             <Button
                 Grid.Row="0" Grid.Column="0"
                 Margin="8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                Content="Inizio"
+                Content="Inizia"
                 FontSize="60"
                 Command="{Binding StartCommand}"
                 Visibility="{Binding StartVisibility}"
@@ -74,6 +74,13 @@
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <TextBlock
@@ -127,6 +134,24 @@
                     TextWrapping="Wrap"
                     TextAlignment="Left"
                     Text="{Binding CurrentStreak}"
+                    Foreground="DarkOrange"
+                    FontSize="20"
+                    />
+                <TextBlock
+                    Grid.Row="6" 
+                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    TextWrapping="Wrap"
+                    TextAlignment="Left"
+                    Text="Distribuzione delle Ipotesi"
+                    Foreground="DarkOrange"
+                    FontSize="20"
+                    />
+                <TextBlock
+                    Grid.Row="7" 
+                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    TextWrapping="Wrap"
+                    TextAlignment="Left"
+                    Text="1"
                     Foreground="DarkOrange"
                     FontSize="20"
                     />

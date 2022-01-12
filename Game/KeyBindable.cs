@@ -57,11 +57,11 @@
 
         private void OnClick(object _)
         {
-            if ( this.Text == "Enter")
+            if ( this.Text == "Invio")
             {
                 Messenger.Instance.Send<ControlMessage>(new ControlMessage(Key.Enter));
             }
-            else if (this.Text == "⇦")
+            else if (this.Text.StartsWith("⇦"))
             {
                 Messenger.Instance.Send<ControlMessage>(new ControlMessage(Key.Back));
             }

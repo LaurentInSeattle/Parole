@@ -58,19 +58,31 @@
                 string keyString = key.ToString();
                 if (!string.IsNullOrEmpty(keyString))
                 {
-                    // Debug.WriteLine("sending char: " + key.ToString());
-                    Messenger.Instance.Send<KeyMessage>(new KeyMessage(keyString));
+                    // MUST do that first
                     e.Handled = true;
+                    Schedule.OnUiThread(50, this.SendKeyMessage, keyString);
                 }
             }
             else if (foundControl)
             {
-                // Debug.WriteLine("sending ctrl: " + key.ToString());
-                Messenger.Instance.Send<ControlMessage>(new ControlMessage(key));
+                // MUST do that first
                 e.Handled = true;
+                Schedule.OnUiThread(50, this.SendControlMessage, key);
             }
 
             e.Handled = false;
+        }
+
+        private void SendKeyMessage ( string keyString )
+        {
+            // Debug.WriteLine("sending char: " + key.ToString());
+            Messenger.Instance.Send<KeyMessage>(new KeyMessage(keyString));
+        }
+
+        private void SendControlMessage(Key key)
+        {
+            // Debug.WriteLine("sending ctrl: " + key.ToString());
+            Messenger.Instance.Send<ControlMessage>(new ControlMessage(key));
         }
     }
 }

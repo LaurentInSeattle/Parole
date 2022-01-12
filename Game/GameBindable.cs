@@ -32,8 +32,8 @@
         {
             { "Q" , "E" , "R", "T", "U", "I", "O", "P"},
             { "A" , "S" , "D", "F", "G", "H", "L", " "},
-            { "Z" , "C" , "V", "B", "N", "M", " ", "⇦"},
-            { "à" , "è" , "é", "ì", "ò", "ù", " ", "Enter"},
+            { "Z" , "C" , "V", "B", "N", "M", " ", "⇦ Canc"},
+            { "à" , "è" , "é", "ì", "ò", "ù", " ", "Invio"},
         };
 
         private Dictionary<string, KeyBindable> keyBindables; 

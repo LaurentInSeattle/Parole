@@ -156,7 +156,7 @@
                 {
                     if (placement[col] == characterPlacement)
                     {
-                        letters.Add(word.Get(col));
+                        _ = letters.Add(word.Get(col));
                     }
                 } 
             }
