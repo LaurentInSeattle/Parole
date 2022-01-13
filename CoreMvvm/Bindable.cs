@@ -5,7 +5,6 @@
     using System.Runtime.CompilerServices;
     using System.Windows;
 
-
     public class Bindable : NotifyPropertyChanged
     {
         protected readonly Dictionary<string, object> properties;

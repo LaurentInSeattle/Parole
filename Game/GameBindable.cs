@@ -26,7 +26,7 @@
         private DateTime startTime;
         private DispatcherTimer? clockTimer; 
 
-        private BackgroundWorker endGameAnimationWorker;
+        //private BackgroundWorker endGameAnimationWorker;
 
         private readonly string[,] keyboardLayout = new string[4, 8]
         {
@@ -36,7 +36,7 @@
             { "à" , "è" , "é", "ì", "ò", "ù", " ", "Invio"},
         };
 
-        private Dictionary<string, KeyBindable> keyBindables; 
+        private readonly Dictionary<string, KeyBindable> keyBindables; 
 
         public GameBindable(GameView gameView) : base(gameView)
         {
