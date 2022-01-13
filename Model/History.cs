@@ -25,12 +25,14 @@
         {
             try
             {
-                if (File.Exists(FileName))
+                string root = WpfExtensions.ApplicationDataFolder("LYT", "Parole"); 
+                string path = Path.Combine(root, FileName);
+                if (File.Exists(path))
                 {
                     var serializer = new XmlSerializer(typeof(History));
                     if (serializer != null)
                     {
-                        using var reader = new FileStream(FileName, FileMode.Open);
+                        using var reader = new FileStream(path, FileMode.Open);
                         if (reader != null)
                         {
                             var history = serializer.Deserialize(reader) as History;
@@ -55,14 +57,13 @@
         {
             try
             {
-                if (File.Exists(FileName))
+                string root = WpfExtensions.ApplicationDataFolder("LYT", "Parole");
+                string path = Path.Combine(root, FileName);
+                var serializer = new XmlSerializer(this.GetType());
+                using var writer = new FileStream(path, FileMode.Create);
+                if ((writer != null) && (serializer != null))
                 {
-                    var serializer = new XmlSerializer(this.GetType());
-                    using var writer = new FileStream(FileName, FileMode.Create);
-                    if ((writer != null) && (serializer != null))
-                    {
-                        serializer.Serialize(writer, this);
-                    }
+                    serializer.Serialize(writer, this);
                 }
             }
             catch (Exception ex)

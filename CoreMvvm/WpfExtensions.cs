@@ -77,6 +77,18 @@
                 DispatcherPriority.Background);
         }
 
+        public static string ApplicationDataFolder (string author, string application)
+        {
+            var directory = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string appDirectory = Path.Combine(directory, author, application);
+            if( !Directory.Exists(appDirectory))
+            {
+                Directory.CreateDirectory(appDirectory);
+            }
+
+            return appDirectory;
+        }
+
         public static string LoadTextResource(this string name, Assembly assembly)
         {
             if (assembly == null)

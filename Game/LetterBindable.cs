@@ -9,6 +9,7 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
+    using System.Windows;
     using System.Windows.Media;
 
     public sealed class LetterBindable : Bindable<LetterControl>
@@ -17,7 +18,7 @@
 
         public LetterBindable() : base() => this.Clear();
 
-        public void Update(char letter, CharacterPlacement characterPlacement)
+        public void Update(char letter, CharacterPlacement characterPlacement, bool animate = false)
         {
             var ti = Theme.Instance;
             this.BorderBrush = ti.BoxBorder;
@@ -30,6 +31,15 @@
                 CharacterPlacement.Exact => ti.BoxExact,
                 _ => ti.BoxUnknown,
             };
+
+            if (animate)
+            {
+                var letterGrid = this.View.LetterGrid;
+                letterGrid.RowDefinitions[0].Height = new GridLength(0.0, GridUnitType.Pixel);
+                letterGrid.ColumnDefinitions[0].Width = new GridLength(0.0, GridUnitType.Pixel);
+                letterGrid.AnimateRow(0, 148.0, 200);
+                letterGrid.AnimateColumn(0, 148.0, 200);
+            } 
         }
 
         public void Clear()
@@ -39,6 +49,12 @@
             this.BackgroundBrush = ti.BoxUnknown;
             this.TextBrush = Brushes.Transparent;
             this.Text = string.Empty;
+            if (this.View != null)
+            {
+                var letterGrid = this.View.LetterGrid;
+                letterGrid.RowDefinitions[0].Height = new GridLength(148.0, GridUnitType.Pixel);
+                letterGrid.ColumnDefinitions[0].Width = new GridLength(148.0, GridUnitType.Pixel);
+            } 
         }
 
         #region Bound Properties 

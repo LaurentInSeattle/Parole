@@ -21,10 +21,11 @@
     public sealed class GameBindable : Bindable<GameView>
     {
         private State gameState;
+        private bool isAnimating;
         private Table table;
-        private LetterBindable [,] letterBindables;
+        private LetterBindable[,] letterBindables;
         private DateTime startTime;
-        private DispatcherTimer? clockTimer; 
+        private DispatcherTimer? clockTimer;
 
         //private BackgroundWorker endGameAnimationWorker;
 
@@ -36,7 +37,7 @@
             { "à" , "è" , "é", "ì", "ò", "ù", " ", "Invio"},
         };
 
-        private readonly Dictionary<string, KeyBindable> keyBindables; 
+        private readonly Dictionary<string, KeyBindable> keyBindables;
 
         public GameBindable(GameView gameView) : base(gameView)
         {
@@ -45,9 +46,6 @@
 
             // Commands 
             this.StartCommand = new Command(this.OnStartGame);
-            //this.EndGameCommand = new Command(this.OnCanEndGame, this.OnEndGame);
-            //this.PauseGameCommand = new Command(this.OnCanPauseGame, this.OnPause);
-            //this.ResumeGameCommand = new Command(this.OnCanResumeGame, this.OnResume);
             //this.HideEndGameInfoCommand = new Command(this.OnHideEndGameInfo);
 
             // Prepare for end game 
@@ -56,6 +54,7 @@
             //this.endGameBlocksBrush.Freeze();
 
             // Prepare for new game 
+            this.isAnimating = false;
             this.IsEndGameInfoVisible = false;
             this.FirstStartVisibility = Visibility.Visible;
             this.Solution = string.Empty;
@@ -80,7 +79,7 @@
                 for (int col = 0; col < 8; col++)
                 {
                     string key = this.keyboardLayout[row, col];
-                    if( string.IsNullOrWhiteSpace(key))
+                    if (string.IsNullOrWhiteSpace(key))
                     {
                         continue;
                     }
@@ -105,7 +104,7 @@
                 for (int col = 0; col < Word.Length; col++)
                 {
                     var letterBindable = Binder<LetterControl, LetterBindable>.Create();
-                    this.letterBindables[row, col] = letterBindable;   
+                    this.letterBindables[row, col] = letterBindable;
                     var control = letterBindable.View;
                     _ = grid.Children.Add(control);
                     control.SetValue(Grid.RowProperty, row);
@@ -120,7 +119,7 @@
             {
                 for (int col = 0; col < Word.Length; col++)
                 {
-                    var letterBindable = this.letterBindables[row, col] ;
+                    var letterBindable = this.letterBindables[row, col];
                     letterBindable.Clear();
                 }
             }
@@ -136,7 +135,7 @@
 
         private bool IsGameRunning => this.gameState == State.Running;
 
-        private void OnStartGame(object _ )
+        private void OnStartGame(object _)
         {
             this.table = new Table();
             this.gameState = State.Running;
@@ -153,7 +152,7 @@
                 IsEnabled = true,
             };
             this.clockTimer.Tick += this.OnClockTimerTick;
-            this.clockTimer.Start();    
+            this.clockTimer.Start();
         }
 
         private void OnClockTimerTick(object? sender, EventArgs e)
@@ -170,17 +169,22 @@
                 this.clockTimer.Stop();
                 this.clockTimer.Tick -= this.OnClockTimerTick;
                 this.clockTimer = null;
-            } 
+            }
 
             this.ClockVisibility = Visibility.Hidden;
             this.Clock = string.Empty;
         }
 
-        private void OnKeyPress(KeyMessage keyMessage) 
+        private void OnKeyPress(KeyMessage keyMessage)
             => Dispatch.OnUiThread(this.OnKeyPressUi, keyMessage);
-        
+
         private void OnKeyPressUi(KeyMessage keyMessage)
         {
+            if (this.isAnimating)
+            {
+                return;
+            }
+
             // Debug.WriteLine(keyMessage.Key);
             this.MessageVisibility = Visibility.Hidden;
             if (!this.IsGameRunning)
@@ -193,11 +197,16 @@
             this.RefreshRow(this.table.CurrentRow);
         }
 
-        private void OnControlKeyPress(ControlMessage controlMessage) 
+        private void OnControlKeyPress(ControlMessage controlMessage)
             => Dispatch.OnUiThread(this.OnControlKeyPressUi, controlMessage);
 
         private void OnControlKeyPressUi(ControlMessage controlMessage)
         {
+            if (this.isAnimating)
+            {
+                return;
+            }
+
             this.MessageVisibility = Visibility.Hidden;
             // Debug.WriteLine(controlMessage.Key.ToString());
             if (!this.IsGameRunning)
@@ -216,18 +225,18 @@
                     {
                         int row = this.table.IsGameOver ? this.table.CurrentRow : this.table.CurrentRow - 1;
                         this.RefreshRowOnEnter(row);
-                        this.RefreshKeyboard(); 
+                        this.RefreshKeyboard();
                         if (this.table.IsGameOver)
                         {
-                            this.OnGameOver(); 
+                            this.OnGameOver();
                         }
-                    } 
+                    }
                     else
                     {
                         // Message: Not in list 
-                        this.Show("Parola Sconosciuta") ; 
+                        this.Show("Parola Sconosciuta");
                     }
-                } 
+                }
             }
             else
             {
@@ -243,7 +252,7 @@
             this.MessageVisibility = Visibility.Hidden;
         }
 
-        private void Show ( string message )
+        private void Show(string message)
         {
             this.Message = message;
             this.MessageVisibility = Visibility.Visible;
@@ -261,13 +270,27 @@
 
         private void RefreshRowOnEnter(int row)
         {
+            this.isAnimating = true;
+
             var word = this.table.WordAt(row);
             var placement = this.table.PlacementAt(row);
+            int delay = 50;
             for (int col = 0; col < Word.Length; col++)
             {
                 var letterBindable = this.letterBindables[row, col];
-                letterBindable.Update(word.Get(col), placement[col]);
+                CharacterPlacement characterPlacement = placement[col];
+                char character = word.Get(col);
+                delay += col * 150;
+                var tuple = new Tuple<LetterBindable, char, CharacterPlacement>(letterBindable, character, characterPlacement);
+                Schedule.OnUiThread(delay, this.UpdateLetter, tuple);
             }
+
+            Schedule.OnUiThread(1000, () => { this.isAnimating = false; });
+        }
+
+        private void UpdateLetter(Tuple<LetterBindable, char, CharacterPlacement> tuple)
+        {
+            tuple.Item1.Update(tuple.Item2, tuple.Item3, animate:true);
         }
 
         private void RefreshKeyboard()
@@ -275,8 +298,8 @@
             var absent = this.table.AbsentLetters();
             foreach (char letter in absent)
             {
-                string letterString = letter.ToString();    
-                if(this.keyBindables.TryGetValue(letterString, out var keyBindable))
+                string letterString = letter.ToString();
+                if (this.keyBindables.TryGetValue(letterString, out var keyBindable))
                 {
                     keyBindable.Update(CharacterPlacement.Absent);
                 }
@@ -303,7 +326,7 @@
             }
         }
 
-        private void OnGameOver ( )
+        private void OnGameOver()
         {
             this.gameState = State.Ended;
             this.StartVisibility = Visibility.Visible;
@@ -317,8 +340,8 @@
             {
                 // Message: Lost
                 this.Show("Partita Finita\n Perdi...");
-                this.Solution = this.table.Solution;    
-                this.SolutionVisibility = Visibility.Visible;   
+                this.Solution = this.table.Solution;
+                this.SolutionVisibility = Visibility.Visible;
             }
 
             var gameEntry =
@@ -332,18 +355,18 @@
                 };
             History.Instance.Add(gameEntry);
             History.Instance.Save();
-            this.ShowStatistics(); 
+            this.ShowStatistics();
         }
 
-        private void ShowStatistics ()
+        private void ShowStatistics()
         {
             var statistics = History.Instance.EvaluateStatistics();
 
-            this.Plays = 
+            this.Plays =
                 string.Format(
-                    "Giocato {0} Partite per {1} Minuti.", 
-                    statistics.Wins + statistics.Losses, 
-                    (int) ( 0.5 + statistics.Duration.TotalMinutes));
+                    "Giocato {0} Partite per {1} Minuti.",
+                    statistics.Wins + statistics.Losses,
+                    (int)(0.5 + statistics.Duration.TotalMinutes));
             this.Wins = string.Format("Vince : {0} ", statistics.Wins);
             this.Losses = string.Format("Perdite : {0} ", statistics.Losses);
             this.WinRate = string.Format("Tasso di Vincita : {0} % ", statistics.WinRate);
