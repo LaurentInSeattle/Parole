@@ -102,6 +102,7 @@
                 return reader.ReadToEnd();
             }
         }
+
         public static string LoadTextResource(this string name, string folder)
         {
             var uriSource = new Uri( string.Format( "pack://application:,,,/{1}/{0}", name, folder));

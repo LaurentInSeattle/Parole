@@ -9,7 +9,9 @@
 
     public sealed class Words : Singleton<Words>
     {
-        private static readonly string wordsFile = "parole5.txt";
+        private static readonly string wordsFile0 = "parole5.txt";
+        private static readonly string wordsFile1 = "parole51.txt";
+        private static readonly string wordsFile2 = "parole52.txt";
         private static readonly string resourcesFolder = "Resources";
 
         private readonly HashSet<string> words;
@@ -21,7 +23,7 @@
 
         public void Load()
         {
-            string content = wordsFile.LoadTextResource(resourcesFolder);
+            string content = wordsFile0.LoadTextResource(resourcesFolder);
             string[] tokens = content.Split(new char[] { ' ', '\t', '\r', '\n', }, StringSplitOptions.RemoveEmptyEntries);
             foreach (string token in tokens)
             {
@@ -31,6 +33,34 @@
                     // Debug.WriteLine(token);
                 }
             }
+
+            Debug.WriteLine("Word count: " + words.Count);
+
+            content = wordsFile1.LoadTextResource(resourcesFolder);
+            tokens = content.Split(new char[] { ' ', '\t', '\r', '\n', }, StringSplitOptions.RemoveEmptyEntries);
+            foreach (string token in tokens)
+            {
+                if (!string.IsNullOrWhiteSpace(token) && (token.Length == Word.Length))
+                {
+                    _ = words.Add(token);
+                    // Debug.WriteLine(token);
+                }
+            }
+
+            Debug.WriteLine("Word count: " + words.Count);
+
+            content = wordsFile2.LoadTextResource(resourcesFolder);
+            tokens = content.Split(new char[] { ' ', '\t', '\r', '\n', }, StringSplitOptions.RemoveEmptyEntries);
+            foreach (string token in tokens)
+            {
+                if (!string.IsNullOrWhiteSpace(token) && (token.Length == Word.Length))
+                {
+                    _ = words.Add(token);
+                    // Debug.WriteLine(token);
+                }
+            }
+
+            Debug.WriteLine("Word count: " + words.Count);
         }
 
         public bool IsPresent(Word word) => words.Contains(word.AsString());

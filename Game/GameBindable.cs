@@ -58,6 +58,8 @@
             // Prepare for new game 
             this.IsEndGameInfoVisible = false;
             this.FirstStartVisibility = Visibility.Visible;
+            this.Solution = string.Empty;
+            this.SolutionVisibility = Visibility.Hidden;
 
             Messenger.Instance.Register<KeyMessage>(this.OnKeyPress);
             Messenger.Instance.Register<ControlMessage>(this.OnControlKeyPress);
@@ -142,6 +144,8 @@
             this.ClearTableGrid();
             this.ClearKeyboard();
             this.StartVisibility = Visibility.Hidden;
+            this.Solution = string.Empty;
+            this.SolutionVisibility = Visibility.Hidden;
             this.Hide();
             this.clockTimer = new DispatcherTimer
             {
@@ -313,6 +317,8 @@
             {
                 // Message: Lost
                 this.Show("Partita Finita\n Perdi...");
+                this.Solution = this.table.Solution;    
+                this.SolutionVisibility = Visibility.Visible;   
             }
 
             var gameEntry =
@@ -335,14 +341,14 @@
 
             this.Plays = 
                 string.Format(
-                    "Giocato {0} partite per {1} minuti.", 
+                    "Giocato {0} Partite per {1} Minuti.", 
                     statistics.Wins + statistics.Losses, 
                     (int) ( 0.5 + statistics.Duration.TotalMinutes));
             this.Wins = string.Format("Vince : {0} ", statistics.Wins);
             this.Losses = string.Format("Perdite : {0} ", statistics.Losses);
             this.WinRate = string.Format("Tasso di Vincita : {0} % ", statistics.WinRate);
-            this.BestStreak = string.Format("Serie più lunga : {0}", statistics.BestStreak);
-            this.CurrentStreak = string.Format("Serie in corso : {0}", statistics.CurrentStreak);
+            this.BestStreak = string.Format("Serie più Lunga : {0}", statistics.BestStreak);
+            this.CurrentStreak = string.Format("Serie in Corso : {0}", statistics.CurrentStreak);
             this.Histogram.Update(statistics);
         }
 
@@ -370,6 +376,10 @@
         public string Clock { get => this.Get<string>(); set => this.Set(value); }
 
         public Visibility ClockVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
+
+        public string Solution { get => this.Get<string>(); set => this.Set(value); }
+
+        public Visibility SolutionVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
         public Visibility EndGameInfoVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
