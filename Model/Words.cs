@@ -30,7 +30,7 @@
                 {
                     if (!string.IsNullOrWhiteSpace(token) && (token.Length == Word.Length))
                     {
-                        if ( ! this.HasNonItalianLetters(token))
+                        if ( ! Words.HasNonItalianLetters(token))
                         {
                             _ = words.Add(token);
                             // Debug.WriteLine(token);
@@ -79,11 +79,11 @@
             return string.Empty;
         }
 
-        private bool HasNonItalianLetters(string word)
+        private static bool HasNonItalianLetters(string word)
         {
-            foreach (char c in new char[] { 'j', 'k', 'w', 'x', 'y' })
+            foreach (char c in new char[] { 'j', 'k', 'w', 'x', 'y', '.', '\'', ',' })
             {
-                if (word.IndexOf('j', StringComparison.InvariantCultureIgnoreCase) != -1)
+                if (word.IndexOf(c, StringComparison.InvariantCultureIgnoreCase) != -1)
                 {
                     Debug.WriteLine("Excluded: " + word);
                     return true;

@@ -30,7 +30,7 @@ dirlo 	dirsi 	disco 	disse 	dissi 	ditta 	dogma 	dolce 	dolci 	donde
 donna 	donne 	Doria 	dorso 	Dott. 	dotti 	dotto 	dovea 	dover 	dovrà
 droit 	dubbi 	Duomo 	ebrei 	ebreo 	edito 	einer 	Elena 	entra 	entre
 entro 	entrò 	eorum 	epoca 	erano 	erasi 	erede 	eredi 	esame 	esami
-esige 	esiti 	esito 	esser 	était 	etere 	etiam 	etica 	etico 	extra
+esige 	esiti 	esito 	esser 	etere 	etiam 	etica 	etico 	extra
 Fabio 	facce 	facto 	faire 	fallo 	falsa 	falsi 	falso 	fango
 fanno 	fanti 	farci 	farla 	farle 	farli 	farlo 	farmi 	farne 	farsi
 farvi 	fasce 	fasci 	fatta 	fatte 	fatti 	fatto 	ferma 	fermi 	fermo

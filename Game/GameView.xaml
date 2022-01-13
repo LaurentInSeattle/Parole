@@ -32,17 +32,33 @@
                 <RowDefinition Height="160"/>
                 <RowDefinition Height="160"/>
                 <RowDefinition Height="80"/>
-                <RowDefinition Height="20"/>
+                <RowDefinition Height="84"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Button
-                Grid.Row="0" Grid.Column="0"
-                Margin="8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                Content="Inizia"
-                FontSize="60"
                 Command="{Binding StartCommand}"
                 Visibility="{Binding StartVisibility}"
-                />
+                Margin="6"
+                >
+                <Border
+                    BorderThickness="1"
+                    BorderBrush="{Binding BorderBrush}"
+                    Background="{Binding BackgroundBrush}"
+                    VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    Margin="0" Padding="0"
+                    >
+                    <TextBlock
+                        Foreground="{Binding TextBrush}"
+                        FontSize="60"
+                        FontWeight="Bold"
+                        Text="Inizia"
+                        Margin="0 24 0 0 "
+                        VerticalAlignment="Center" HorizontalAlignment="Stretch" 
+                        TextAlignment="Center" 
+                        Width="308" Height="128"
+                        />
+                </Border>
+            </Button>
             <TextBlock
                 Grid.Row="1" Grid.Column="0"
                 Margin="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
@@ -50,7 +66,7 @@
                 TextAlignment="Center"
                 Text="{Binding Message}"
                 Foreground="DarkOrange"
-                FontSize="42"
+                FontSize="50"
                 Visibility="{Binding MessageVisibility}"
                 />
             <TextBlock

@@ -83,7 +83,7 @@
             string appDirectory = Path.Combine(directory, author, application);
             if( !Directory.Exists(appDirectory))
             {
-                Directory.CreateDirectory(appDirectory);
+                _ = Directory.CreateDirectory(appDirectory);
             }
 
             return appDirectory;

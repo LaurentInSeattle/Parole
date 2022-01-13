@@ -32,7 +32,7 @@
         {
             if ((to < 0.0) || (milliseconds < 5) || (milliseconds > 1000 * 60))
             {
-                throw new ArgumentOutOfRangeException("values");
+                throw new ArgumentOutOfRangeException(nameof(milliseconds), "values");
             }
 
             if (gridLength.GridUnitType != GridUnitType.Pixel)
@@ -49,7 +49,7 @@
         {
             if ((to < 0.0) || (milliseconds < 5) || (milliseconds > 1000 * 60))
             {
-                throw new ArgumentOutOfRangeException("values");
+                throw new ArgumentOutOfRangeException(nameof(milliseconds), "values");
             }
 
             this.From = new GridLength(from, GridUnitType.Pixel);

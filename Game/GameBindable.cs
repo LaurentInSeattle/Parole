@@ -10,6 +10,7 @@
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Input;
+    using System.Windows.Media;
     using System.Windows.Threading;
 
     public enum State
@@ -52,6 +53,11 @@
             //this.InitializeEndGameAnimationWorker();
             //this.endGameBlocksBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#20FFFFFF"));
             //this.endGameBlocksBrush.Freeze();
+
+            var ti = Theme.Instance;
+            this.BorderBrush = ti.BoxBorder;
+            this.TextBrush = ti.Text;
+            this.BackgroundBrush = ti.BoxUnknown;
 
             // Prepare for new game 
             this.isAnimating = false;
@@ -285,7 +291,7 @@
                 Schedule.OnUiThread(delay, this.UpdateLetter, tuple);
             }
 
-            Schedule.OnUiThread(1000, () => { this.isAnimating = false; });
+            Schedule.OnUiThread(1000, () => this.isAnimating = false);
         }
 
         private void UpdateLetter(Tuple<LetterBindable, char, CharacterPlacement> tuple)
@@ -421,6 +427,12 @@
         public string CurrentStreak { get => this.Get<string>(); set => this.Set(value); }
 
         public HistogramBindable Histogram { get => this.Get<HistogramBindable>(); set => this.Set(value); }
+
+        public Brush BorderBrush { get => this.Get<Brush>(); set => this.Set(value); }
+
+        public Brush BackgroundBrush { get => this.Get<Brush>(); set => this.Set(value); }
+
+        public Brush TextBrush { get => this.Get<Brush>(); set => this.Set(value); }
 
         #endregion Bound Properties 
     }

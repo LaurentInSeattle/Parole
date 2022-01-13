@@ -15,8 +15,8 @@
             <ColumnDefinition Width="4"/>
             <ColumnDefinition Width="36"/>
             <ColumnDefinition Width="250"/>
-            <ColumnDefinition Width="26"/>
-            <ColumnDefinition Width="4"/>
+            <ColumnDefinition Width="24"/>
+            <ColumnDefinition Width="6"/>
         </Grid.ColumnDefinitions>
         <TextBlock
             Grid.Column="1"

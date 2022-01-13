@@ -36,12 +36,9 @@
                         if (reader != null)
                         {
                             var history = serializer.Deserialize(reader) as History;
-                            if (history != null)
+                            if (history != null && !history.GameEntries.IsNullOrEmpty())
                             {
-                                if (!history.GameEntries.IsNullOrEmpty())
-                                {
-                                    this.GameEntries.AddRange(history.GameEntries);
-                                } 
+                                this.GameEntries.AddRange(history.GameEntries);
                             }
                         }
                     }
@@ -95,9 +92,9 @@
             int count = this.GameEntries.Count;
             statistics.Wins = wins;
             statistics.Losses = this.GameEntries.Count - wins;
-            statistics.WinRate = count == 0 ? 0 : (int)((0.5f + 100 * wins) / count);
+            statistics.WinRate = count == 0 ? 0 : (int)((0.5f + (100 * wins)) / count);
             long durationLong = (from entry in this.GameEntries select entry.Duration.Ticks).Sum();
-            TimeSpan durationTs = new TimeSpan(durationLong);
+            TimeSpan durationTs = new(durationLong);
             statistics.Duration = durationTs;
             var streaks = this.CalculateStreaks();
             statistics.BestStreak = streaks.Item1;
