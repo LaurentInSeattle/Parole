@@ -10,6 +10,7 @@
     WindowStartupLocation="CenterScreen"
     WindowState="Normal"
     Width="920" Height="1040"
+    MinWidth="320" MinHeight="360"
     Title="Parole" 
     Background="Black"
     >

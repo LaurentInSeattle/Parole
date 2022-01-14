@@ -21,14 +21,13 @@
 
     public sealed class GameBindable : Bindable<GameView>
     {
+        private readonly LetterBindable[,] letterBindables;
+
         private State gameState;
         private bool isAnimating;
         private Table table;
-        private LetterBindable[,] letterBindables;
         private DateTime startTime;
         private DispatcherTimer? clockTimer;
-
-        //private BackgroundWorker endGameAnimationWorker;
 
         private readonly string[,] keyboardLayout = new string[4, 8]
         {
@@ -42,34 +41,22 @@
 
         public GameBindable(GameView gameView) : base(gameView)
         {
-            // General init
             this.gameState = State.Ended;
-
-            // Commands 
             this.StartCommand = new Command(this.OnStartGame);
-            //this.HideEndGameInfoCommand = new Command(this.OnHideEndGameInfo);
-
-            // Prepare for end game 
-            //this.InitializeEndGameAnimationWorker();
-            //this.endGameBlocksBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#20FFFFFF"));
-            //this.endGameBlocksBrush.Freeze();
-
             var ti = Theme.Instance;
             this.BorderBrush = ti.BoxBorder;
             this.TextBrush = ti.Text;
             this.BackgroundBrush = ti.BoxUnknown;
-
-            // Prepare for new game 
             this.isAnimating = false;
             this.IsEndGameInfoVisible = false;
             this.FirstStartVisibility = Visibility.Visible;
             this.Solution = string.Empty;
             this.SolutionVisibility = Visibility.Hidden;
-
             Messenger.Instance.Register<KeyMessage>(this.OnKeyPress);
             Messenger.Instance.Register<ControlMessage>(this.OnControlKeyPress);
             Words.Instance.Load();
             History.Instance.Load();
+            this.letterBindables = new LetterBindable[6, Word.Length];
             this.SetupTableGrid();
             this.keyBindables = new Dictionary<string, KeyBindable>();
             this.Histogram = new HistogramBindable(this.View.HistogramControl);
@@ -103,7 +90,6 @@
 
         private void SetupTableGrid()
         {
-            this.letterBindables = new LetterBindable[6, Word.Length];
             var grid = this.View.TableGrid;
             for (int row = 0; row < 6; row++)
             {
@@ -217,6 +203,7 @@
             // Debug.WriteLine(controlMessage.Key.ToString());
             if (!this.IsGameRunning)
             {
+                this.OnStartGame(null);
                 return;
             }
 
@@ -335,7 +322,7 @@
         private void OnGameOver()
         {
             this.gameState = State.Ended;
-            this.StartVisibility = Visibility.Visible;
+            Schedule.OnUiThread(5000, () => this.StartVisibility = Visibility.Visible);
             this.StopClockTimer();
             if (this.table.IsWon)
             {
