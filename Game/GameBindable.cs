@@ -62,6 +62,7 @@
             this.Histogram = new HistogramBindable(this.View.HistogramControl);
             this.SetupKeyboardGrid();
             this.ShowStatistics();
+            this.table = new Table();
         }
 
         private void SetupKeyboardGrid()
@@ -127,7 +128,9 @@
 
         private bool IsGameRunning => this.gameState == State.Running;
 
-        private void OnStartGame(object _)
+        private void OnStartGame(object _) => this.StartGame();
+
+        private void StartGame()
         {
             this.table = new Table();
             this.gameState = State.Running;
@@ -203,7 +206,7 @@
             // Debug.WriteLine(controlMessage.Key.ToString());
             if (!this.IsGameRunning)
             {
-                this.OnStartGame(null);
+                this.StartGame();
                 return;
             }
 
