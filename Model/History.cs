@@ -12,7 +12,8 @@
 
     public sealed class History : Singleton<History>
     {
-        private static readonly string FileName = "parole_history.xml";
+        private static readonly string FileName5 = "parole_history.xml";
+        private static readonly string FileName6 = "parole_history_6.xml";
 
         public History()
         {
@@ -26,7 +27,8 @@
             try
             {
                 string root = WpfExtensions.ApplicationDataFolder("LYT", "Parole"); 
-                string path = Path.Combine(root, FileName);
+                string fileName = Word.Length == 5 ? FileName5 : FileName6;
+                string path = Path.Combine(root, fileName);
                 if (File.Exists(path))
                 {
                     var serializer = new XmlSerializer(typeof(History));
@@ -35,8 +37,8 @@
                         using var reader = new FileStream(path, FileMode.Open);
                         if (reader != null)
                         {
-                            var history = serializer.Deserialize(reader) as History;
-                            if (history != null && !history.GameEntries.IsNullOrEmpty())
+                            if (serializer.Deserialize(reader) is History history && 
+                                !history.GameEntries.IsNullOrEmpty())
                             {
                                 this.GameEntries.AddRange(history.GameEntries);
                             }
@@ -55,7 +57,8 @@
             try
             {
                 string root = WpfExtensions.ApplicationDataFolder("LYT", "Parole");
-                string path = Path.Combine(root, FileName);
+                string fileName = Word.Length == 5 ? FileName5 : FileName6;
+                string path = Path.Combine(root, fileName);
                 var serializer = new XmlSerializer(this.GetType());
                 using var writer = new FileStream(path, FileMode.Create);
                 if ((writer != null) && (serializer != null))
@@ -101,7 +104,7 @@
             statistics.CurrentStreak = streaks.Item2;
 
             var list = new List<int> ();
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < Table.Rows; i++)
             {
                 int hist = 
                     (from entry in this.GameEntries where entry.IsWon && entry.Steps == i select entry).Count();
@@ -179,7 +182,7 @@
 
             public int BestStreak { get; set; }
 
-            public List<int> Histogram { get; set; } = new List<int> { 0, 0, 0, 0, 0, 0};
+            public List<int> Histogram { get; set; } = new List<int> ();
         }
     }
 }

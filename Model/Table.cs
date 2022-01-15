@@ -9,8 +9,6 @@
 
     public class Table
     {
-        private readonly static int rows = 6;
-
         private readonly Word solution;
         private readonly Word[] words;
         private readonly Placement[] placements;
@@ -18,6 +16,8 @@
         
         private int currentCol;
         private DateTime ended;
+
+        public static int Rows { get; set; } = 6;
 
         public Table()
         {
@@ -27,9 +27,9 @@
             string solutionString = Words.Instance.RandomPick(History.Instance.PlayedWords());
             this.solution = new Word(solutionString);
             Debug.WriteLine("Solution: " + this.solution.AsString()); 
-            this.words = new Word[rows];
-            this.placements = new Placement[rows];
-            for (int i = 0; i < rows; ++i)
+            this.words = new Word[Rows];
+            this.placements = new Placement[Rows];
+            for (int i = 0; i < Rows; ++i)
             {
                 var word = new Word();
                 this.words[i] = word;
@@ -116,7 +116,7 @@
             }
             else
             {
-                if( this.CurrentRow == rows - 1 )
+                if( this.CurrentRow == Rows - 1 )
                 {
                     // lost :(
                     this.IsGameOver = true;
@@ -143,7 +143,7 @@
         private HashSet<char> LettersPlacedAs(CharacterPlacement characterPlacement)
         { 
             var letters = new HashSet<char>();
-            for (int row = 0; row < rows; ++row)
+            for (int row = 0; row < Rows; ++row)
             {
                 var word = this.words[row] ;
                 if ( ! word.IsEvaluated)

@@ -7,7 +7,9 @@
     {
         public GameView() => this.InitializeComponent();
 
-        public Grid TableGrid => this.tableGrid;
+        public Grid TableGrid65 => this.tableGrid65;
+
+        public Grid TableGrid76 => this.tableGrid76;
 
         public Grid KeyboardGrid => this.keyboardGrid;
 

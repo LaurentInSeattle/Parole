@@ -54,9 +54,14 @@
             this.SolutionVisibility = Visibility.Hidden;
             Messenger.Instance.Register<KeyMessage>(this.OnKeyPress);
             Messenger.Instance.Register<ControlMessage>(this.OnControlKeyPress);
+
+            // TODO: Create some UI to pick word length 
+            Word.Length = 6; 
+            Table.Rows = Word.Length == 5 ? 6 : 7;
+
             Words.Instance.Load();
             History.Instance.Load();
-            this.letterBindables = new LetterBindable[6, Word.Length];
+            this.letterBindables = new LetterBindable[Table.Rows, Word.Length];
             this.SetupTableGrid();
             this.keyBindables = new Dictionary<string, KeyBindable>();
             this.Histogram = new HistogramBindable(this.View.HistogramControl);
@@ -91,14 +96,17 @@
 
         private void SetupTableGrid()
         {
-            var grid = this.View.TableGrid;
-            for (int row = 0; row < 6; row++)
+            this.TableGrid65Visibility = Word.Length == 6 ? Visibility.Hidden : Visibility.Visible;
+            this.TableGrid76Visibility = Word.Length == 5 ? Visibility.Hidden : Visibility.Visible;
+            var grid = Word.Length == 6 ? this.View.TableGrid76 : this.View.TableGrid65;
+            for (int row = 0; row < Table.Rows; row++)
             {
                 for (int col = 0; col < Word.Length; col++)
                 {
                     var letterBindable = Binder<LetterControl, LetterBindable>.Create();
                     this.letterBindables[row, col] = letterBindable;
                     var control = letterBindable.View;
+                    letterBindable.Setup();
                     _ = grid.Children.Add(control);
                     control.SetValue(Grid.RowProperty, row);
                     control.SetValue(Grid.ColumnProperty, col);
@@ -108,7 +116,7 @@
 
         private void ClearTableGrid()
         {
-            for (int row = 0; row < 6; row++)
+            for (int row = 0; row < Table.Rows; row++)
             {
                 for (int col = 0; col < Word.Length; col++)
                 {
@@ -382,6 +390,10 @@
         }
 
         #region Bound Properties 
+
+        public Visibility TableGrid65Visibility { get => this.Get<Visibility>(); set => this.Set(value); }
+
+        public Visibility TableGrid76Visibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
         /// <summary> Gets or sets the StartCommand bound property.</summary>
         public ICommand StartCommand { get => this.Get<ICommand>(); set => this.Set(value); }

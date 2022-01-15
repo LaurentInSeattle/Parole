@@ -7,12 +7,13 @@
     xmlns:local="clr-namespace:Parole.Game"
     mc:Ignorable="d" 
     d:DesignHeight="192" d:DesignWidth="320"
-    Height="192" Width="320"
+    Height="224" Width="320"
     >
     <Grid
         x:Name="histogramGrid"
         >
         <Grid.RowDefinitions>
+            <RowDefinition Height="32"/>
             <RowDefinition Height="32"/>
             <RowDefinition Height="32"/>
             <RowDefinition Height="32"/>

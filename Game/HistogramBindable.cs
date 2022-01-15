@@ -19,7 +19,7 @@
         {
             this.histogramRowBindables = new Dictionary<int,HistogramRowBindable>();
             var grid = histogramControl.HistogramGrid;
-            for (int row = 0; row < 6; ++row)
+            for (int row = 0; row < Table.Rows; ++row)
             {
                 var histogramRowBindable = Binder<HistogramRowControl, HistogramRowBindable>.Create();
                 var control = histogramRowBindable.View;
@@ -34,7 +34,7 @@
         {
             var histogramValues = statistics.Histogram; 
             int maxValue = (from value in histogramValues select value).Max();
-            for (int row = 0; row < 6; ++row)
+            for (int row = 0; row < Table.Rows; ++row)
             {
                 int histogramValue = histogramValues[row];
                 if ( this.histogramRowBindables.TryGetValue(row, out HistogramRowBindable? histogramRowBindable))

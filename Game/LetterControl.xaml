@@ -30,7 +30,7 @@
             >
             <TextBlock
                 Foreground="{Binding TextBrush}"
-                FontSize="130"
+                FontSize="110"
                 FontWeight="Bold"
                 Text="{Binding Text}"
                 Margin="0 -20 0 0 "

@@ -21,7 +21,7 @@
             }
         }
 
-        public static int Length { get; } = 5;
+        public static int Length { get; set; } = 5;
 
         public Word(string word)
         {
