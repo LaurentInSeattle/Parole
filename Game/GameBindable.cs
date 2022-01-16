@@ -330,11 +330,8 @@
             }
         }
 
-        private void OnGameOver()
+        private void ShowMessage ()
         {
-            this.gameState = State.Ended;
-            Schedule.OnUiThread(5000, () => this.StartVisibility = Visibility.Visible);
-            this.StopClockTimer();
             if (this.table.IsWon)
             {
                 // Message: Win
@@ -347,6 +344,14 @@
                 this.Solution = this.table.Solution;
                 this.SolutionVisibility = Visibility.Visible;
             }
+        }
+
+        private void OnGameOver()
+        {
+            this.gameState = State.Ended;
+            Schedule.OnUiThread(5000, () => this.StartVisibility = Visibility.Visible);
+            this.StopClockTimer();
+            Schedule.OnUiThread(2500, () => this.ShowMessage());
 
             var gameEntry =
                 new History.GameEntry

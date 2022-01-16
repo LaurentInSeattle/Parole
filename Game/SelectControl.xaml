@@ -11,8 +11,10 @@
     >
     <Grid
         VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-        Background="Black"
         >
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/Resources/dark.jpg" Opacity="1"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="160"/>
             <RowDefinition Height="160"/>

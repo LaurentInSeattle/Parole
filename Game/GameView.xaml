@@ -86,7 +86,7 @@
                 TextAlignment="Center"
                 Text="{Binding Solution}"
                 Foreground="DarkOrange"
-                FontSize="92"
+                FontSize="100"
                 Visibility="{Binding SolutionVisibility}"
                 />
             <Grid
