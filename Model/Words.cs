@@ -9,8 +9,8 @@
 
     public sealed class Words : Singleton<Words>
     {
-        private static readonly int wordsFileCount5 = 5;
-        private static readonly int wordsFileCount6 = 1;
+        private static readonly int wordsFileCount5 = 6;
+        private static readonly int wordsFileCount6 = 2;
         private static readonly string wordsFileFormat = "parole{1}{0}.txt";
         private static readonly string resourcesFolder = "Resources";
 

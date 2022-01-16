@@ -1,0 +1,143 @@
+﻿<UserControl 
+    x:Class="Parole.Game.SelectControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:local="clr-namespace:Parole.Game"
+    mc:Ignorable="d" 
+    d:DesignHeight="1400" d:DesignWidth="1200"
+    Visibility="{Binding SelectVisibility}"
+    >
+    <Grid
+        VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+        Background="Black"
+        >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="800"/>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock
+            Margin="4 6"
+            Grid.Row="0" Grid.RowSpan="1" Grid.Column="1" Grid.ColumnSpan="2"
+            VerticalAlignment="Center" HorizontalAlignment="Center"
+            Foreground="DarkOrange"
+            TextWrapping="Wrap"
+            FontSize="64"
+            FontWeight="Light"
+            Text="Indovina la parola in sei or sette tentativi!"
+            />
+        <TextBlock
+            Margin="40 6 0 0"
+            Grid.Row="1" Grid.RowSpan="1" Grid.Column="1"
+            VerticalAlignment="Center" HorizontalAlignment="Left"
+            Foreground="DarkOrange"
+            TextWrapping="Wrap"
+            FontSize="36"
+            FontWeight="Light"
+            Text="Ogni tentativo deve essere una parola valida di cinque o sei lettere, premi invio per passare alla parola successiva."
+            />
+        <TextBlock
+            Margin="40 6 0 0"
+            Grid.Row="2" Grid.RowSpan="1" Grid.Column="1" Grid.ColumnSpan="1"
+            VerticalAlignment="Center" HorizontalAlignment="Left"
+            Foreground="DarkOrange"
+            TextWrapping="Wrap"
+            FontSize="36"
+            FontWeight="Light"
+            Text="Scegli la lunghezza delle parole cliccando su un pulsante. "
+            />
+        <TextBlock
+            Margin="40 66"
+            Grid.Row="4" Grid.RowSpan="4" Grid.Column="1" Grid.ColumnSpan="2"
+            VerticalAlignment="Top"
+            Foreground="DarkOrange"
+            TextWrapping="Wrap"
+            FontSize="20"
+            FontWeight="Light"
+            Text="Codice sorgente di Laurent Yves Testud sotto licenza MIT. &#10;  https://github.com/LaurentInSeattle/Parole&#10;  &#10;Idea originale di Josh Wardle. &#10;  https://www.powerlanguage.co.uk/wordle/&#10;  &#10;La lista di parole è stata estratta dal lavoro di Francesco Napoletano.&#10;  https://github.com/napolux"
+            />
+        <TextBlock
+            Margin="0 0 0 100"
+            Grid.Row="4" Grid.RowSpan="4" Grid.Column="1" Grid.ColumnSpan="2"
+            VerticalAlignment="Bottom" HorizontalAlignment="Center"
+            Foreground="DarkOrange"
+            TextWrapping="Wrap"
+            FontSize="100"
+            FontWeight="Light"
+            Text="Parole, Parole, Parole..."
+            />
+        <TextBlock
+            Margin="0 0 0 20"
+            Grid.Row="4" Grid.RowSpan="4" Grid.Column="1" Grid.ColumnSpan="2"
+            VerticalAlignment="Bottom" HorizontalAlignment="Center"
+            Foreground="DarkOrange"
+            TextWrapping="Wrap"
+            FontSize="36"
+            FontWeight="Light"
+            Text="Parole, parole, parole, parole parole soltanto parole, parole tra noi..."
+            />
+
+        
+
+        <Button
+            Command="{Binding FiveCommand}"
+            Margin="6"
+            Grid.Row="1" Grid.Column="2"
+            >
+            <Border
+                BorderThickness="1"
+                BorderBrush="{Binding BorderBrush}"
+                Background="{Binding BackgroundBrush}"
+                VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Margin="0" Padding="0"
+                >
+                <TextBlock
+                    Foreground="{Binding TextBrush}"
+                    FontSize="60"
+                    FontWeight="Bold"
+                    Text="Cinque"
+                    Margin="0 24 0 0 "
+                    VerticalAlignment="Center" HorizontalAlignment="Stretch" 
+                    TextAlignment="Center" 
+                    Width="308" Height="128"
+                    />
+            </Border>
+        </Button>
+        <Button
+            Command="{Binding SixCommand}"
+            Margin="6"
+            Grid.Row="2" Grid.Column="2"
+            >
+            <Border
+                BorderThickness="1"
+                BorderBrush="{Binding BorderBrush}"
+                Background="{Binding BackgroundBrush}"
+                VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                Margin="0" Padding="0"
+                >
+                <TextBlock
+                    Foreground="{Binding TextBrush}"
+                    FontSize="60"
+                    FontWeight="Bold"
+                    Text="Sei"
+                    Margin="0 24 0 0 "
+                    VerticalAlignment="Center" HorizontalAlignment="Stretch" 
+                    TextAlignment="Center" 
+                    Width="308" Height="128"
+                    />
+            </Border>
+        </Button>
+    </Grid>
+</UserControl>

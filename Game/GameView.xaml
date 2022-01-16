@@ -256,5 +256,11 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
         </Grid>
+        <local:SelectControl
+            x:Name="selectControl"
+            DataContext="{Binding Select}"
+            Grid.Row="0" Grid.Column="0"
+            Grid.RowSpan="999" Grid.ColumnSpan="999"
+            />
     </Grid>
 </UserControl>

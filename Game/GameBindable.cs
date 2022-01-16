@@ -21,8 +21,8 @@
 
     public sealed class GameBindable : Bindable<GameView>
     {
-        private readonly LetterBindable[,] letterBindables;
-
+        private LetterBindable[,] letterBindables;
+        private Dictionary<string, KeyBindable> keyBindables;
         private State gameState;
         private bool isAnimating;
         private Table table;
@@ -37,7 +37,6 @@
             { "à" , "è" , "é", "ì", "ò", "ù", " ", "Invio"},
         };
 
-        private readonly Dictionary<string, KeyBindable> keyBindables;
 
         public GameBindable(GameView gameView) : base(gameView)
         {
@@ -54,11 +53,12 @@
             this.SolutionVisibility = Visibility.Hidden;
             Messenger.Instance.Register<KeyMessage>(this.OnKeyPress);
             Messenger.Instance.Register<ControlMessage>(this.OnControlKeyPress);
+            this.Select = new SelectBindable(this.View.SelectControl, this.OnWordLengthSelected);
+        }
 
-            // TODO: Create some UI to pick word length 
-            Word.Length = 6; 
+        private void OnWordLengthSelected()
+        {
             Table.Rows = Word.Length == 5 ? 6 : 7;
-
             Words.Instance.Load();
             History.Instance.Load();
             this.letterBindables = new LetterBindable[Table.Rows, Word.Length];
@@ -429,6 +429,8 @@
         public string CurrentStreak { get => this.Get<string>(); set => this.Set(value); }
 
         public HistogramBindable Histogram { get => this.Get<HistogramBindable>(); set => this.Set(value); }
+
+        public SelectBindable Select { get => this.Get<SelectBindable>(); set => this.Set(value); }
 
         public Brush BorderBrush { get => this.Get<Brush>(); set => this.Set(value); }
 

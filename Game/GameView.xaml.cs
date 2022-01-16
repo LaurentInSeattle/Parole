@@ -14,5 +14,7 @@
         public Grid KeyboardGrid => this.keyboardGrid;
 
         public HistogramControl HistogramControl => this.histogramControl;
+
+        public SelectControl SelectControl => this.selectControl;
     }
 }

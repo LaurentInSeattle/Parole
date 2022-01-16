@@ -20,7 +20,15 @@
     <None Remove="Resources\parole52.txt" />
     <None Remove="Resources\parole53.txt" />
     <None Remove="Resources\parole54.txt" />
+    <None Remove="Resources\Parole55.txt" />
     <None Remove="Resources\Parole60.txt" />
+    <None Remove="Resources\Parole61.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Parole55.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -44,6 +52,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Parole60.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Parole61.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
