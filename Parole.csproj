@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <None Remove="parole5.txt" />
+    <None Remove="Resources\comuni5.txt" />
+    <None Remove="Resources\comuni6.txt" />
     <None Remove="Resources\dark.jpg" />
     <None Remove="Resources\parole51.txt" />
     <None Remove="Resources\parole52.txt" />
@@ -27,6 +29,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\comuni5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\comuni6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\dark.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

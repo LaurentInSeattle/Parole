@@ -23,9 +23,10 @@
     {
         private LetterBindable[,] letterBindables;
         private Dictionary<string, KeyBindable> keyBindables;
+        private Table table;
+
         private State gameState;
         private bool isAnimating;
-        private Table table;
         private DateTime startTime;
         private DispatcherTimer? clockTimer;
 
@@ -38,7 +39,9 @@
         };
 
 
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public GameBindable(GameView gameView) : base(gameView)
+#pragma warning restore CS8618 
         {
             this.gameState = State.Ended;
             this.StartCommand = new Command(this.OnStartGame);
