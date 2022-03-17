@@ -16,6 +16,9 @@
 
   <ItemGroup>
     <None Remove="parole5.txt" />
+    <None Remove="Resources\bgwords5.txt" />
+    <None Remove="Resources\bgwords6.txt" />
+    <None Remove="Resources\bg_en-utf8.dat" />
     <None Remove="Resources\comuni5.txt" />
     <None Remove="Resources\comuni6.txt" />
     <None Remove="Resources\dark.jpg" />
@@ -29,6 +32,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\bgwords5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\bgwords6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\bg_en-utf8.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\comuni5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

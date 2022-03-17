@@ -3,12 +3,17 @@
     using Lyt.CoreMvvm;
 
     using System;
+    using System.Linq;
     using System.Collections.Generic;
     using System.Diagnostics;
-    using System.Reflection;
+    using System.IO;
+    using System.Text;
 
     public sealed class Words : Singleton<Words>
     {
+        private static readonly string bulgarianWordsFile = "bg_en-utf8.dat";
+        private static readonly string bulgarianWordsFileFormat = "bgwords{0}.txt";
+
         private static readonly int wordsFileCount5 = 6;
         private static readonly int wordsFileCount6 = 2;
         private static readonly string wordsFileFormat = "parole{1}{0}.txt";
@@ -24,7 +29,105 @@
             this.commonWords = new HashSet<string>(256, StringComparer.InvariantCultureIgnoreCase);
         }
 
-        public void Load()
+        public void PreLoadBulgarian()
+        {
+            HashSet<char> letters = new HashSet<char>();
+            HashSet<string> words5 = new HashSet<string>();
+            HashSet<string> words6 = new HashSet<string>();
+            string content = bulgarianWordsFile.LoadTextResource(resourcesFolder);
+            string[] tokens = content.Split(
+                new char[] { ' ', '\t', '\r', '\n', }, StringSplitOptions.RemoveEmptyEntries);
+            foreach (string token in tokens)
+            {
+                if (string.IsNullOrWhiteSpace(token))
+                {
+                    continue;
+                }
+
+                int position = token.IndexOf("^;");
+                if ( position == -1)
+                {
+                    continue ;
+                }
+
+                string word = token.Substring(position+2);
+                if ( word.Contains('-'))
+                {
+                    continue;
+                }
+
+                if ( word.Length == 5)
+                {
+                    _ = words5.Add(word);
+
+                }
+                else if (word.Length == 6)
+                {
+                    _ = words6.Add(word);
+                }
+
+                foreach(var letter in word)
+                {
+                    _= letters.Add(letter);
+                }
+            }
+
+            var list = letters.ToList<char>();
+            list.Sort();
+            foreach (char letter in list)
+            {
+                Debug.Write(letter);
+                Debug.Write(" ");
+            }
+
+            Debug.WriteLine(" " );
+            Debug.WriteLine("Letters " + letters.Count);
+            Debug.WriteLine("5: " + words5.Count);
+            Debug.WriteLine("6: " + words6.Count);
+
+            try
+            {
+                var sb5 = new StringBuilder();
+                foreach (var word in words5)
+                {
+                    _ = sb5.AppendLine(word);
+                }
+
+                File.WriteAllText("bgwords5.txt", sb5.ToString());
+
+                var sb6 = new StringBuilder();
+                foreach (var word in words6)
+                {
+                    _ = sb6.AppendLine(word);
+                }
+
+                File.WriteAllText("bgwords6.txt", sb6.ToString());
+            } 
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString()); 
+            }
+        }
+
+        public void LoadBulgarian()
+        {
+            string wordsFile = string.Format(bulgarianWordsFileFormat, Word.Length);
+            string content = wordsFile.LoadTextResource(resourcesFolder);
+            string[] tokens = content.Split(
+                new char[] { ' ', '\t', '\r', '\n', }, StringSplitOptions.RemoveEmptyEntries);
+            foreach (string token in tokens)
+            {
+                if (!string.IsNullOrWhiteSpace(token) && (token.Length == Word.Length))
+                {
+                    _ = this.words.Add(token);
+                    _ = this.commonWords.Add(token);
+                }
+            }
+
+            Debug.WriteLine("Word count: " + words.Count);
+        }
+
+        public void LoadItalian()
         {
             int fileCount = Word.Length == 5 ? wordsFileCount5 : wordsFileCount6;
             for (int i = 0; i < fileCount; i++)

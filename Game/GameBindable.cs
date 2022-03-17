@@ -30,12 +30,21 @@
         private DateTime startTime;
         private DispatcherTimer? clockTimer;
 
-        private readonly string[,] keyboardLayout = new string[4, 8]
+        private readonly string[,] italianKeyboardLayout = new string[4, 8]
         {
             { "Q" , "E" , "R", "T", "U", "I", "O", "P"},
             { "A" , "S" , "D", "F", "G", "H", "L", " "},
             { "Z" , "C" , "V", "B", "N", "M", " ", "⇦ Canc"},
             { "à" , "è" , "é", "ì", "ò", "ù", " ", "Invio"},
+        };
+
+        // А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я  
+        private readonly string[,] bulgarianKeyboardLayout = new string[4, 8]
+        {
+            { "Я" , "В" , "Е", "Р", "Т", "Ъ", "У", "И" },
+            { "А" , "С" , "Д", "Ф", "Г", "Х", "Й", "К" },
+            { "З" , "Ь" , "Ц", "Ж", "Б", "Н", "М", "⇦" },
+            { "О" , "П" , "Ш", "Щ", "Л", "Ю", " ", "Enter"},
         };
 
 
@@ -62,7 +71,8 @@
         private void OnWordLengthSelected()
         {
             Table.Rows = Word.Length == 5 ? 6 : 7;
-            Words.Instance.Load();
+            Words.Instance.PreLoadBulgarian();
+            Words.Instance.LoadItalian();
             History.Instance.Load();
             this.letterBindables = new LetterBindable[Table.Rows, Word.Length];
             this.SetupTableGrid();
@@ -79,8 +89,10 @@
             for (int row = 0; row < 4; row++)
             {
                 for (int col = 0; col < 8; col++)
-                {
-                    string key = this.keyboardLayout[row, col];
+                {             
+                    // TODO
+                    string key = this.bulgarianKeyboardLayout[row, col];
+                    // string key = this.italianKeyboardLayout[row, col];
                     if (string.IsNullOrWhiteSpace(key))
                     {
                         continue;
