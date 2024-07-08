@@ -12,13 +12,7 @@ public sealed class KeyBindable : Bindable<KeyControl>
     {
         var ti = Theme.Instance;
         this.BorderBrush = ti.BoxBorder;
-        this.TextBrush = characterPlacement switch
-        {
-            CharacterPlacement.Absent => ti.TextAbsent,
-            CharacterPlacement.Present => ti.Text,
-            CharacterPlacement.Exact => ti.Text,
-            _ => ti.BoxUnknown,
-        };
+        this.TextBrush = characterPlacement == CharacterPlacement.Absent ? ti.TextAbsent : ti.Text;
         this.BackgroundBrush = characterPlacement switch
         {
             CharacterPlacement.Absent => ti.BoxAbsent,
@@ -37,6 +31,7 @@ public sealed class KeyBindable : Bindable<KeyControl>
     public void Clear()
     {
         var ti = Theme.Instance;
+        this.TextBrush = ti.Text;
         this.BorderBrush = ti.BoxBorder;
         this.BackgroundBrush = ti.BoxUnknown;
         this.IsDisabled = false;

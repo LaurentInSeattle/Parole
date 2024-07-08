@@ -183,10 +183,15 @@ public sealed class Words : Singleton<Words>
 
     public string RandomPick(HashSet<string> exclude)
     {
-        string common = Words.RandomPick(this.commonWords, exclude);
-        bool foundInCommon = !string.IsNullOrWhiteSpace(common);
-        Debug.WriteLine(foundInCommon ? "Found common word": "Found UNCOMMON word");
-        return !foundInCommon ? Words.RandomPick(this.words, exclude) : common;
+        //string common = Words.RandomPick(this.commonWords, exclude);
+        //bool foundInCommon = !string.IsNullOrWhiteSpace(common);
+        //Debug.WriteLine(foundInCommon ? "Found common word": "Found UNCOMMON word");
+        //return !foundInCommon ? Words.RandomPick(this.words, exclude) : common;
+
+        string uncommon = Words.RandomPick(this.words, exclude);
+        bool foundInUncommon = !string.IsNullOrWhiteSpace(uncommon);
+        Debug.WriteLine(!foundInUncommon ? "Found common word": "Found UNCOMMON word");
+        return !foundInUncommon ? Words.RandomPick(this.commonWords, exclude) : uncommon;
     }
 
     private static string RandomPick(HashSet<string> hash, HashSet<string> exclude)
