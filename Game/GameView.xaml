@@ -7,260 +7,263 @@
     xmlns:local="clr-namespace:Parole.Game"
     mc:Ignorable="d" 
     d:DesignHeight="1400" d:DesignWidth="1200">
-    <Grid
-        ShowGridLines="False"
-        >
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="800"/>
-            <ColumnDefinition Width="320"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="16"/>
-            <RowDefinition Height="960"/>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="240"/>
-            <RowDefinition Height="16"/>
-        </Grid.RowDefinitions>
-        <Grid 
-            x:Name="messageGrid"
-            Grid.Row="1" Grid.Column="2"
-            ShowGridLines="False"
-            >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="160"/>
-                <RowDefinition Height="160"/>
-                <RowDefinition Height="80"/>
-                <RowDefinition Height="84"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Button
-                Command="{Binding StartCommand}"
-                Visibility="{Binding StartVisibility}"
-                Margin="6"
-                >
-                <Border
-                    BorderThickness="1"
-                    BorderBrush="{Binding BorderBrush}"
-                    Background="{Binding BackgroundBrush}"
-                    VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    Margin="0" Padding="0"
-                    >
-                    <TextBlock
-                        Foreground="{Binding TextBrush}"
-                        FontSize="60"
-                        FontWeight="Bold"
-                        Text="Inizia"
-                        Margin="0 24 0 0 "
-                        VerticalAlignment="Center" HorizontalAlignment="Stretch" 
-                        TextAlignment="Center" 
-                        Width="308" Height="128"
-                        />
-                </Border>
-            </Button>
-            <TextBlock
-                Grid.Row="1" Grid.Column="0"
-                Margin="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                TextWrapping="Wrap"
-                TextAlignment="Center"
-                Text="{Binding Message}"
-                Foreground="DarkOrange"
-                FontSize="50"
-                Visibility="{Binding MessageVisibility}"
-                />
-            <TextBlock
-                Grid.Row="2" Grid.Column="0"
-                Margin="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                TextWrapping="Wrap"
-                TextAlignment="Center"
-                Text="{Binding Clock}"
-                Foreground="DarkOrange"
-                FontSize="42"
-                Visibility="{Binding ClockVisibility}"
-                />
-            <TextBlock
-                Grid.Row="2" Grid.RowSpan="2" Grid.Column="0"
-                Margin="4 -28 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                TextWrapping="Wrap"
-                TextAlignment="Center"
-                Text="{Binding Solution}"
-                Foreground="DarkOrange"
-                FontSize="100"
-                Visibility="{Binding SolutionVisibility}"
-                />
-            <Grid
-                x:Name="statsGrid"
-                Grid.Row="3" Grid.RowSpan="2" Grid.Column="0"
-                Margin="0 28 0 0"
-                >
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="40"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <TextBlock
-                    Grid.Row="0" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="{Binding Plays}"
-                    Foreground="DarkOrange"
-                    FontSize="20"
-                    />
-                <TextBlock
-                    Grid.Row="1" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="{Binding Wins}"
-                    Foreground="DarkOrange"
-                    FontSize="20"
-                    />
-                <TextBlock
-                    Grid.Row="2" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="{Binding Losses}"
-                    Foreground="DarkOrange"
-                    FontSize="20"
-                    />
-                <TextBlock
-                    Grid.Row="3" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="{Binding WinRate}"
-                    Foreground="DarkOrange"
-                    FontSize="20"
-                    />
-                <TextBlock
-                    Grid.Row="4" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="{Binding BestStreak}"
-                    Foreground="DarkOrange"
-                    FontSize="20"
-                    />
-                <TextBlock
-                    Grid.Row="5" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="{Binding CurrentStreak}"
-                    Foreground="DarkOrange"
-                    FontSize="20"
-                    />
-                <TextBlock
-                    Grid.Row="6" 
-                    Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                    TextWrapping="Wrap"
-                    TextAlignment="Left"
-                    Text="Distribuzione delle Ipotesi"
-                    Foreground="DarkOrange"
-                    FontSize="20"
-                    />
-                <local:HistogramControl
-                    x:Name="histogramControl"
-                    DataContext="{Binding Histogram}"
-                    Grid.Row="7" 
-                    Margin="0 0 0 0"
-                    VerticalAlignment="Top" HorizontalAlignment="Stretch"
-                    />
-            </Grid>
-        </Grid>
-        <Grid 
-            x:Name="tableGrid65"
-            Visibility="{Binding TableGrid65Visibility}"
-            Grid.Row="1" Grid.Column="1"
-            ShowGridLines="False"
-            >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-        </Grid>
-        <Grid 
-            x:Name="tableGrid76"
-            Visibility="{Binding TableGrid76Visibility}"
-            Grid.Row="1" Grid.Column="1"
-            ShowGridLines="False"
-            >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-        </Grid>
-        <Grid 
-            x:Name="spacingGrid"
-            ShowGridLines="False"
-            Grid.Row="2" Grid.Column="1"
-            >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-        </Grid>
-        <Grid 
-            x:Name="keyboardGrid"
-            ShowGridLines="False"
-            Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"
-            >
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-        </Grid>
+    <Grid>
         <local:SelectControl
             x:Name="selectControl"
             DataContext="{Binding Select}"
             Grid.Row="0" Grid.Column="0"
             Grid.RowSpan="999" Grid.ColumnSpan="999"
             />
+        <Grid
+            ShowGridLines="False"
+            Visibility="{Binding MainGridVisibility}"
+            >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="800"/>
+                <ColumnDefinition Width="320"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="16"/>
+                <RowDefinition Height="960"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="240"/>
+                <RowDefinition Height="16"/>
+            </Grid.RowDefinitions>
+            <Grid 
+                x:Name="messageGrid"
+                Grid.Row="1" Grid.Column="2"
+                ShowGridLines="False"
+                >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="138"/>
+                    <RowDefinition Height="160"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="84"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button
+                    Command="{Binding StartCommand}"
+                    Visibility="{Binding StartVisibility}"
+                    Margin="8"
+                    >
+                    <Border
+                        BorderThickness="1"
+                        BorderBrush="{Binding BorderBrush}"
+                        Background="{Binding BackgroundBrush}"
+                        VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        Margin="0" Padding="0"
+                        >
+                        <TextBlock
+                            Foreground="{Binding TextBrush}"
+                            FontSize="60"
+                            FontWeight="Bold"
+                            Text="Inizia"
+                            Margin="0 28 0 0 "
+                            VerticalAlignment="Center" HorizontalAlignment="Stretch" 
+                            TextAlignment="Center" 
+                            Width="308" Height="128"
+                            />
+                    </Border>
+                </Button>
+                <TextBlock
+                    Grid.Row="1" Grid.Column="0"
+                    Margin="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    TextWrapping="Wrap"
+                    TextAlignment="Center"
+                    Text="{Binding Message}"
+                    Foreground="DarkOrange"
+                    FontSize="50"
+                    Visibility="{Binding MessageVisibility}"
+                    />
+                <TextBlock
+                    Grid.Row="2" Grid.Column="0"
+                    Margin="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    TextWrapping="Wrap"
+                    TextAlignment="Center"
+                    Text="{Binding Clock}"
+                    Foreground="DarkOrange"
+                    FontSize="42"
+                    Visibility="{Binding ClockVisibility}"
+                    />
+                <TextBlock
+                    Grid.Row="2" Grid.RowSpan="2" Grid.Column="0"
+                    Margin="4 -28 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    TextWrapping="Wrap"
+                    TextAlignment="Center"
+                    Text="{Binding Solution}"
+                    Foreground="DarkOrange"
+                    FontSize="100"
+                    Visibility="{Binding SolutionVisibility}"
+                    />
+                <Grid
+                    x:Name="statsGrid"
+                    Grid.Row="3" Grid.RowSpan="2" Grid.Column="0"
+                    Margin="0 28 0 0"
+                    >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock
+                        Grid.Row="0" 
+                        Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Text="{Binding Plays}"
+                        Foreground="DarkOrange"
+                        FontSize="20"
+                        />
+                    <TextBlock
+                        Grid.Row="1" 
+                        Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Text="{Binding Wins}"
+                        Foreground="DarkOrange"
+                        FontSize="20"
+                        />
+                    <TextBlock
+                        Grid.Row="2" 
+                        Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Text="{Binding Losses}"
+                        Foreground="DarkOrange"
+                        FontSize="20"
+                        />
+                    <TextBlock
+                        Grid.Row="3" 
+                        Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Text="{Binding WinRate}"
+                        Foreground="DarkOrange"
+                        FontSize="20"
+                        />
+                    <TextBlock
+                        Grid.Row="4" 
+                        Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Text="{Binding BestStreak}"
+                        Foreground="DarkOrange"
+                        FontSize="20"
+                        />
+                    <TextBlock
+                        Grid.Row="5" 
+                        Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Text="{Binding CurrentStreak}"
+                        Foreground="DarkOrange"
+                        FontSize="20"
+                        />
+                    <TextBlock
+                        Grid.Row="6" 
+                        Margin="12 0 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Text="Distribuzione delle Ipotesi"
+                        Foreground="DarkOrange"
+                        FontSize="20"
+                        />
+                    <local:HistogramControl
+                        x:Name="histogramControl"
+                        DataContext="{Binding Histogram}"
+                        Grid.Row="7" 
+                        Margin="0 0 0 0"
+                        VerticalAlignment="Top" HorizontalAlignment="Stretch"
+                        />
+                </Grid>
+            </Grid>
+            <Grid 
+                x:Name="tableGrid65"
+                Visibility="{Binding TableGrid65Visibility}"
+                Grid.Row="1" Grid.Column="1"
+                ShowGridLines="False"
+                >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Grid 
+                x:Name="tableGrid76"
+                Visibility="{Binding TableGrid76Visibility}"
+                Grid.Row="1" Grid.Column="1"
+                ShowGridLines="False"
+                >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Grid 
+                x:Name="spacingGrid"
+                ShowGridLines="False"
+                Grid.Row="2" Grid.Column="1"
+                >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Grid 
+                x:Name="keyboardGrid"
+                ShowGridLines="False"
+                Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"
+                >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </Grid>
     </Grid>
 </UserControl>

@@ -1,12 +1,9 @@
-﻿namespace Parole.Game
+﻿namespace Parole.Game;
+
+/// <summary> Interaction logic for LetterControl.xaml </summary>
+public partial class LetterControl : UserControl
 {
-    using System.Windows.Controls;
+    public LetterControl() => this.InitializeComponent();
 
-    /// <summary> Interaction logic for LetterControl.xaml </summary>
-    public partial class LetterControl : UserControl
-    {
-        public LetterControl() => this.InitializeComponent();
-
-        public Grid LetterGrid => this.letterGrid;
-    }
+    public Grid LetterGrid => this.letterGrid;
 }

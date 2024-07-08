@@ -1,20 +1,13 @@
-﻿namespace Parole.Game
+﻿namespace Parole.Game;
+
+/// <summary> Interaction logic for KeyControl.xaml </summary>
+public partial class KeyControl : UserControl
 {
-    using System.Windows.Controls;
-    using System.Windows.Input;
-
-    /// <summary> Interaction logic for KeyControl.xaml </summary>
-    public partial class KeyControl : UserControl
+    public KeyControl()
     {
-        public KeyControl()
-        {
-            this.InitializeComponent();
-            this.PreviewKeyDown += OnKeyControlPreviewKeyDown;
-        }
-
-        private void OnKeyControlPreviewKeyDown(object sender, KeyEventArgs e)
-        {
-            e.Handled = true;
-        }
+        this.InitializeComponent();
+        this.PreviewKeyDown += this.OnKeyControlPreviewKeyDown;
     }
+
+    private void OnKeyControlPreviewKeyDown(object sender, KeyEventArgs e) => e.Handled = true;
 }

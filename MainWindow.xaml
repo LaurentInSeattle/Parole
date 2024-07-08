@@ -12,8 +12,10 @@
     Width="920" Height="1040"
     MinWidth="320" MinHeight="360"
     Title="Parole" 
-    Background="Black"
     >
+    <Window.Background>
+        <ImageBrush ImageSource="pack://application:,,,/Resources/dark.jpg" Opacity="1"/>
+    </Window.Background>
     <Viewbox
         x:Name="viewbox"
         VerticalAlignment="Stretch" HorizontalAlignment="Stretch"

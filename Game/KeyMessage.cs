@@ -1,18 +1,11 @@
-﻿namespace Parole.Game
+﻿namespace Parole.Game;
+
+public sealed class KeyMessage(string key)
 {
-    using System.Windows.Input;
+    public char Key { get; private set; } = key[0];
+}
 
-    public sealed class KeyMessage
-    {
-        public KeyMessage(string key) => this.Key = key[0];
-
-        public char Key { get; private set; }
-    }
-
-    public sealed class ControlMessage
-    {
-        public ControlMessage(Key key ) => this.Key = key;
-
-        public Key Key { get; private set; }
-    }
+public sealed class ControlMessage(Key key)
+{
+    public Key Key { get; private set; } = key;
 }

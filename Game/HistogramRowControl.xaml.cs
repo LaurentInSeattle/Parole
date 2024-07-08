@@ -1,10 +1,7 @@
-﻿namespace Parole.Game
-{
-    using System.Windows.Controls;
+﻿namespace Parole.Game;
 
-    /// <summary> Interaction logic for HistogramRowControl.xaml </summary>
-    public partial class HistogramRowControl : UserControl
-    {
-        public HistogramRowControl() => this.InitializeComponent();
-    }
+/// <summary> Interaction logic for HistogramRowControl.xaml </summary>
+public partial class HistogramRowControl : UserControl
+{
+    public HistogramRowControl() => this.InitializeComponent();
 }
