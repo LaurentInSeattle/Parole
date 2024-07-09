@@ -11,7 +11,7 @@ public sealed class GameBindable : Bindable<GameView>
     private LetterBindable[,] letterBindables;
     private Dictionary<string, KeyBindable> keyBindables;
     private Table table;
-
+    private bool easy;
     private State gameState;
     private bool isAnimating;
     private DateTime startTime;
@@ -68,7 +68,7 @@ public sealed class GameBindable : Bindable<GameView>
         this.Histogram = new HistogramBindable(this.View.HistogramControl);
         this.SetupKeyboardGrid();
         this.ShowStatistics();
-        this.table = new Table();
+        this.table = new Table(this.easy);
         this.MainGridVisibility = Visibility.Visible;
     }
 
@@ -144,7 +144,8 @@ public sealed class GameBindable : Bindable<GameView>
 
     private void StartGame()
     {
-        this.table = new Table();
+        this.easy = !this.easy;
+        this.table = new Table(this.easy);
         this.gameState = State.Running;
         this.startTime = DateTime.Now;
         this.ClearTableGrid();

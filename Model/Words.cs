@@ -6,7 +6,7 @@ public sealed class Words : Singleton<Words>
     private static readonly int wordsFileCount6 = 2;
     private static readonly string wordsFileFormat = "parole{1}{0}.txt";
     private static readonly string resourcesFolder = "Resources";
-    private static readonly string  commonWordsFileFormat = "comuni{0}.txt";
+    private static readonly string commonWordsFileFormat = "comuni{0}.txt";
     private static readonly char[] separator = [' ', '\t', '\r', '\n'];
 
     private readonly HashSet<string> words;
@@ -131,7 +131,7 @@ public sealed class Words : Singleton<Words>
         {
             string wordsFile = string.Format(wordsFileFormat, i, Word.Length);
             string content = wordsFile.LoadTextResource(resourcesFolder);
-            string [] tokens = content.Split(separator, StringSplitOptions.RemoveEmptyEntries);
+            string[] tokens = content.Split(separator, StringSplitOptions.RemoveEmptyEntries);
             var hash = new HashSet<char>(Word.Length);
             foreach (string token in tokens)
             {
@@ -146,14 +146,14 @@ public sealed class Words : Singleton<Words>
                 }
 
                 hash.Clear();
-                for ( int j = 0; j < token.Length; ++ j )
+                for (int j = 0; j < token.Length; ++j)
                 {
                     hash.Add(token[j]);
                 }
 
-                if ( hash.Count != Word.Length)
+                if (hash.Count != Word.Length)
                 {
-                    continue; 
+                    continue;
                 }
 
                 _ = this.words.Add(token);
@@ -181,17 +181,22 @@ public sealed class Words : Singleton<Words>
 
     public bool IsPresent(Word word) => this.words.Contains(word.AsString());
 
-    public string RandomPick(HashSet<string> exclude)
+    public string RandomPick(bool easy, HashSet<string> exclude)
     {
-        //string common = Words.RandomPick(this.commonWords, exclude);
-        //bool foundInCommon = !string.IsNullOrWhiteSpace(common);
-        //Debug.WriteLine(foundInCommon ? "Found common word": "Found UNCOMMON word");
-        //return !foundInCommon ? Words.RandomPick(this.words, exclude) : common;
-
-        string uncommon = Words.RandomPick(this.words, exclude);
-        bool foundInUncommon = !string.IsNullOrWhiteSpace(uncommon);
-        Debug.WriteLine(!foundInUncommon ? "Found common word": "Found UNCOMMON word");
-        return !foundInUncommon ? Words.RandomPick(this.commonWords, exclude) : uncommon;
+        if (easy)
+        {
+            string common = Words.RandomPick(this.commonWords, exclude);
+            bool foundInCommon = !string.IsNullOrWhiteSpace(common);
+            Debug.WriteLine(foundInCommon ? "Found common word" : "Found UNCOMMON word");
+            return !foundInCommon ? Words.RandomPick(this.words, exclude) : common;
+        }
+        else
+        {
+            string uncommon = Words.RandomPick(this.words, exclude);
+            bool foundInUncommon = !string.IsNullOrWhiteSpace(uncommon);
+            Debug.WriteLine(!foundInUncommon ? "Found common word" : "Found UNCOMMON word");
+            return !foundInUncommon ? Words.RandomPick(this.commonWords, exclude) : uncommon;
+        }
     }
 
     private static string RandomPick(HashSet<string> hash, HashSet<string> exclude)

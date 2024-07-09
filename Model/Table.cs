@@ -2,6 +2,8 @@
 
 public class Table
 {
+    public static int Rows { get; set; } = 6;
+
     private readonly Word solution;
     private readonly Word[] words;
     private readonly Placement[] placements;
@@ -10,14 +12,12 @@ public class Table
     private int currentCol;
     private DateTime ended;
 
-    public static int Rows { get; set; } = 6;
-
-    public Table()
+    public Table(bool easy)
     {
         this.started = DateTime.Now;
         this.CurrentRow = 0;
         this.currentCol = 0;
-        string solutionString = Words.Instance.RandomPick(History.Instance.PlayedWords());
+        string solutionString = Words.Instance.RandomPick(easy, History.Instance.PlayedWords());
         this.solution = new Word(solutionString);
         Debug.WriteLine("Solution: " + this.solution.AsString()); 
         this.words = new Word[Rows];
