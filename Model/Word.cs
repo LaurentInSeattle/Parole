@@ -87,28 +87,22 @@ public class Word
             }
         }
 
-        for (int i = 0; i < Length; i++)
+        bool found = list.Count == 0 ;
+        if (!found)
         {
-            if ( placement[i] == CharacterPlacement.Exact)
+            for (int i = 0; i < Length; i++)
             {
-                continue; 
-            }
+                if (placement[i] == CharacterPlacement.Exact)
+                {
+                    continue;
+                }
 
-            if (list.Contains(char.ToLower(this.characters[i])))
-            {
-                placement[i] = CharacterPlacement.Present;
+                if (list.Contains(char.ToLower(this.characters[i])))
+                {
+                    placement[i] = CharacterPlacement.Present;
+                }
             }
-        }
-
-        bool found = true;
-        for (int i = 0; i < Length; i++)
-        {
-            if (placement[i] != CharacterPlacement.Exact)
-            {
-                found = false;
-                break;
-            }
-        }
+        } 
 
         this.IsEvaluated = true;
         isFound = found;

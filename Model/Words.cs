@@ -1,6 +1,4 @@
-﻿using System.Security.Policy;
-
-namespace Parole.Model;
+﻿namespace Parole.Model;
 
 public sealed class Words : Singleton<Words>
 {
@@ -16,8 +14,8 @@ public sealed class Words : Singleton<Words>
 
     private Words()
     {
-        this.words = new HashSet<string>(4096, StringComparer.InvariantCultureIgnoreCase);
-        this.commonWords = new HashSet<string>(256, StringComparer.InvariantCultureIgnoreCase);
+        this.words = new HashSet<string>(8192, StringComparer.InvariantCultureIgnoreCase);
+        this.commonWords = new HashSet<string>(1024, StringComparer.InvariantCultureIgnoreCase);
     }
 
     #region Bulgarian 
@@ -203,7 +201,9 @@ public sealed class Words : Singleton<Words>
         Debug.WriteLine("Common Word count: " + this.commonWords.Count);
     }
 
-    public bool IsPresent(Word word) => this.words.Contains(word.AsString());
+    public bool IsPresent(Word word) =>
+        this.words.Contains(word.AsString()) ||
+        this.commonWords.Contains(word.AsString()) ;
 
     public string RandomPick(bool easy, HashSet<string> exclude)
     {
