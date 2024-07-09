@@ -97,9 +97,11 @@ public class Word
                     continue;
                 }
 
-                if (list.Contains(char.ToLower(this.characters[i])))
+                char testChar = char.ToLower(this.characters[i]);
+                if (list.Contains(testChar))
                 {
                     placement[i] = CharacterPlacement.Present;
+                    list.Remove(testChar);
                 }
             }
         } 
