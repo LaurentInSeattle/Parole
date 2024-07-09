@@ -9306,9 +9306,6 @@ mattia
 mattie
 matura
 mature
-The thread 0x450c has exited with code 0 (0x0).
-The thread 0x2974 has exited with code 0 (0x0).
-The thread 0x3190 has exited with code 0 (0x0).
 maturi
 maturo
 matusa

@@ -1,4 +1,6 @@
-﻿namespace Parole.Model;
+﻿using System.Security.Policy;
+
+namespace Parole.Model;
 
 public sealed class Words : Singleton<Words>
 {
@@ -126,13 +128,13 @@ public sealed class Words : Singleton<Words>
 
     public void LoadItalian()
     {
+        var hash = new HashSet<char>(Word.Length);
         int fileCount = Word.Length == 5 ? wordsFileCount5 : wordsFileCount6;
         for (int i = 0; i < fileCount; i++)
         {
             string wordsFile = string.Format(wordsFileFormat, i, Word.Length);
             string content = wordsFile.LoadTextResource(resourcesFolder);
             string[] tokens = content.Split(separator, StringSplitOptions.RemoveEmptyEntries);
-            var hash = new HashSet<char>(Word.Length);
             foreach (string token in tokens)
             {
                 if (string.IsNullOrWhiteSpace(token) && (token.Length != Word.Length))
@@ -151,9 +153,10 @@ public sealed class Words : Singleton<Words>
                     hash.Add(token[j]);
                 }
 
-                if (hash.Count != Word.Length)
+                // if (hash.Count != Word.Length)
+                if (hash.Count < Word.Length - 1 )
                 {
-                    continue;
+                        continue;
                 }
 
                 _ = this.words.Add(token);
@@ -167,13 +170,34 @@ public sealed class Words : Singleton<Words>
         string[] commonTokens = commonContent.Split(separator, StringSplitOptions.RemoveEmptyEntries);
         foreach (string token in commonTokens)
         {
-            if (!string.IsNullOrWhiteSpace(token) && (token.Length == Word.Length))
+            //if (this.words.Contains(token))
+            //{
+            //    continue;
+            //}
+
+            if (string.IsNullOrWhiteSpace(token) && (token.Length != Word.Length))
             {
-                if ((!Words.HasNonItalianOrSpecialCharacters(token)) && this.words.Contains(token))
-                {
-                    _ = this.commonWords.Add(token);
-                }
+                continue;
             }
+
+            if (Words.HasNonItalianOrSpecialCharacters(token))
+            {
+                continue;
+            }
+
+            hash.Clear();
+            for (int j = 0; j < token.Length; ++j)
+            {
+                hash.Add(token[j]);
+            }
+
+            // if (hash.Count != Word.Length)
+            if (hash.Count < Word.Length - 1)
+            {
+                continue;
+            }
+
+            _ = this.commonWords.Add(token);
         }
 
         Debug.WriteLine("Common Word count: " + this.commonWords.Count);

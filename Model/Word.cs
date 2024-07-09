@@ -73,19 +73,30 @@ public class Word
             }
         }
 
+        var list = new List<char>(Word.Length);
         for (int i = 0; i < Length; i++)
         {
-            if (solutionAsString.Contains(this.characters[i], StringComparison.InvariantCultureIgnoreCase))
+            char testChar = char.ToLower(solution.characters[i]); 
+            if (char.ToLower(this.characters[i]) == testChar)
             {
-                placement[i] = CharacterPlacement.Present;
+                placement[i] = CharacterPlacement.Exact;
+            }
+            else
+            {
+                list.Add(testChar);
             }
         }
 
         for (int i = 0; i < Length; i++)
         {
-            if (char.ToLower(this.characters[i]) == char.ToLower(solution.characters[i]))
+            if ( placement[i] == CharacterPlacement.Exact)
             {
-                placement[i] = CharacterPlacement.Exact;
+                continue; 
+            }
+
+            if (list.Contains(char.ToLower(this.characters[i])))
+            {
+                placement[i] = CharacterPlacement.Present;
             }
         }
 

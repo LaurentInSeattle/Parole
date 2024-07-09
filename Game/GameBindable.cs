@@ -145,7 +145,8 @@ public sealed class GameBindable : Bindable<GameView>
     private void StartGame()
     {
         this.easy = !this.easy;
-        this.table = new Table(this.easy);
+        // this.table = new Table(this.easy);
+        this.table = new Table(easy:true);
         this.gameState = State.Running;
         this.startTime = DateTime.Now;
         this.ClearTableGrid();
