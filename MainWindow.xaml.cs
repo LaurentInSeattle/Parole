@@ -18,7 +18,7 @@ public partial class MainWindow : Window
         Key.Z,
     ];
 
-    private readonly Key[] controlKeys = [Key.Enter, Key.Delete, Key.Back];
+    private readonly Key[] controlKeys = [Key.Enter, Key.Delete, Key.Back, Key.Space];
 
     public MainWindow()
     {
@@ -59,8 +59,8 @@ public partial class MainWindow : Window
     }
 
     private void SendKeyMessage(string keyString)
-        => Messenger.Instance.Send<KeyMessage>(new KeyMessage(keyString));
+        => Messenger.Instance.Send(new KeyMessage(keyString));
 
     private void SendControlMessage(Key key)
-        => Messenger.Instance.Send<ControlMessage>(new ControlMessage(key));
+        => Messenger.Instance.Send(new ControlMessage(key));
 }

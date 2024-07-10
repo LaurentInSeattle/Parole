@@ -2,6 +2,8 @@
 
 public enum State
 {
+    Idle,
+    Ready,
     Running,
     Ended,
 }
@@ -39,7 +41,7 @@ public sealed class GameBindable : Bindable<GameView>
     public GameBindable(GameView gameView) : base(gameView)
 // #pragma warning restore CS8618 
     {
-        this.gameState = State.Ended;
+        this.gameState = State.Idle;
         this.StartCommand = new Command(this.OnStartGame);
         var ti = Theme.Instance;
         this.BorderBrush = ti.BoxBorder;
@@ -70,6 +72,7 @@ public sealed class GameBindable : Bindable<GameView>
         this.ShowStatistics();
         this.table = new Table(this.easy);
         this.MainGridVisibility = Visibility.Visible;
+        this.gameState  = State.Ready;
     }
 
     private void SetupKeyboardGrid()
@@ -140,10 +143,17 @@ public sealed class GameBindable : Bindable<GameView>
 
     private bool IsGameRunning => this.gameState == State.Running;
 
+    private bool CanGameStart => this.gameState == State.Ready || this.gameState == State.Ended ;
+
     private void OnStartGame(object _) => this.StartGame();
 
     private void StartGame()
-    {
+    {   
+        if ( ! this.CanGameStart )
+        {
+            return; 
+        }
+
         this.easy = !this.easy;
         // this.table = new Table(this.easy);
         this.table = new Table(easy:true);
@@ -218,7 +228,7 @@ public sealed class GameBindable : Bindable<GameView>
 
         this.MessageVisibility = Visibility.Hidden;
         // Debug.WriteLine(controlMessage.Key.ToString());
-        if (!this.IsGameRunning)
+        if (this.CanGameStart)
         {
             this.StartGame();
             return;
@@ -246,6 +256,13 @@ public sealed class GameBindable : Bindable<GameView>
                     // Message: Not in list 
                     this.Show("Parola Sconosciuta");
                 }
+            }
+        }
+        else if (key == Key.Space)
+        {
+            if (this.CanGameStart)
+            {
+                this.StartGame();
             }
         }
         else
@@ -303,35 +320,21 @@ public sealed class GameBindable : Bindable<GameView>
 
     private void RefreshKeyboard()
     {
-        var absent = this.table.AbsentLetters();
-        foreach (char letter in absent)
+        void Refresh( HashSet<char> hash, CharacterPlacement placement )
         {
-            string letterString = letter.ToString();
-            if (this.keyBindables.TryGetValue(letterString, out var keyBindable))
+            foreach (char letter in hash)
             {
-                keyBindable.Update(CharacterPlacement.Absent);
+                string letterString = letter.ToString();
+                if (this.keyBindables.TryGetValue(letterString, out var keyBindable))
+                {
+                    keyBindable.Update(placement);
+                }
             }
         }
 
-        var present = this.table.PresentLetters();
-        foreach (char letter in present)
-        {
-            string letterString = letter.ToString();
-            if (this.keyBindables.TryGetValue(letterString, out var keyBindable))
-            {
-                keyBindable.Update(CharacterPlacement.Present);
-            }
-        }
-
-        var exact = this.table.ExactLetters();
-        foreach (char letter in exact)
-        {
-            string letterString = letter.ToString();
-            if (this.keyBindables.TryGetValue(letterString, out var keyBindable))
-            {
-                keyBindable.Update(CharacterPlacement.Exact);
-            }
-        }
+        Refresh(this.table.AbsentLetters(), CharacterPlacement.Absent);
+        Refresh(this.table.PresentLetters(), CharacterPlacement.Present);
+        Refresh(this.table.ExactLetters(), CharacterPlacement.Exact);
     }
 
     private void ShowMessage ()
