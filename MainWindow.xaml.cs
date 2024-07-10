@@ -3,6 +3,8 @@
 /// <summary> Interaction logic for MainWindow.xaml </summary>
 public partial class MainWindow : Window
 {
+    private WebViewWindow webView;
+
     // Italian keys 
     private readonly Key[] keys =
     [
@@ -23,8 +25,17 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         this.InitializeComponent();
-        this.Loaded += (s, e) => new GameBindable(this.gameView);
+        this.Loaded += (s, e) =>
+        {
+            new GameBindable(this.gameView);
+            this.webView = new WebViewWindow();
+            webView.Show();
+        };
         this.PreviewKeyUp += this.MainWindowPreviewKeyUp;
+        this.Closing += (s, e) =>
+        {
+            try { this.webView.Close(); } catch { /* swallow everything */ }
+        };
     }
 
     private void MainWindowPreviewKeyUp(object sender, KeyEventArgs e)

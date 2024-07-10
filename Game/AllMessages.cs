@@ -9,3 +9,8 @@ public sealed class ControlMessage(Key key)
 {
     public Key Key { get; private set; } = key;
 }
+
+public sealed class NavigationMessage(string url)
+{
+    public string Url { get; private set; } = url;
+}

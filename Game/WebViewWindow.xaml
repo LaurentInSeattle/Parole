@@ -1,0 +1,18 @@
+﻿<Window 
+    x:Class="Parole.Game.WebViewWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Parole.Game"
+    xmlns:web="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+    mc:Ignorable="d"
+    Title="Ricerca sul Web" 
+    Height="900" Width="650"
+    >
+    <Grid>
+        <web:WebView2
+            x:Name="Browser"
+            />
+    </Grid>
+</Window>

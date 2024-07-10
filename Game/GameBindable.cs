@@ -1,4 +1,6 @@
-﻿namespace Parole.Game;
+﻿using Parole.Model;
+
+namespace Parole.Game;
 
 public enum State
 {
@@ -243,6 +245,8 @@ public sealed class GameBindable : Bindable<GameView>
                 // Evaluate
                 if (this.table.OnEnter())
                 {
+                    string url = string.Format("https://it.wiktionary.org/wiki/{0}", word.AsString().ToLower());
+                    Messenger.Instance.Send(new NavigationMessage(url)); 
                     int row = this.table.IsGameOver ? this.table.CurrentRow : this.table.CurrentRow - 1;
                     this.RefreshRowOnEnter(row);
                     this.RefreshKeyboard();
@@ -350,6 +354,8 @@ public sealed class GameBindable : Bindable<GameView>
             this.Show("Partita Finita\n Perdi...");
             this.Solution = this.table.Solution;
             this.SolutionVisibility = Visibility.Visible;
+            string url = string.Format("https://it.wiktionary.org/wiki/{0}", this.Solution.ToLower());
+            Messenger.Instance.Send(new NavigationMessage(url));
         }
     }
 
