@@ -8,7 +8,7 @@
     xmlns:web="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
     mc:Ignorable="d"
     Title="Ricerca sul Web" 
-    Height="900" Width="650"
+    Height="950" Width="650"
     >
     <Grid>
         <web:WebView2

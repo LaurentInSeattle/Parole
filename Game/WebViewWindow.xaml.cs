@@ -16,6 +16,7 @@ public partial class WebViewWindow : Window
     private async void OnLoaded(object sender, RoutedEventArgs e)
     {
         await this.Browser.EnsureCoreWebView2Async();
+        this.Browser.ZoomFactor = 1.20;
     }
 
     private void OnClosing(object sender, CancelEventArgs e)

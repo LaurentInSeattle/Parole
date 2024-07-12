@@ -12,6 +12,8 @@ public enum State
 
 public sealed class GameBindable : Bindable<GameView>
 {
+    private const string italianWiktionaryUrlFormat = "https://it.wiktionary.org/wiki/{0}#Italiano";
+
     private LetterBindable[,] letterBindables;
     private Dictionary<string, KeyBindable> keyBindables;
     private Table table;
@@ -245,7 +247,7 @@ public sealed class GameBindable : Bindable<GameView>
                 // Evaluate
                 if (this.table.OnEnter())
                 {
-                    string url = string.Format("https://it.wiktionary.org/wiki/{0}", word.AsString().ToLower());
+                    string url = string.Format(italianWiktionaryUrlFormat, word.AsString().ToLower());
                     Messenger.Instance.Send(new NavigationMessage(url)); 
                     int row = this.table.IsGameOver ? this.table.CurrentRow : this.table.CurrentRow - 1;
                     this.RefreshRowOnEnter(row);
@@ -354,7 +356,7 @@ public sealed class GameBindable : Bindable<GameView>
             this.Show("Partita Finita\n Perdi...");
             this.Solution = this.table.Solution;
             this.SolutionVisibility = Visibility.Visible;
-            string url = string.Format("https://it.wiktionary.org/wiki/{0}", this.Solution.ToLower());
+            string url = string.Format(italianWiktionaryUrlFormat, this.Solution.ToLower());
             Messenger.Instance.Send(new NavigationMessage(url));
         }
     }
