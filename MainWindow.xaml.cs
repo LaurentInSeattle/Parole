@@ -20,7 +20,7 @@ public partial class MainWindow : Window
         Key.Z,
     ];
 
-    private readonly Key[] controlKeys = [Key.Enter, Key.Delete, Key.Back, Key.Space];
+    private readonly Key[] controlKeys = [Key.Enter, Key.Delete, Key.Back, Key.Space, Key.F1];
 
     public MainWindow()
     {

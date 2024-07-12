@@ -1,4 +1,4 @@
-﻿using Parole.Model;
+﻿using System;
 
 namespace Parole.Game;
 
@@ -41,12 +41,14 @@ public sealed class GameBindable : Bindable<GameView>
     //    { "О" , "П" , "Ш", "Щ", "Л", "Ю", " ", "Enter"},
     //};
 
-// #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+    // #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     public GameBindable(GameView gameView) : base(gameView)
-// #pragma warning restore CS8618 
+    // #pragma warning restore CS8618 
     {
         this.gameState = State.Idle;
         this.StartCommand = new Command(this.OnStartGame);
+        this.HintCommand = new Command(this.OnProvideHint);
+        this.UpdateHintVisibility();
         var ti = Theme.Instance;
         this.BorderBrush = ti.BoxBorder;
         this.TextBrush = ti.Text;
@@ -56,6 +58,7 @@ public sealed class GameBindable : Bindable<GameView>
         this.FirstStartVisibility = Visibility.Visible;
         this.Solution = string.Empty;
         this.SolutionVisibility = Visibility.Hidden;
+        this.HintVisibility = Visibility.Hidden;
         this.MainGridVisibility = Visibility.Hidden;
         Messenger.Instance.Register<KeyMessage>(this.OnKeyPress);
         Messenger.Instance.Register<ControlMessage>(this.OnControlKeyPress);
@@ -76,7 +79,8 @@ public sealed class GameBindable : Bindable<GameView>
         this.ShowStatistics();
         this.table = new Table(this.easy);
         this.MainGridVisibility = Visibility.Visible;
-        this.gameState  = State.Ready;
+        this.gameState = State.Ready;
+        this.UpdateHintVisibility();
     }
 
     private void SetupKeyboardGrid()
@@ -85,7 +89,7 @@ public sealed class GameBindable : Bindable<GameView>
         for (int row = 0; row < 4; row++)
         {
             for (int col = 0; col < 8; col++)
-            {             
+            {
                 // TODO
                 // string key = this.bulgarianKeyboardLayout[row, col];
                 string key = this.italianKeyboardLayout[row, col];
@@ -147,20 +151,20 @@ public sealed class GameBindable : Bindable<GameView>
 
     private bool IsGameRunning => this.gameState == State.Running;
 
-    private bool CanGameStart => this.gameState == State.Ready || this.gameState == State.Ended ;
+    private bool CanGameStart => this.gameState == State.Ready || this.gameState == State.Ended;
 
     private void OnStartGame(object _) => this.StartGame();
 
     private void StartGame()
-    {   
-        if ( ! this.CanGameStart )
+    {
+        if (!this.CanGameStart)
         {
-            return; 
+            return;
         }
 
         this.easy = !this.easy;
         // this.table = new Table(this.easy);
-        this.table = new Table(easy:true);
+        this.table = new Table(easy: true);
         this.gameState = State.Running;
         this.startTime = DateTime.Now;
         this.ClearTableGrid();
@@ -169,6 +173,7 @@ public sealed class GameBindable : Bindable<GameView>
         this.Solution = string.Empty;
         this.SolutionVisibility = Visibility.Hidden;
         this.Hide();
+        this.UpdateHintVisibility();
         this.clockTimer = new DispatcherTimer
         {
             Interval = TimeSpan.FromMilliseconds(1300),
@@ -198,6 +203,12 @@ public sealed class GameBindable : Bindable<GameView>
         this.Clock = string.Empty;
     }
 
+    private void UpdateHintVisibility()
+    {
+        bool visible = this.IsGameRunning && !this.table.IsLastRow && this.table.CurrentRow > 0;
+        this.HintVisibility = visible ? Visibility.Visible : Visibility.Hidden;
+    }
+
     private void OnKeyPress(KeyMessage keyMessage)
         => Dispatch.OnUiThread(this.OnKeyPressUi, keyMessage);
 
@@ -208,7 +219,6 @@ public sealed class GameBindable : Bindable<GameView>
             return;
         }
 
-        // Debug.WriteLine(keyMessage.Key);
         this.MessageVisibility = Visibility.Hidden;
         if (!this.IsGameRunning)
         {
@@ -218,6 +228,7 @@ public sealed class GameBindable : Bindable<GameView>
         // send to game keyMessage.Key
         this.table.OnNewChar(keyMessage.Key);
         this.RefreshRow(this.table.CurrentRow);
+        this.UpdateHintVisibility();
     }
 
     private void OnControlKeyPress(ControlMessage controlMessage)
@@ -225,6 +236,7 @@ public sealed class GameBindable : Bindable<GameView>
 
     private void OnControlKeyPressUi(ControlMessage controlMessage)
     {
+
         if (this.isAnimating)
         {
             return;
@@ -248,7 +260,7 @@ public sealed class GameBindable : Bindable<GameView>
                 if (this.table.OnEnter())
                 {
                     string url = string.Format(italianWiktionaryUrlFormat, word.AsString().ToLower());
-                    Messenger.Instance.Send(new NavigationMessage(url)); 
+                    Messenger.Instance.Send(new NavigationMessage(url));
                     int row = this.table.IsGameOver ? this.table.CurrentRow : this.table.CurrentRow - 1;
                     this.RefreshRowOnEnter(row);
                     this.RefreshKeyboard();
@@ -271,12 +283,42 @@ public sealed class GameBindable : Bindable<GameView>
                 this.StartGame();
             }
         }
+        else if (key == Key.F1)
+        {
+            if (this.IsGameRunning)
+            {
+                this.ProvideHint();
+            }
+        }
         else
         {
             // Backspace or delete
             this.table.OnBackspace();
             this.RefreshRow(this.table.CurrentRow);
         }
+
+        this.UpdateHintVisibility();
+    }
+
+    private void OnProvideHint(object _) => this.ProvideHint();
+
+    private void ProvideHint()
+    {
+        if (!this.IsGameRunning || this.table.IsLastRow || this.table.CurrentRow == 0)
+        {
+            return;
+        }
+
+        var word = this.table.ProvideHint();
+        if (word is null)
+        {
+            return;
+        }
+
+        this.table.OnSetHint(word);
+        this.RefreshRowOnEnter(this.table.CurrentRow - 1, noAnimate: true);
+        this.RefreshKeyboard();
+        this.UpdateHintVisibility();
     }
 
     private void Hide()
@@ -301,32 +343,46 @@ public sealed class GameBindable : Bindable<GameView>
         }
     }
 
-    private void RefreshRowOnEnter(int row)
+    private void RefreshRowOnEnter(int row, bool noAnimate = false)
     {
-        this.isAnimating = true;
-
-        var word = this.table.WordAt(row);
-        var placement = this.table.PlacementAt(row);
-        int delay = 50;
-        for (int col = 0; col < Word.Length; col++)
+        if (noAnimate)
         {
-            var letterBindable = this.letterBindables[row, col];
-            CharacterPlacement characterPlacement = placement[col];
-            char character = word.Get(col);
-            delay += col * 150;
-            var tuple = new Tuple<LetterBindable, char, CharacterPlacement>(letterBindable, character, characterPlacement);
-            Schedule.OnUiThread(delay, this.UpdateLetter, tuple);
+            var word = this.table.WordAt(row);
+            var placement = this.table.PlacementAt(row);
+            for (int col = 0; col < Word.Length; col++)
+            {
+                var letterBindable = this.letterBindables[row, col];
+                CharacterPlacement characterPlacement = placement[col];
+                letterBindable.Update(word.Get(col), characterPlacement, animate: false);
+            }
         }
+        else
+        {
+            this.isAnimating = true;
 
-        Schedule.OnUiThread(1000, () => this.isAnimating = false);
+            var word = this.table.WordAt(row);
+            var placement = this.table.PlacementAt(row);
+            int delay = 50;
+            for (int col = 0; col < Word.Length; col++)
+            {
+                var letterBindable = this.letterBindables[row, col];
+                CharacterPlacement characterPlacement = placement[col];
+                char character = word.Get(col);
+                delay += col * 150;
+                var tuple = new Tuple<LetterBindable, char, CharacterPlacement>(letterBindable, character, characterPlacement);
+                Schedule.OnUiThread(delay, this.UpdateLetter, tuple);
+            }
+
+            Schedule.OnUiThread(1000, () => this.isAnimating = false);
+        }
     }
 
-    private void UpdateLetter(Tuple<LetterBindable, char, CharacterPlacement> tuple)    
-        => tuple.Item1.Update(tuple.Item2, tuple.Item3, animate:true);
+    private void UpdateLetter(Tuple<LetterBindable, char, CharacterPlacement> tuple)
+        => tuple.Item1.Update(tuple.Item2, tuple.Item3, animate: true);
 
     private void RefreshKeyboard()
     {
-        void Refresh( HashSet<char> hash, CharacterPlacement placement )
+        void Refresh(HashSet<char> hash, CharacterPlacement placement)
         {
             foreach (char letter in hash)
             {
@@ -343,7 +399,7 @@ public sealed class GameBindable : Bindable<GameView>
         Refresh(this.table.ExactLetters(), CharacterPlacement.Exact);
     }
 
-    private void ShowMessage ()
+    private void ShowMessage()
     {
         if (this.table.IsWon)
         {
@@ -417,10 +473,13 @@ public sealed class GameBindable : Bindable<GameView>
 
     public Visibility TableGrid76Visibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
-    /// <summary> Gets or sets the StartCommand bound property.</summary>
     public ICommand StartCommand { get => this.Get<ICommand>(); set => this.Set(value); }
 
     public Visibility StartVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
+
+    public ICommand HintCommand { get => this.Get<ICommand>(); set => this.Set(value); }
+
+    public Visibility HintVisibility { get => this.Get<Visibility>(); set => this.Set(value); }
 
     public string Message { get => this.Get<string>(); set => this.Set(value); }
 

@@ -33,13 +33,13 @@ public class Word
 
     public bool IsComplete => !this.characters.Contains(space);
 
-    public bool IsEvaluated { get; private set; }
+    public bool IsEvaluated { get; set; }
 
     public bool IsEmpty(int column) => this.characters[column] == space;
 
     public void Clear(int column) => this.characters[column] = space;
 
-    public void Set(int column, char character) => this.characters[column] = character;
+    public void Set(int column, char character) => this.characters[column] = char.ToUpper(character);
 
     public char Get(int column) => this.characters[column];
 

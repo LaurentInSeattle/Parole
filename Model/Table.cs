@@ -1,4 +1,6 @@
-﻿namespace Parole.Model;
+﻿using System.Windows;
+
+namespace Parole.Model;
 
 public class Table
 {
@@ -40,7 +42,9 @@ public class Table
 
     public int CurrentRow { get; private set; }
 
-    public TimeSpan CompletedTime { get; private set; } 
+    public TimeSpan CompletedTime { get; private set; }
+
+    public bool IsLastRow => this.CurrentRow == Rows - 1;   
 
     public bool IsGameOver  { get; private set; }
 
@@ -127,6 +131,67 @@ public class Table
         return true;
     }
 
+    public Word ProvideHint ()
+    {
+        bool[] hint = new bool[this.words.Length];
+        for (int i = 0; i < Word.Length; ++i)
+        {
+            hint[i] = true;
+        }
+
+        for (int row = 0; row < Rows; ++row)
+        {
+            var word = this.words[row];
+            if (!word.IsEvaluated)
+            {
+                continue;
+            }
+
+            var placement = this.placements[row];
+            for (int col = 0; col < Word.Length; ++col)
+            {
+                if (placement[col] == CharacterPlacement.Exact)
+                {
+                    hint[col] =false;
+                }
+            }
+        }
+
+        for (int i = 0; i < Word.Length; ++ i )
+        {
+            if( ! hint[i] )
+            {
+                continue ;
+            }
+
+            char c = this.solution.Get(i);
+            var word = new Word();
+            word.Set (i, c);
+            return word;
+        } 
+
+        return null;
+    }
+
+    public void OnSetHint(Word word)
+    {
+        var placement = new Placement();
+        for (int col = 0; col < Word.Length; ++col)
+        {
+            char c = word.Get(col);
+            this.words[this.CurrentRow].Set(col, c);
+            if ( !char.IsWhiteSpace(c))
+            {
+                placement[col] = CharacterPlacement.Exact;
+            }
+        }
+
+        this.words[this.CurrentRow].IsEvaluated = true;
+        this.placements[this.CurrentRow] = placement; 
+        ++this.CurrentRow;
+        this.currentCol = 0;
+    }
+
     public HashSet<char> ExactLetters() => this.LettersPlacedAs(CharacterPlacement.Exact);
 
     public HashSet<char> AbsentLetters() => this.LettersPlacedAs(CharacterPlacement.Absent);
@@ -156,4 +221,5 @@ public class Table
 
         return letters;
     }
+
 }

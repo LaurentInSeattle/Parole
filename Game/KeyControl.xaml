@@ -12,6 +12,7 @@
         >
         <Button
             Command="{Binding ClickCommand}"
+            KeyboardNavigation.AcceptsReturn="False"
             >
             <Border
                 BorderThickness="1"

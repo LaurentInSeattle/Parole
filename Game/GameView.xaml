@@ -47,6 +47,7 @@
                     Command="{Binding StartCommand}"
                     Visibility="{Binding StartVisibility}"
                     Margin="8"
+                    KeyboardNavigation.AcceptsReturn="False"
                     >
                     <Border
                         BorderThickness="1"
@@ -60,6 +61,31 @@
                             FontSize="60"
                             FontWeight="Bold"
                             Text="Inizia"
+                            Margin="0 28 0 0 "
+                            VerticalAlignment="Center" HorizontalAlignment="Stretch" 
+                            TextAlignment="Center" 
+                            Width="308" Height="128"
+                            />
+                    </Border>
+                </Button>
+                <Button
+                    Command="{Binding HintCommand}"
+                    Visibility="{Binding HintVisibility}"
+                    Margin="8"
+                    KeyboardNavigation.AcceptsReturn="False"
+                    >
+                    <Border
+                        BorderThickness="1"
+                        BorderBrush="{Binding BorderBrush}"
+                        Background="{Binding BackgroundBrush}"
+                        VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                        Margin="0" Padding="0"
+                        >
+                        <TextBlock
+                            Foreground="{Binding TextBrush}"
+                            FontSize="60"
+                            FontWeight="Bold"
+                            Text="Consiglio"
                             Margin="0 28 0 0 "
                             VerticalAlignment="Center" HorizontalAlignment="Stretch" 
                             TextAlignment="Center" 
