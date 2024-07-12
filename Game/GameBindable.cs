@@ -20,6 +20,7 @@ public sealed class GameBindable : Bindable<GameView>
     private bool easy;
     private State gameState;
     private bool isAnimating;
+    private bool isHintAvailable;
     private DateTime startTime;
     private DispatcherTimer clockTimer;
 
@@ -165,6 +166,7 @@ public sealed class GameBindable : Bindable<GameView>
         this.easy = !this.easy;
         // this.table = new Table(this.easy);
         this.table = new Table(easy: true);
+        this.isHintAvailable = true;
         this.gameState = State.Running;
         this.startTime = DateTime.Now;
         this.ClearTableGrid();
@@ -205,7 +207,7 @@ public sealed class GameBindable : Bindable<GameView>
 
     private void UpdateHintVisibility()
     {
-        bool visible = this.IsGameRunning && !this.table.IsLastRow && this.table.CurrentRow > 0;
+        bool visible = this.IsGameRunning && this.isHintAvailable && !this.table.IsLastRow && this.table.CurrentRow > 0;
         this.HintVisibility = visible ? Visibility.Visible : Visibility.Hidden;
     }
 
@@ -304,7 +306,7 @@ public sealed class GameBindable : Bindable<GameView>
 
     private void ProvideHint()
     {
-        if (!this.IsGameRunning || this.table.IsLastRow || this.table.CurrentRow == 0)
+        if (!this.IsGameRunning || !this.isHintAvailable || this.table.IsLastRow || this.table.CurrentRow == 0)
         {
             return;
         }
@@ -318,6 +320,7 @@ public sealed class GameBindable : Bindable<GameView>
         this.table.OnSetHint(word);
         this.RefreshRowOnEnter(this.table.CurrentRow - 1, noAnimate: true);
         this.RefreshKeyboard();
+        this.isHintAvailable = false;
         this.UpdateHintVisibility();
     }
 
@@ -365,8 +368,45 @@ public sealed class GameBindable : Bindable<GameView>
             int delay = 50;
             for (int col = 0; col < Word.Length; col++)
             {
-                var letterBindable = this.letterBindables[row, col];
                 CharacterPlacement characterPlacement = placement[col];
+                if( characterPlacement != CharacterPlacement.Absent)
+                {
+                    continue; 
+                }
+
+                var letterBindable = this.letterBindables[row, col];
+                char character = word.Get(col);
+                delay += col * 150;
+                var tuple = new Tuple<LetterBindable, char, CharacterPlacement>(letterBindable, character, characterPlacement);
+                Schedule.OnUiThread(delay, this.UpdateLetter, tuple);
+            }
+
+            delay += 100;
+            for (int col = 0; col < Word.Length; col++)
+            {
+                CharacterPlacement characterPlacement = placement[col];
+                if (characterPlacement != CharacterPlacement.Present)
+                {
+                    continue;
+                }
+
+                var letterBindable = this.letterBindables[row, col];
+                char character = word.Get(col);
+                delay += col * 150;
+                var tuple = new Tuple<LetterBindable, char, CharacterPlacement>(letterBindable, character, characterPlacement);
+                Schedule.OnUiThread(delay, this.UpdateLetter, tuple);
+            }
+
+            delay += 100;
+            for (int col = 0; col < Word.Length; col++)
+            {
+                CharacterPlacement characterPlacement = placement[col];
+                if (characterPlacement != CharacterPlacement.Exact)
+                {
+                    continue;
+                }
+
+                var letterBindable = this.letterBindables[row, col];
                 char character = word.Get(col);
                 delay += col * 150;
                 var tuple = new Tuple<LetterBindable, char, CharacterPlacement>(letterBindable, character, characterPlacement);
