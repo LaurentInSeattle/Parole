@@ -23,7 +23,7 @@
             Margin="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
             TextAlignment="Center"
             Text="{Binding GuessCount}"
-            Foreground="DarkOrange"
+            Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
             FontSize="20"
             />
         <Rectangle
@@ -31,14 +31,14 @@
             Margin="0" HorizontalAlignment="Left"
             Width="{Binding RectangleWidth}" 
             Height="16" VerticalAlignment="Center" 
-            Fill="DarkOrange"
+            Fill="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
             />
         <TextBlock
             Grid.Column="3"
             Margin="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
             TextAlignment="Center"
             Text="{Binding Count}"
-            Foreground="DarkOrange"
+            Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
             FontSize="20"
             />
     </Grid>

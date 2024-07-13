@@ -21,7 +21,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="800"/>
-                <ColumnDefinition Width="320"/>
+                <ColumnDefinition Width="324"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
@@ -48,6 +48,7 @@
                     Visibility="{Binding StartVisibility}"
                     Margin="8"
                     KeyboardNavigation.AcceptsReturn="False"
+                    Background="Transparent"
                     >
                     <Border
                         BorderThickness="1"
@@ -73,6 +74,7 @@
                     Visibility="{Binding HintVisibility}"
                     Margin="8"
                     KeyboardNavigation.AcceptsReturn="False"
+                    Background="Transparent"
                     >
                     <Border
                         BorderThickness="1"
@@ -99,7 +101,7 @@
                     TextWrapping="Wrap"
                     TextAlignment="Center"
                     Text="{Binding Message}"
-                    Foreground="DarkOrange"
+                    Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                     FontSize="50"
                     Visibility="{Binding MessageVisibility}"
                     />
@@ -109,18 +111,18 @@
                     TextWrapping="Wrap"
                     TextAlignment="Center"
                     Text="{Binding Clock}"
-                    Foreground="DarkOrange"
+                    Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                     FontSize="42"
                     Visibility="{Binding ClockVisibility}"
                     />
                 <TextBlock
                     Grid.Row="2" Grid.RowSpan="2" Grid.Column="0"
-                    Margin="4 -36 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    Margin="0 -36 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
                     TextWrapping="Wrap"
                     TextAlignment="Center"
                     Text="{Binding Solution}"
                     Foreground="LightSteelBlue"
-                    FontSize="104"
+                    FontSize="100"
                     FontWeight="Bold"
                     Visibility="{Binding SolutionVisibility}"
                     />
@@ -145,7 +147,7 @@
                         TextWrapping="Wrap"
                         TextAlignment="Left"
                         Text="{Binding Plays}"
-                        Foreground="DarkOrange"
+                        Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                         FontSize="20"
                         />
                     <TextBlock
@@ -154,7 +156,7 @@
                         TextWrapping="Wrap"
                         TextAlignment="Left"
                         Text="{Binding Wins}"
-                        Foreground="DarkOrange"
+                        Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                         FontSize="20"
                         />
                     <TextBlock
@@ -163,7 +165,7 @@
                         TextWrapping="Wrap"
                         TextAlignment="Left"
                         Text="{Binding Losses}"
-                        Foreground="DarkOrange"
+                        Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                         FontSize="20"
                         />
                     <TextBlock
@@ -172,7 +174,7 @@
                         TextWrapping="Wrap"
                         TextAlignment="Left"
                         Text="{Binding WinRate}"
-                        Foreground="DarkOrange"
+                        Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                         FontSize="20"
                         />
                     <TextBlock
@@ -181,7 +183,7 @@
                         TextWrapping="Wrap"
                         TextAlignment="Left"
                         Text="{Binding BestStreak}"
-                        Foreground="DarkOrange"
+                        Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                         FontSize="20"
                         />
                     <TextBlock
@@ -190,7 +192,7 @@
                         TextWrapping="Wrap"
                         TextAlignment="Left"
                         Text="{Binding CurrentStreak}"
-                        Foreground="DarkOrange"
+                        Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                         FontSize="20"
                         />
                     <TextBlock
@@ -199,7 +201,7 @@
                         TextWrapping="Wrap"
                         TextAlignment="Left"
                         Text="Distribuzione delle Ipotesi"
-                        Foreground="DarkOrange"
+                        Foreground="{Binding Path=Instance.UiText, Source={x:Static local:Theme.Instance}}"
                         FontSize="20"
                         />
                     <local:HistogramControl
