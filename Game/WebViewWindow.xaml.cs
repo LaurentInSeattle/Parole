@@ -4,6 +4,8 @@ namespace Parole.Game;
 /// <summary> Interaction logic for WebViewWindow.xaml </summary>
 public partial class WebViewWindow : Window
 {
+    // https://www.google.it/search?q=calico&udm=2
+
     public WebViewWindow()
     {
         this.InitializeComponent();

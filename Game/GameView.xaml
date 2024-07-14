@@ -21,7 +21,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="800"/>
-                <ColumnDefinition Width="324"/>
+                <ColumnDefinition Width="360"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
@@ -65,7 +65,7 @@
                             Margin="0 28 0 0 "
                             VerticalAlignment="Center" HorizontalAlignment="Stretch" 
                             TextAlignment="Center" 
-                            Width="308" Height="128"
+                            Width="340" Height="128"
                             />
                     </Border>
                 </Button>
@@ -91,7 +91,7 @@
                             Margin="0 28 0 0 "
                             VerticalAlignment="Center" HorizontalAlignment="Stretch" 
                             TextAlignment="Center" 
-                            Width="308" Height="128"
+                            Width="340" Height="128"
                             />
                     </Border>
                 </Button>
@@ -117,12 +117,12 @@
                     />
                 <TextBlock
                     Grid.Row="2" Grid.RowSpan="2" Grid.Column="0"
-                    Margin="0 -36 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                    Margin="0 -26 0 0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
                     TextWrapping="Wrap"
                     TextAlignment="Center"
                     Text="{Binding Solution}"
                     Foreground="LightSteelBlue"
-                    FontSize="100"
+                    FontSize="94"
                     FontWeight="Bold"
                     Visibility="{Binding SolutionVisibility}"
                     />

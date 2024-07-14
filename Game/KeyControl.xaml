@@ -20,12 +20,12 @@
                 BorderBrush="{Binding BorderBrush}"
                 Background="{Binding BackgroundBrush}"
                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                Height="52" Width="124"
+                Height="48" Width="127"
                 Margin="0" Padding="0"
                 >
                 <TextBlock
                     Foreground="{Binding TextBrush}"
-                    FontSize="32"
+                    FontSize="38"
                     FontWeight="Bold"
                     Text="{Binding Text}"
                     Margin="0 -4 0 0 "

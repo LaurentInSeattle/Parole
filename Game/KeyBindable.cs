@@ -50,7 +50,7 @@ public sealed class KeyBindable : Bindable<KeyControl>
         {
             Messenger.Instance.Send<ControlMessage>(new ControlMessage(Key.Enter));
         }
-        else if (this.Text.StartsWith('⇦'))
+        else if (this.Text.StartsWith('\u232B'))
         {
             Messenger.Instance.Send<ControlMessage>(new ControlMessage(Key.Back));
         }
