@@ -5,6 +5,7 @@
     <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
     <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\parole.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +23,7 @@
     <None Remove="Resources\comuni5.txt" />
     <None Remove="Resources\comuni6.txt" />
     <None Remove="Resources\dark.jpg" />
+    <None Remove="Resources\parole.ico" />
     <None Remove="Resources\parole51.txt" />
     <None Remove="Resources\parole52.txt" />
     <None Remove="Resources\parole53.txt" />
@@ -29,6 +31,14 @@
     <None Remove="Resources\Parole55.txt" />
     <None Remove="Resources\Parole60.txt" />
     <None Remove="Resources\Parole61.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\parole.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\parole.ico" />
   </ItemGroup>
 
   <ItemGroup>
