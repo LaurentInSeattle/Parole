@@ -53,7 +53,7 @@ public class Theme : Singleton<Theme>
                 this.Text = Brushes.LavenderBlush;
                 this.TextAbsent = Brushes.SlateGray;
                 this.BoxBorder = Brushes.PowderBlue;
-                this.BoxUnknown = new SolidColorBrush(Color.FromArgb(0x28, 0x48, 0x3D, 0x9B));// Brushes.DarkSlateBlue;
+                this.BoxUnknown = new SolidColorBrush(Color.FromArgb(0x22, 0x48, 0x3D, 0x9B));// Brushes.DarkSlateBlue;
                 this.BoxPresent = new SolidColorBrush(Color.FromArgb(0xD0, 0xFF, 0xB0, 0x10));
                 this.BoxAbsent = new SolidColorBrush(Color.FromArgb(0xC0, 0x20, 0x30, 0x50));// Brushes.DarkSlateGray;
                 this.BoxExact = new SolidColorBrush(Color.FromArgb(0xC0, 0x2F, 0xA0, 0x5F));

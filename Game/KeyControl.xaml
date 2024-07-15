@@ -30,7 +30,8 @@
                     Text="{Binding Text}"
                     Margin="0 -4 0 0 "
                     VerticalAlignment="Center" HorizontalAlignment="Center"
-                    />
+                    >
+                </TextBlock>
             </Border>
         </Button>
     </Grid>
