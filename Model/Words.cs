@@ -168,11 +168,6 @@ public sealed class Words : Singleton<Words>
         string[] commonTokens = commonContent.Split(separator, StringSplitOptions.RemoveEmptyEntries);
         foreach (string token in commonTokens)
         {
-            //if (this.words.Contains(token))
-            //{
-            //    continue;
-            //}
-
             if (string.IsNullOrWhiteSpace(token) && (token.Length != Word.Length))
             {
                 continue;
@@ -189,7 +184,6 @@ public sealed class Words : Singleton<Words>
                 hash.Add(token[j]);
             }
 
-            // if (hash.Count != Word.Length)
             if (hash.Count < Word.Length - 1)
             {
                 continue;

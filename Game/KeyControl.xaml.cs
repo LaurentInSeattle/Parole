@@ -1,6 +1,5 @@
 ﻿namespace Parole.Game;
 
-/// <summary> Interaction logic for KeyControl.xaml </summary>
 public partial class KeyControl : UserControl
 {
     public KeyControl()

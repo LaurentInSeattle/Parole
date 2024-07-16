@@ -23,10 +23,10 @@ public sealed class KeyBindable : Bindable<KeyControl>
 
         if (characterPlacement == CharacterPlacement.Absent)
         {
-            this.IsDisabled = true; 
+            this.IsDisabled = true;
         }
     }
-    public bool IsDisabled {  get; private set; }   
+    public bool IsDisabled { get; private set; }
 
     public void Clear()
     {
@@ -46,7 +46,7 @@ public sealed class KeyBindable : Bindable<KeyControl>
 
     private void OnClick(object _)
     {
-        if ( this.Text == "Invio")
+        if (this.Text.StartsWith('\u23CE'))
         {
             Messenger.Instance.Send<ControlMessage>(new ControlMessage(Key.Enter));
         }
@@ -59,7 +59,7 @@ public sealed class KeyBindable : Bindable<KeyControl>
             if (!this.IsDisabled)
             {
                 Messenger.Instance.Send<KeyMessage>(new KeyMessage(this.Text));
-            } 
+            }
         }
     }
 

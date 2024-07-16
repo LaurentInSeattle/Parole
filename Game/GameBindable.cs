@@ -27,7 +27,7 @@ public sealed class GameBindable : Bindable<GameView>
         { "Q" , "E" , "R", "T", "U", "I", "O", "P"},
         { "A" , "S" , "D", "F", "G", "H", "L", " "},
         { "Z" , "C" , "V", "B", "N", "M", " ", "\u232B"}, // U+232B// U+2421
-        { "à" , "è" , "é", "ì", "ò", "ù", " ", "Invio"},
+        { "à" , "è" , "é", "ì", "ò", "ù", " ", "\u23CE"},
     };
 
     // Bulgarian 

@@ -1,6 +1,4 @@
-﻿using System.Windows;
-
-namespace Parole.Model;
+﻿namespace Parole.Model;
 
 public class Table
 {
@@ -221,5 +219,4 @@ public class Table
 
         return letters;
     }
-
 }

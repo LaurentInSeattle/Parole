@@ -34,12 +34,6 @@ public sealed class LetterBindable : Bindable<LetterControl>
             var letterGrid = this.View.LetterGrid;
             letterGrid.Opacity = 0.0 ;
             letterGrid.FadeIn(1000);
-            //letterGrid.Opacity = 1.0;
-            //letterGrid.RowDefinitions[0].Height = new GridLength(0.0, GridUnitType.Pixel);
-            //letterGrid.ColumnDefinitions[0].Width = new GridLength(0.0, GridUnitType.Pixel);
-            //double size = Word.Length == 6 ? smallGridSize : largeGridSize;
-            //letterGrid.AnimateRow(0, size, 200);
-            //letterGrid.AnimateColumn(0, size, 200);
         }
     }
 
