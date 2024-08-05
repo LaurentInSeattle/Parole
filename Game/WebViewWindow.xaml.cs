@@ -3,6 +3,7 @@ namespace Parole.Game;
 
 public partial class WebViewWindow : Window
 {
+    // URL for images: "calico" in the example below
     // https://www.google.it/search?q=calico&udm=2
 
     public WebViewWindow()

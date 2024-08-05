@@ -104,7 +104,15 @@ public class Word
                     list.Remove(testChar);
                 }
             }
-        } 
+        }
+
+        for (int i = 0; i < Length; i++)
+        {
+            if (placement[i] == CharacterPlacement.Unknown)
+            {
+                placement[i] = CharacterPlacement.Absent;
+            } 
+        }
 
         this.IsEvaluated = true;
         isFound = found;

@@ -249,7 +249,6 @@ affare
 timido
 basico
 bestia
-perch�
 belare
 bufalo
 uffici
@@ -446,7 +445,6 @@ debole
 balena
 quando
 bianco
-perché
 moglie
 auguri
 dodici
