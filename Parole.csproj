@@ -10,9 +10,13 @@
 
   <ItemGroup>
     <Compile Remove="CoreMvvm\**" />
+    <Compile Remove="DicBuilder\**" />
     <EmbeddedResource Remove="CoreMvvm\**" />
+    <EmbeddedResource Remove="DicBuilder\**" />
     <None Remove="CoreMvvm\**" />
+    <None Remove="DicBuilder\**" />
     <Page Remove="CoreMvvm\**" />
+    <Page Remove="DicBuilder\**" />
   </ItemGroup>
 
   <ItemGroup>

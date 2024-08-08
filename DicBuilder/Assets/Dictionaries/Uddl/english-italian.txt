@@ -1,0 +1,1656 @@
+# English-Italian translations created from the Universal dictionary at 2018-06-03T19:33:40+00:00
+# (c) Copyright 2018 by All free dictionaries project
+# ALL FREE DICTIONARIES PROJECT DISCLAIMS ALL
+# WARRANTIES WITH REGARD TO THESE TRANSLATIONS, INCLUDING ALL
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+# EVENT SHALL ALL FREE DICTIONARIES PROJECT OR ANY OF ITS CONTRIBUTORS
+# BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES
+# OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+# PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+# OR OTHER ACTION, ARISING OUT OF OR IN CONNECTION
+# WITH THE USE OR PERFORMANCE OF THESE TRANSLATIONS.
+#
+# In other words there may be incorrect translations.
+# If you need to be sure never use these translations!
+#
+# French, German and Czech entries are added manually. The entries for
+# remaining languages are added automatically. Entries for these languages
+# are only experimental.
+#
+# You may not place this file on WWW, ftp and equivalent servers because
+# this file gets outdated very quickly. You may not distribute this file
+# with your dictionary applications without permission. You can contact
+# authors of the Universal dictionary at: http://dicts.info/contact.php
+#
+# This file is for personal use only. You may not distribute this file.
+#
+# New version of this file can be created at: https://www.dicts.info/uddl.php
+#
+
+April  ; Apr	aprile	time
+August  ; Aug	agosto	time
+China  ; People's Republic of China  ; mainland China  ; Communist China  ; Red China  ; PRC  ; Cathay	Cina	country
+Chinese	cinese	language
+Czech Republic	Repubblica Ceca	country
+December  ; Dec	dicembre	time
+Earth  ; earth  ; world  ; globe	globo	geography
+English  ; English language	inglese	language
+February  ; Feb	febbraio	time
+France  ; French Republic	Repubblica francese	country
+French	francese	language
+Friday  ; Fri	Venerdì	time
+German  ; High German  ; German language	tedesco	language
+Germany  ; Federal Republic of Germany  ; Deutschland  ; FRG	Repubblica federale di Germania	country
+Hindi	hindi	language
+I don't know	non lo so	conversation
+I don't understand	non capisco	conversation
+India  ; Republic of India  ; Bharat	Unione Indiana	country
+Italian	italiano	language
+Italy  ; Italian Republic  ; Italia	Italia	country
+January  ; Jan	gennaio	time
+Japan  ; Nippon  ; Nihon	Giappone	country
+Japanese	giapponese	language
+July	luglio	time
+June	giugno	time
+May	maggio	time
+Monday  ; Mon	Lunedì	time
+Moon  ; moon	luna	geography
+November  ; Nov	novembre	time
+October  ; Oct	ottobre	time
+Russian	russo	language
+Saturday  ; Sabbatum  ; Sat	sabato	time
+September  ; Sep  ; Sept	settembre	time
+Spain  ; Kingdom of Spain  ; Espana	Regno di Spagna	country
+Spanish	spagnolo	language
+Sunday  ; Lord's Day  ; Dominicus  ; Sun	domenica	time
+Thursday  ; Th	Giovedì	time
+Tuesday  ; Tues	martedì	time
+United Kingdom  ; UK  ; U.K.  ; Britain  ; United Kingdom of Great Britain and Northern Ireland  ; Great Britain	Regno Unito	country
+United States  ; United States of America  ; America  ; the States  ; US  ; U.S.  ; USA  ; U.S.A.	Stati Uniti d'America	country
+Wednesday  ; Midweek  ; Wed	mercoledì	time
+a  ; an	un	article
+ability  ; power	capacità	abstract
+able	capace	adjective-people
+about  ; around	intorno	adverb
+above  ; higher up  ; in a higher place  ; to a higher place	sopra	adverb
+accept  ; take  ; have	accettare	verb
+accident	incidente	transport
+account  ; business relationship	conto	business
+accuse  ; charge	accusare	verb
+achieve  ; accomplish  ; attain  ; reach	realizzare	verb
+acid	acido	material
+acid rain  ; acid precipitation	pioggia acida	environment
+act  ; deed  ; human action  ; human activity	atto	abstract
+act  ; move	agire	verb
+action	azione	abstract
+activity  ; action  ; activeness	attività	abstract
+actor  ; histrion  ; player  ; thespian  ; role player	attore	profession
+actress	attrice	profession
+add	addizionare	verb
+add  ; add together	addizionare	verb
+addition  ; add-on  ; improver	bambino	abstract
+addition  ; summation  ; plus	addizione	mathematics
+address	indirizzo	house
+admit  ; acknowledge	riconoscere	verb
+advantage  ; vantage	vantaggio	business
+advertisement  ; ad  ; advertizement  ; advertising  ; advertizing  ; advert	pubblicità	business
+advice	consiglio	business
+affect  ; impact  ; bear upon  ; bear on  ; touch on  ; touch	influenzare	verb
+afternoon	pomeriggio	time
+again  ; once again  ; once more  ; over again	di nuovo	adverb
+against	contro	preposition
+age	età	time
+ago  ; agone	fa	adjective
+agree  ; hold  ; concur  ; concord	accordo con	verb
+agreement  ; understanding	accomodamento	business
+air	aria	nature
+airport  ; airdrome  ; aerodrome  ; drome	aerodromo	city
+alive  ; live	vivo	adjective-people
+all	tutto	adjective
+allow  ; let  ; permit	permettere	verb
+almost  ; about  ; most  ; nearly  ; near  ; nigh  ; virtually  ; well-nigh	quasi	adverb
+alone  ; lone  ; lonely  ; solitary	solitario	adjective-people
+along	lungo	adverb
+already	già	adverb
+always  ; ever  ; e'er	sempre	adverb
+among  ; amongst  ; amid  ; amidst	in mezzo a	preposition
+amount	quantità	abstract
+and	e	conjunction
+angle	angolo	mathematics
+angry	arrabbiato	adjective-people
+animal  ; animate being  ; beast  ; brute  ; creature  ; fauna	animale	nature
+announce  ; denote	annunciare	verb
+announcement  ; proclamation  ; annunciation  ; declaration	annuncio	communication
+another  ; some other	un altro	adjective-basic
+answer  ; reply  ; response	risposta	communication
+ant  ; emmet  ; pismire	formica	animal
+any  ; whatever  ; whatsoever	qualsiasi	adjective
+anyone	chiunque	pronoun
+anything	qualunque cosa	pronoun
+apple	mela	fruit
+approval  ; blessing  ; approving	approvazione	communication
+approximately  ; about  ; close to  ; just about  ; some  ; roughly  ; more or less  ; around  ; or so	approssimativamente	adverb
+apricot	albicocca	fruit
+area  ; expanse  ; surface area	area	mathematics
+argue  ; contend  ; debate  ; fence	discutere	verb
+argument  ; controversy  ; contention  ; contestation  ; disputation  ; disceptation  ; tilt  ; arguing	discussione	communication
+argument  ; statement	argomentazione	communication
+arm	braccio	anatomy
+army  ; regular army  ; ground forces	esercito	society
+arrive  ; make it  ; get in  ; go far	arrivare	verb
+art  ; fine art	arte	art
+artist  ; creative person	artista	art
+ask  ; inquire  ; enquire	chiedere	verb
+at	a	preposition
+at	a	preposition
+atmosphere  ; air	atmosfera	environment
+attack  ; assail  ; assault  ; set on	attaccare	verb
+attack  ; onslaught  ; onset  ; onrush	attacco	abstract
+attempt  ; effort  ; endeavor  ; endeavour  ; try	tentativo	abstract
+attention  ; attending	attenzione	business
+attitude  ; mental attitude	atteggiamento	abstract
+authority  ; authorization  ; authorisation  ; potency  ; dominance  ; say-so	autorità	business
+automatic	automatico	adjective
+autumn  ; fall	autunno	time
+available	disponibile	adjective
+avoid	evitare	verb
+awake	sveglio	adjective-people
+award  ; accolade  ; honor  ; honour  ; laurels	distinzione	sports
+baby  ; babe  ; infant	bambino	family
+back	fondo	abstract
+back  ; dorsum	schiena	anatomy
+bad	cattivo	adjective-basic
+bag	borsa	container
+bag  ; handbag  ; pocketbook  ; purse	borsa	clothes
+balance	equilibrio	physics
+ball	palla	sports
+banana	banana	fruit
+band  ; dance band  ; dance orchestra	banda	art
+bank	riva	geography
+bank  ; depository financial institution  ; banking concern  ; banking company	banca	city
+banknote  ; bill  ; note  ; government note  ; bank bill  ; banker's bill  ; bank note  ; Federal Reserve note  ; greenback	biglietto	business
+bargain  ; deal	accordo	business
+base  ; base of operations	base	society
+baseball  ; baseball game	baseball	sports
+basic	di base	adjective-basic
+basket  ; handbasket	cesto	container
+bathroom  ; bath	bagno	house
+be	essere	verb-basic
+be  ; live	vivere	verb
+beach	spiaggia	geography
+beak  ; bill  ; neb  ; nib  ; pecker	becco	anatomy
+bean  ; edible bean	fagiolo	vegetable
+bear	orso	animal
+bear	portare	verb
+beat  ; beat out  ; crush  ; shell  ; trounce  ; vanquish	vincere	verb
+beautiful	bello	adjective-basic
+because	perché	conjunction
+become  ; go  ; get	diventare	verb
+bed	letto	furniture
+bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber	camera da letto	house
+bee	ape	animal
+beer	birra	drink
+before  ; earlier	prima	adverb
+begin  ; start  ; get down  ; get  ; start out  ; set about  ; set out  ; commence	iniziare	verb-basic
+beginning  ; commencement  ; first  ; outset  ; get-go  ; start  ; kickoff  ; starting time  ; showtime  ; offset	inizio	time
+behave  ; acquit  ; bear  ; deport  ; conduct  ; comport  ; carry	agire	verb
+behavior  ; demeanor  ; demeanour  ; behaviour  ; conduct  ; deportment	comportamento	abstract
+behind	dietro	adverb
+believe	credere	verb
+bell	campana	tool
+beside	a fianco di	preposition
+best	migliore	adjective-basic
+better	meglio	adjective-basic
+between  ; betwixt	tra	adverb
+beyond	oltretomba	adverb
+big  ; large	grande	adjective-basic
+bike  ; bicycle  ; wheel  ; cycle	bicicletta	sports
+biology  ; biological science	biologia	science
+bird	uccello	animal
+birth  ; nativity  ; nascency  ; nascence	nascita	family
+birthday	compleanno	family
+bit  ; chip  ; flake  ; fleck  ; scrap	morso	abstract
+bite  ; seize with teeth	mordere	verb
+bitter	amaro	adjective
+black	nero	color
+blackberry	mora	fruit
+blade	lama	object
+blood	sangue	anatomy
+blow	colpo	abstract
+blue  ; bluish  ; blueish	azzurro	color
+board	tabellone	object
+boat	barca	transport
+body  ; torso  ; trunk	tronco	anatomy
+bone  ; os	osso	anatomy
+book  ; volume	libro	communication
+boot	stivale	clothes
+boring  ; deadening  ; dull  ; ho-hum  ; irksome  ; slow  ; tedious  ; tiresome  ; wearisome	noioso	adjective
+both	entrambi	adjective
+bottle	bottiglia	container
+box	cassetta	container
+boy  ; male child	ragazzo	family
+boyfriend  ; fellow  ; beau  ; swain  ; young man	ragazzo	relations
+brain  ; encephalon	cervello	anatomy
+branch	ramo	nature
+brand  ; make	marchio	business
+bread  ; breadstuff  ; staff of life	pane	food
+break	rompere	verb-basic
+break  ; respite  ; recess  ; time out	pausa	abstract
+breakfast	colazione	food
+breath	fiato	anatomy
+brick	mattone	house
+bridge  ; span	ponte	city
+bright  ; brilliant  ; vivid	chiaro	adjective
+bring  ; convey  ; take	dare	verb
+broken	rotto	adjective
+brother  ; blood brother	fratello	family
+brown  ; brownish  ; chocolate-brown  ; dark-brown	marrone	color
+brush	spazzola	art
+build  ; construct  ; make	costruire	verb
+building  ; edifice	edificio	city
+burn  ; fire  ; burn down	bruciare	verb
+bus  ; autobus  ; coach  ; charabanc  ; double-decker  ; jitney  ; motorbus  ; motorcoach  ; omnibus  ; passenger vehicle	autobus	transport
+business  ; concern  ; business concern  ; business organization  ; business organisation	attività	business
+butter	burro	food
+button  ; push button  ; push	pulsante	tool
+buy  ; purchase	comprare	verb-basic
+by  ; past	di	adverb
+cabbage  ; chou	cavolo cappuccio	vegetable
+cake	dolce	food
+call  ; phone call  ; telephone call	chiamata	communication
+call  ; telephone  ; call up  ; phone  ; ring	chiamare	verb
+camera  ; photographic camera	macchina fotografica	device
+campaign  ; cause  ; crusade  ; drive  ; movement  ; effort	campagna	abstract
+can  ; tin  ; tin can	barattolo	container
+capital	capitale	city
+capital  ; working capital	capitale	business
+car  ; auto  ; automobile  ; machine  ; motorcar	automobile	transport
+card	carta	object
+care  ; attention  ; aid  ; tending	protezione	medicine
+carpet  ; rug  ; carpeting	tappeto	furniture
+carrot  ; cultivated carrot  ; Daucus carota sativa	carota	vegetable
+carry  ; transport	portare	verb
+case  ; instance  ; example	causa	abstract
+castle	castello	city
+cat  ; true cat	gatto	animal
+catch  ; grab  ; take hold of	cogliere	verb
+cause	causa	science
+cause  ; induce  ; stimulate  ; have  ; get  ; make	procurare	verb
+cell	cellula	anatomy
+cellphone  ; cellular telephone  ; cellular phone  ; cell  ; mobile phone	telefono cellulare	device
+center  ; centre  ; midpoint	centro	mathematics
+center  ; kernel  ; substance  ; core  ; centre  ; essence  ; gist  ; heart  ; heart and soul  ; inwardness  ; marrow  ; meat  ; nub  ; pith  ; sum  ; nitty-gritty	essenza	science
+central	centrale	adjective
+century	secolo	time
+certain  ; sure	certo	adjective
+chain	catena	object
+chair	sedia	furniture
+championship  ; title	campionato	sports
+chance  ; opportunity	opportunità	abstract
+change	spiccioli	business
+change  ; alter  ; modify	modificare	verb
+change  ; alteration  ; modification	cambiamento	abstract
+character  ; grapheme  ; graphic symbol	carattere	communication
+charge  ; electric charge	carica	physics
+cheap  ; inexpensive	economico	adjective
+check  ; bank check  ; cheque	assegno	business
+cheers	cin cin	conversation
+cheese	formaggio	food
+chemical  ; chemic	chimico	adjective
+chemical  ; chemical substance	prodotto chimico	material
+chemical element  ; element	elemento	material
+chemistry  ; chemical science	chimica	science
+cherry	ciliegia	fruit
+chest  ; breast	petto	anatomy
+chest  ; thorax  ; pectus	torace	anatomy
+chin  ; mentum	mento	anatomy
+chocolate	cioccolato	food
+choice  ; selection  ; option  ; pick	scelta	abstract
+choose  ; take  ; select  ; pick out	scegliere	verb
+church  ; church building	chiesa	city
+cinema  ; movie theater  ; movie theatre  ; movie house  ; picture palace	cinema	city
+circle	cerchio	mathematics
+city  ; metropolis  ; urban center	città	city
+class  ; form  ; grade  ; course	categoria	education
+classify  ; class  ; sort  ; assort  ; sort out  ; separate	classificare	verb
+clean	pulito	adjective-basic
+clean  ; make clean	pulire	verb
+clear	limpido	adjective
+climate change  ; global climate change	mutamenti climatici	environment
+clock	orologio	device
+close  ; shut	chiudere	verb-basic
+closed  ; shut  ; unopen	chiuso	adjective
+cloth  ; fabric  ; material  ; textile	panno	clothes
+clothing  ; article of clothing  ; vesture  ; wear  ; wearable  ; habiliment	abbigliamento	clothes
+cloud	nuvola	weather
+club	bastone	object
+club  ; social club  ; society  ; guild  ; gild  ; lodge  ; order	club	society
+coal	carbone	material
+coat	cappotto	clothes
+coffee  ; java	caffè	drink
+coil  ; whorl  ; roll  ; curl  ; curlicue  ; ringlet  ; gyre  ; scroll	rotolo	object
+cold	freddo	adjective-basic
+cold  ; common cold	raffreddore	medicine
+collar  ; neckband	colletto	clothes
+color  ; colour  ; coloring material  ; colouring material	colore	art
+come  ; come up	venire	verb-basic
+committee  ; commission	comitato	business
+common	comune	adjective
+common  ; mutual	comune	adjective
+company	compagnia	business
+company  ; companionship  ; fellowship  ; society	compagnia	society
+compare	paragonare	verb
+comparison  ; comparing	paragone	science
+competition	competizione	business
+competitor  ; rival  ; challenger  ; competition  ; contender	concorrente	sports
+complaint  ; charge	accusa	business
+complete  ; consummate	completo	adjective
+component  ; constituent  ; element  ; factor  ; ingredient	elemento	mathematics
+computer  ; computing machine  ; computing device  ; data processor  ; electronic computer  ; information processing system	computer	device
+concert	concerto	art
+condition  ; status	condizione	abstract
+connection  ; connexion  ; connector  ; connecter  ; connective	connettore	abstract
+conscious  ; witting	consapevole	adjective
+consequence  ; effect  ; outcome  ; result  ; event  ; issue  ; upshot	conseguenza	science
+contain  ; incorporate  ; comprise	contenere	verb
+contest  ; competition	competizione	business
+continue  ; go on  ; proceed  ; go along  ; keep	continuare	verb
+contract	contratto	business
+control	controllo	science
+control  ; command	controllare	verb
+cook	cuocere	verb
+cook	cuoco	kitchen
+copy	copia	business
+copy  ; re-create	copiare	verb
+correct  ; right	corretto	adjective-basic
+cost	costo	business
+cotton	cotone	material
+cough	tossire	verb
+cough  ; coughing	colpo di tosse	medicine
+council	consiglio	business
+country  ; state  ; land	paese	society
+couple  ; pair  ; twosome  ; twain  ; brace  ; span  ; yoke  ; couplet  ; distich  ; duo  ; duet  ; dyad  ; duad	due	number
+course  ; class  ; course of study  ; course of instruction	lezione	business
+court  ; tribunal  ; judicature	corte	society
+cover  ; screen  ; covert  ; concealment	coperchio	object
+cow  ; moo-cow	mucca	animal
+crack  ; cleft  ; crevice  ; fissure  ; scissure	incrinatura	abstract
+crime  ; offense  ; criminal offense  ; criminal offence  ; offence  ; law-breaking	reato	society
+cruel  ; barbarous  ; brutal  ; fell  ; roughshod  ; savage  ; vicious	crudele	adjective
+crush  ; squash  ; squelch  ; mash  ; squeeze	pestare	verb
+cry  ; outcry  ; call  ; yell  ; shout  ; vociferation	grido	communication
+cry  ; weep	piangere	verb
+cucumber  ; cuke	cetriolo	vegetable
+culture  ; civilization  ; civilisation	cultura	society
+cup	tazza	container
+cup  ; loving cup	coppa	sports
+cupboard  ; closet	armadio	furniture
+current  ; stream	corrente	geography
+curtain  ; drape  ; drapery  ; mantle  ; pall	tenda	furniture
+curve  ; bend	ansa	transport
+curve  ; curved shape	curva	mathematics
+customer  ; client	cliente	business
+cut	tagliare	verb-basic
+cut  ; cutting	taglio	abstract
+dainty  ; nice  ; overnice  ; prissy  ; squeamish	difficile	adjective
+damage  ; harm  ; impairment	danno	abstract
+dance  ; trip the light fantastic  ; trip the light fantastic toe	ballare	verb-basic
+danger	pericolo	abstract
+dangerous  ; unsafe	pericoloso	adjective
+dark	scuro	adjective-basic
+data  ; information	dati	communication
+date  ; appointment  ; engagement	appuntamento	relations
+date  ; day of the month	data	time
+daughter  ; girl	figlia	family
+day  ; twenty-four hours  ; twenty-four hour period  ; 24-hour interval  ; solar day  ; mean solar day	giornata	time
+dead	morto	adjective-people
+dear  ; beloved  ; dearest  ; honey  ; love	caro	relations
+death	morte	family
+death  ; decease  ; expiry	morte	abstract
+decide  ; make up one's mind  ; determine	decidere	verb
+decision  ; determination  ; conclusion	decisione	communication
+decoration  ; ornament  ; ornamentation	decorazione	abstract
+defense  ; defence  ; defense force  ; defence force	difesa	abstract
+degree	grado	mathematics
+degree  ; grade  ; level	livello	mathematics
+delicate	delicato	adjective
+demand  ; need	occorrenza	business
+democracy  ; republic  ; commonwealth	repubblica	society
+department  ; section	dipartimento	business
+describe  ; depict  ; draw	descrivere	verb
+design  ; designing	disegno	art
+design  ; plan	progettare	verb
+desire  ; want	volere	verb
+desk	scrivania	furniture
+destruction  ; devastation	distruzione	abstract
+detail  ; particular  ; item	particolarità	abstract
+develop	sviluppare	verb
+dew	rugiada	weather
+dictionary  ; lexicon	dizionario	communication
+die  ; decease  ; perish  ; go  ; exit  ; pass away  ; expire  ; pass  ; kick the bucket  ; cash in one's chips  ; buy the farm  ; conk  ; give-up the ghost  ; drop dead  ; pop off  ; choke  ; croak  ; snuff it	morire	verb
+difference	differenza	mathematics
+different	diverso	adjective
+different  ; unlike  ; dissimilar	dissimile	adjective
+difficult  ; hard	difficile	adjective-basic
+difficulty	difficoltà	business
+direction	direzione	business
+directly  ; straight  ; direct	direttamente	adverb
+director  ; manager  ; managing director	direttore	business
+dirty  ; soiled  ; unclean	sporco	adjective-basic
+discipline  ; subject  ; subject area  ; subject field  ; field  ; field of study  ; study  ; bailiwick	disciplina	science
+discover  ; find	scoprire	verb
+discovery  ; find  ; uncovering	scoperta	science
+discuss  ; hash out  ; talk over	discutere	verb
+discussion  ; give-and-take  ; word	discussione	communication
+disease	malattia	medicine
+distance	distanza	mathematics
+diversity  ; diverseness  ; multifariousness  ; variety	diversità	art
+divide  ; split  ; split up  ; separate  ; dissever  ; carve up	dividere	verb
+division  ; partition  ; partitioning  ; segmentation  ; sectionalization  ; sectionalisation	spartizione	mathematics
+do  ; practice  ; practise  ; exercise	esercitare	verb-basic
+do you speak English	parli inglese	conversation
+doctor  ; doc  ; physician  ; MD  ; Dr.  ; medico	dottore	medicine
+dog  ; domestic dog  ; Canis familiaris	cane	animal
+dominance  ; ascendance  ; ascendence  ; ascendancy  ; ascendency  ; control	controllo	abstract
+dominion  ; rule	dominio	society
+door	porta	house
+doubt	dubitare	verb
+doubt  ; uncertainty  ; incertitude  ; dubiety  ; doubtfulness  ; dubiousness	dubbio	communication
+down	sotto	adjective
+drawer	cassetto	container
+drink  ; beverage  ; drinkable  ; potable	bevanda	drink
+drink  ; imbibe	bere	verb-basic
+drive	guidare	verb
+drop  ; drib  ; driblet	goccia	abstract
+dry	secco	adjective
+during	durante	preposition
+dust	polvere	material
+duty	dovere	abstract
+each	ogni	adjective
+ear	orecchio	anatomy
+early	presto	adjective
+early  ; early on	presto	adverb
+earth  ; ground	terra	material
+east  ; due east  ; eastward  ; E	est	geography
+easy	facile	adjective
+eat	mangiare	verb-basic
+ecology  ; bionomics  ; environmental science	ecologia	environment
+economic	economico	adjective
+economic  ; economical	economico	adjective
+economy  ; economic system	economia	business
+edge  ; border	contorno	mathematics
+education	educazione	education
+education	formazione	education
+education  ; instruction  ; teaching  ; pedagogy  ; didactics  ; educational activity	istruzione	education
+effort  ; elbow grease  ; exertion  ; travail  ; sweat	sforzo	abstract
+egg	uovo	food
+eight  ; 8  ; viii	otto	number
+eighteen  ; 18  ; xviii	diciotto	number
+eighty  ; 80  ; lxxx  ; fourscore	ottanta	number
+either	ambedue	adverb
+election	elezione	society
+electric  ; electrical	elettrico	adjective
+elephant	elefante	animal
+elevator  ; lift	ascensore	device
+eleven  ; 11  ; xi	undici	number
+embrace  ; encompass  ; comprehend  ; cover	comprendere	verb
+encourage	incoraggiare	verb
+end  ; stop  ; finish  ; terminate  ; cease	finire	verb
+end  ; terminal	risultato	time
+energy  ; free energy	energia	physics
+engine	motore	device
+enhance  ; heighten  ; raise	aumentare	verb
+enjoy  ; bask  ; relish  ; savor  ; savour	godere	verb
+enough  ; plenty	abbastanza	adverb
+enter  ; come in  ; get into  ; get in  ; go into  ; go in  ; move into	entrare	verb
+entertainment  ; amusement	svago	art
+entirely  ; exclusively  ; solely  ; alone  ; only	solamente	adverb
+envelope	busta	container
+environment	ambiente	business
+environment  ; environs  ; surroundings  ; surround	ambiente	environment
+equal	uguale	adjective
+equally  ; as  ; every bit	come	adverb
+establish  ; found  ; plant  ; constitute  ; institute	istituire	verb
+estimate  ; gauge  ; approximate  ; guess  ; judge	stimare	verb
+even	pari	adjective
+even	perfino	adverb
+even  ; fifty-fifty	uguale	adjective
+evening  ; eve  ; even  ; eventide	sera	time
+event	avvenimento	science
+every	ogni	adjective
+everybody  ; everyone	tutti	pronoun
+everything	tutto	pronoun
+evidence	prova	science
+evolution  ; development	sviluppo	nature
+exactly  ; precisely  ; just	esattamente	adverb
+examination  ; exam  ; test	esame	education
+example  ; illustration  ; instance  ; representative	esempio	science
+exceed  ; transcend  ; overstep  ; pass  ; go past  ; top	oltrepassare	verb
+excellent  ; first-class  ; fantabulous  ; splendid	eccellente	adjective
+exist  ; be	esistere	verb
+existence  ; being  ; beingness	esistenza	society
+expect  ; look  ; await  ; wait	aspettare	verb
+experience	esperienza	business
+experience	esperienza	communication
+expert	esperto	profession
+explain  ; explicate	spiegare	verb
+express  ; limited	espresso	transport
+expression  ; look  ; aspect  ; facial expression  ; face	occhiata	communication
+eye  ; oculus  ; optic	occhio	anatomy
+face  ; human face	faccia	anatomy
+fact	fatto	science
+factory  ; mill  ; manufacturing plant  ; manufactory	fabbrica	city
+fake  ; false  ; faux  ; imitation  ; simulated	falso	adjective
+fall	cadere	verb-basic
+fall  ; spill  ; tumble	caduta	abstract
+family  ; family unit	famiglia	family
+far	lontano	adjective
+farm	fattoria	nature
+fast	veloce	adjective-basic
+fat	grasso	adjective
+fat	grasso	material
+fat  ; fatty	grande	adjective
+father  ; male parent  ; begetter	padre	family
+fear  ; fearfulness  ; fright	paura	feeling
+feather  ; plume  ; plumage	piuma	object
+feature  ; characteristic	caratteristica	abstract
+feel  ; sense	tatto	verb-basic
+feeling	sentimento	communication
+female	femminile	adjective-people
+few	poco	adjective
+field	campo	nature
+fifteen  ; 15  ; xv	quindici	number
+fifty  ; 50  ; l	cinquanta	number
+fight  ; contend  ; struggle	lottare	verb
+fight  ; fighting  ; combat  ; scrap	combattimento	abstract
+fill  ; fill up  ; make full	riempire	verb
+final  ; last  ; concluding  ; terminal	definitivo	adjective
+finally  ; last  ; lastly  ; in conclusion	infine	adverb
+financial  ; fiscal	finanziario	adjective
+find  ; detect  ; observe  ; discover  ; notice	scoprire	verb
+find  ; regain	trovare	verb-basic
+finger	dito	anatomy
+finish  ; complete	cessare	verb
+finish  ; goal  ; destination	destinazione	sports
+fire  ; flame  ; flaming	fiamma	nature
+fire  ; open fire	sparare	verb-basic
+firm  ; house  ; business firm	ditta	business
+firm  ; solid	fermo	adjective
+first  ; firstly  ; foremost  ; first of all  ; first off	prima	adverb
+fish	pesce	animal
+five  ; 5  ; v	cinque	number
+flag	bandiera	object
+flat  ; apartment	appartamento	city
+flat  ; level  ; plane	piatto	adjective
+flight  ; flying	volo	transport
+floor  ; flooring	pavimento	house
+floor  ; level  ; storey  ; story	piano	house
+flower	fiore	nature
+flush  ; level  ; even out  ; even	livellare	verb
+fly	mosca	animal
+fly  ; wing	volare	verb-basic
+fog	nebbia	weather
+follow	seguire	verb-basic
+following  ; next	seguente	adjective
+food  ; nutrient	cibo	food
+foot  ; human foot  ; pes	piede	anatomy
+football  ; football game	calcio	sports
+for	per	preposition
+for	perché	conjunction
+forehead  ; brow	fronte	anatomy
+foreign  ; strange	straniero	adjective
+forest  ; wood  ; woods	bosco	nature
+forget	dimenticare	verb-basic
+forgive	perdonare	verb
+fork	forchetta	kitchen
+form	modulo	business
+former  ; erstwhile  ; old  ; onetime  ; one-time  ; quondam  ; sometime	precedente	adjective
+forty  ; 40  ; xl  ; twoscore	quaranta	number
+forward  ; forwards  ; frontward  ; frontwards  ; forrad  ; forrard	innanzi	adverb
+fossil fuel	combustibili fossili	environment
+four  ; 4  ; iv	quattro	number
+fourteen  ; 14  ; xiv	quattordici	number
+fragile  ; delicate  ; frail	delicato	adjective
+frame	cornice	object
+free	libero	adjective-people
+free  ; complimentary  ; costless  ; gratis  ; gratuitous	gratuito	adjective
+free  ; liberate  ; release  ; unloose  ; unloosen  ; loose	liberare	verb
+frequent	frequente	adjective
+fresh	fresco	adjective
+friend	amico	family
+friendly	amichevole	adjective-people
+from	da	preposition
+from	da	preposition
+front	davanti	adjective
+front  ; front end  ; forepart	davanti	abstract
+frost  ; hoar  ; hoarfrost  ; rime	brina	weather
+fruit	frutto	food
+full	pieno	adjective
+full  ; total	totale	adjective
+function  ; office  ; part  ; role	funzione	mathematics
+furniture  ; piece of furniture  ; article of furniture	mobili	furniture
+further  ; farther	più lontano	adjective
+future	futuro	adjective
+future  ; hereafter  ; futurity  ; time to come	futuro	time
+game	gioco	sports
+garage	garage	house
+garden	giardino	house
+garlic  ; ail	aglio	vegetable
+gate	cancello	house
+gene  ; cistron  ; factor	gene	anatomy
+general	generale	adjective
+general  ; full general	generale	profession
+get  ; acquire	buscarsi	verb-basic
+girl  ; miss  ; missy  ; young lady  ; young woman  ; fille	bambina	family
+girlfriend  ; girl  ; lady friend	ragazza	relations
+give	dare	verb-basic
+give up  ; surrender	capitolare	verb
+glass	vetro	material
+glass  ; drinking glass	bicchiere	container
+global warming	riscaldamento globale	environment
+glue  ; gum  ; mucilage	colla	material
+goal	goal	sports
+goat  ; caprine animal	capra	animal
+gold  ; Au  ; atomic number 79	oro	material
+golf  ; golf game	golf	sports
+good	buono	adjective-basic
+good day	buon giorno	conversation
+good luck	buona fortuna	conversation
+government  ; authorities  ; regime	governo	society
+grade  ; mark  ; score	voto	education
+grain	granello	material
+grandfather  ; gramps  ; granddad  ; grandad  ; granddaddy  ; grandpa	nonno	family
+grass	erba	nature
+gray  ; grey  ; greyish  ; grayish	grigio	color
+great	grande	adjective-basic
+great  ; bang-up  ; bully  ; corking  ; cracking  ; dandy  ; groovy  ; keen  ; neat  ; nifty  ; not bad  ; peachy  ; slap-up  ; swell  ; smashing	meraviglioso	adjective-basic
+green  ; greenish  ; light-green  ; dark-green	verde	color
+greenhouse effect  ; greenhouse warming	effetto serra	environment
+group  ; grouping	gruppo	business
+grow	crescere	verb
+guest  ; invitee	ospite	relations
+gun	arma da fuoco	tool
+hair	capelli	anatomy
+hair  ; pilus	pelo	anatomy
+half  ; one-half	metà	mathematics
+hall  ; anteroom  ; antechamber  ; entrance hall  ; foyer  ; lobby  ; vestibule	ingresso	house
+hammer	martelletto	tool
+hand  ; manus  ; mitt  ; paw	mano	anatomy
+handle  ; grip  ; handgrip  ; hold	manico	object
+happen  ; hap  ; go on  ; pass off  ; occur  ; pass  ; fall out  ; come about  ; take place	accadere	verb
+happy	felice	adjective-basic
+hat  ; chapeau  ; lid	cappello	clothes
+hate  ; detest	odiare	verb
+hate  ; hatred	odio	feeling
+have  ; have got  ; hold	avere	verb-basic
+he	egli	pronoun
+head  ; caput	testa	anatomy
+health  ; wellness	salute	medicine
+healthy  ; salubrious  ; good for you	in salute	adjective-basic
+hear	sentire	verb-basic
+heart  ; pump  ; ticker	cuore	anatomy
+heavy	pesante	adjective-basic
+height  ; altitude	altitudine	geography
+hello  ; hullo  ; hi  ; howdy  ; how-do-you-do	ciao	conversation
+help  ; aid  ; assist  ; assistance	aiuto	business
+help  ; assist  ; aid	aiutare	verb-basic
+her	suo	pronoun
+here	a questo punto	adverb
+here  ; hither	qui	adverb
+herself	si	pronoun
+hide  ; conceal	nascondere	verb
+hill	collina	geography
+him	lui	pronoun
+himself	sé	pronoun
+his	suo	pronoun
+history	storia	society
+hit  ; hitting  ; striking	colpo	abstract
+hit  ; smash  ; smasher  ; strike  ; bang	successo	art
+hold  ; take hold	tenere	verb
+hole	buco	abstract
+holiday  ; vacation	vacanza	business
+home  ; place	casa	house
+hook  ; claw	gancio	tool
+hope	sperare	verb-basic
+horse  ; Equus caballus	cavallo	animal
+hospital  ; infirmary	ospedale	city
+hot	caldo	adjective-basic
+hotel	albergo	city
+hour  ; hr  ; 60 minutes	ora	time
+house	casa	house
+how are you	come stai	conversation
+however  ; nevertheless  ; withal  ; still  ; yet  ; all the same  ; even so  ; nonetheless  ; notwithstanding	tuttavia	adverb
+human	umano	adjective-people
+human  ; homo  ; man  ; human being	umano	family
+humor  ; humour  ; sense of humor  ; sense of humour	umorismo	communication
+hundred  ; one hundred  ; 100  ; c	cento	number
+hungry	affamato	adjective-people
+husband  ; hubby  ; married man	marito	family
+ice  ; water ice	ghiaccio	material
+idea  ; thought	pensiero	communication
+identify  ; place	identificare	verb
+if	se	conjunction
+ill  ; sick	malato	adjective-people
+image	immagine	art
+immediately  ; instantly  ; straightaway  ; straight off  ; directly  ; now  ; right away  ; at once  ; forthwith  ; like a shot	immediatamente	adverb
+impatient	impaziente	adjective-people
+important  ; significant	importante	adjective-basic
+in  ; inwards  ; inward	in	adverb
+include	includere	verb
+income	reddito	business
+increase	accrescere	verb
+increase  ; increment	incremento	abstract
+increase  ; increment  ; growth	crescita	abstract
+indeed  ; so	davvero	adverb
+individual	individuo	society
+industrial	industriale	adjective
+industry  ; manufacture	industria	business
+information  ; info	ragguaglio	communication
+injure  ; wound	ferire	verb
+ink	inchiostro	art
+insect	insetto	animal
+inside  ; within	dentro	adverb
+instead  ; alternatively  ; or else	invece	adverb
+institution  ; establishment	istituzione	society
+instrument	strumento	device
+insurance	assicurazione	business
+intelligent	intelligente	adjective-people
+interest	interesse	business
+interest  ; involvement	interesse	communication
+interesting	interessante	adjective
+international	internazionale	adjective
+internet  ; net  ; cyberspace	internet	abstract
+interview	colloquio	communication
+into	in	preposition
+introduce  ; present  ; acquaint	presentare	verb
+invoice  ; bill  ; account	conto	business
+iron  ; Fe  ; atomic number 26	ferro	material
+island	isola	geography
+issue	questione	science
+it	lo	pronoun
+itself	si	pronoun
+jacket	giacca	clothes
+jewel  ; gem  ; precious stone	gemma	clothes
+job  ; task  ; chore	lavoro	business
+join  ; bring together	unire	verb
+jolt  ; jar  ; jounce  ; shock	sobbalzo	abstract
+journalist	giornalista	profession
+journey  ; journeying	viaggio	transport
+judge  ; justice  ; jurist	giudice	profession
+jump  ; leap  ;  saltation	salto	abstract
+jump  ; leap  ; bound  ; spring	balzare	verb-basic
+keep  ; maintain  ; hold	tenere	verb
+key	chiave	tool
+kick	calciare	verb
+kick  ; boot  ; kicking	calcio	abstract
+kill	uccidere	verb
+kind	gentile	adjective-people
+kind  ; sort  ; form  ; variety	tipo	abstract
+king  ; male monarch  ; Rex	re	society
+kiss  ; buss  ; osculation	bacio	relations
+kiss  ; snog  ; buss  ; osculate	baciare	verb-basic
+kitchen	cucina	house
+knee  ; knee joint  ; human knee  ; articulatio genus  ; genu	ginocchio	anatomy
+knife	coltello	kitchen
+knot	nodo	abstract
+knowledge  ; cognition  ; noesis	conoscenza	education
+lake	lago	geography
+land  ; dry land  ; earth  ; ground  ; solid ground  ; terra firma	terra	geography
+land  ; set down	atterrare	verb
+language  ; linguistic communication	lingua	communication
+language  ; natural language  ; tongue	lingua	communication
+last	ultimo	adjective
+late	tardi	adjective
+late  ; belatedly  ; tardily	tardi	adverb
+laugh  ; express joy  ; express mirth	ridere	verb-basic
+law	legge	business
+lead  ; Pb  ; atomic number 82	piombo	material
+lead  ; take  ; direct  ; conduct  ; guide	condurre	verb
+leader	leader	society
+leaf  ; leafage  ; foliage	foglia	nature
+learn  ; larn  ; acquire	apprendere	verb-basic
+least  ; to the lowest degree	meno	adverb
+leather	cuoio	material
+leave	lasciare	verb
+leave  ; leave of absence	licenza	business
+left	sinistro	adjective-basic
+leg	zampa	anatomy
+legal	legale	adjective
+lemon	limone	fruit
+let	lasciare	verb
+letter  ; letter of the alphabet  ; alphabetic character	lettera	communication
+letter  ; missive	lettera	communication
+library	biblioteca	city
+lie	essere	verb-basic
+lie	mentire	verb-basic
+lie  ; prevarication	bugia	communication
+life	vita	family
+life	vita	nature
+lift  ; raise  ; elevate  ; get up  ; bring up	alzare	verb
+light	leggero	adjective-basic
+light  ; visible light  ; visible radiation	luce	physics
+lightning	fulmine	weather
+like	probabile	verb-basic
+limit  ; bound  ; boundary	limite	mathematics
+limit  ; restrict  ; restrain  ; trammel  ; bound  ; confine  ; throttle	limitare	verb
+line	linea	art
+lion  ; king of beasts  ; Panthera leo	leone	animal
+lip	labbro	anatomy
+liquid	liquido	adjective
+liquid	liquido	material
+list  ; listing	lista	abstract
+listen  ; hear  ; take heed	ascoltare	verb-basic
+little	poco	adverb
+little  ; fiddling  ; footling  ; lilliputian  ; niggling  ; piddling  ; piffling  ; petty  ; picayune  ; trivial	insignificante	adjective-basic
+load  ; charge	caricare	verb
+local	locale	adjective
+lock	serratura	tool
+look	guardare	verb-basic
+look  ; appear  ; seem	sembrare	verb
+lose	perdere	verb
+lose	perdere	verb-basic
+loss	perdita	business
+loud	forte	adjective
+love	amare	verb-basic
+love	amore	feeling
+low	basso	adjective
+lucky	fortunato	adjective
+lunch  ; luncheon  ; tiffin  ; dejeuner	pranzo	food
+machine	macchina	device
+magazine  ; mag	rivista	communication
+mail  ; mail service  ; postal service  ; post	posta	communication
+main  ; chief  ; primary  ; principal  ; master	principale	adjective
+major	maggiore	adjective
+majority  ; bulk	maggioranza	abstract
+make  ; do	rendere	verb-basic
+male	maschio	adjective-people
+male  ; manful  ; manlike  ; manly  ; virile	maschio	adjective-people
+man  ; adult male	uomo	family
+manage  ; deal  ; care  ; handle	amministrare	verb
+management  ; direction	direzione	business
+manner  ; mode  ; style  ; way  ; fashion	modo	art
+many	molti	adjective
+many thanks	grazie molte	conversation
+map	carta	geography
+marker  ; marking  ; mark	marcatore	business
+market  ; marketplace  ; market place	mercato	business
+marriage  ; matrimony  ; union  ; spousal relationship  ; wedlock	matrimonio	family
+married	sposato	adjective-people
+marry  ; get married  ; wed  ; conjoin  ; hook up with  ; get hitched with  ; espouse	sposare	verb
+mass	massa	physics
+mass  ; bulk  ; volume	massa	physics
+match	partita	sports
+match  ; fit  ; correspond  ; check  ; jibe  ; gibe  ; tally  ; agree	corrispondere	verb
+match  ; lucifer  ; friction match	zolfanello	tool
+material  ; stuff	materiale	business
+matter	materia	material
+matter  ; affair  ; thing	soggetto	abstract
+me	me	pronoun
+meal  ; repast	pasto	food
+mean  ; hateful	maligno	adjective-people
+mean  ; intend  ; think	intendere	verb
+mean  ; mean value	mezzo	business
+means  ; agency  ; way	modo	abstract
+measure  ; mensurate  ; measure out	misurare	verb
+measurement  ; measuring  ; measure  ; mensuration	misurazione	physics
+meat	carne	food
+medical	medico	adjective-people
+meet  ; run into  ; encounter  ; run across  ; come across  ; see	incontrare	verb-basic
+meeting  ; coming together	incontro	business
+member  ; fellow member	membro	society
+memory	ricordo	communication
+memory  ; retention  ; retentiveness  ; retentivity	memoria	communication
+menstruation  ; menses  ; menstruum  ; catamenia  ; period  ; flow	mestruazione	medicine
+mention  ; advert  ; bring up  ; cite  ; name  ; refer	menzionare	verb
+menu  ; bill of fare  ; card  ; carte du jour  ; carte	menu	object
+metal  ; metallic	metallico	adjective
+metallic element  ; metal	metallo	material
+method	metodo	science
+midnight	mezzanotte	time
+military	militare	adjective
+milk	latte	drink
+milkshake  ; milk shake  ; shake	frullato	drink
+million  ; 1000000  ; one thousand thousand  ; meg	milione	number
+mind  ; head  ; brain  ; psyche  ; nous	mente	abstract
+mine	miniera	environment
+minister  ; government minister	ministro	profession
+minute  ; infinitesimal	piccolissimo	adjective
+minute  ; min	minuto	time
+mirror	specchio	physics
+miss	perdere	verb
+miss	sbagliare	verb
+mistake  ; error  ; fault	errore	communication
+model	travisare	science
+modern	moderno	adjective
+moisture  ; wet	umidità	nature
+moment  ; minute  ; second  ; instant	istante	time
+moment  ; mo  ; minute  ; second  ; bit	opportunità	time
+money	denaro	business
+monkey	scimmia	animal
+month  ; calendar month	mese	time
+more  ; more than	più	adjective
+morning  ; morn  ; morning time  ; forenoon	mattina	time
+mostly  ; by and large  ; generally  ; more often than not	generalmente	adverb
+mother  ; female parent	madre	family
+mouth  ; oral cavity  ; oral fissure  ; rima oris	bocca	anatomy
+move  ; displace	muovere	verb-basic
+movement  ; motion	moto	physics
+movie  ; film  ; picture  ; moving picture  ; moving-picture show  ; motion picture  ; motion-picture show  ; picture show  ; pic  ; flick	pellicola	art
+much	molto	adjective
+muscle  ; musculus	muscolo	anatomy
+museum	museo	art
+music	musica	art
+musician  ; instrumentalist  ; player	musicista	profession
+my	mio	pronoun
+my name is	mi chiamo	conversation
+nail	chiodo	tool
+nail	unghia	anatomy
+name	nome	communication
+name  ; call	chiamare	verb
+narrow	stretto	adjective
+nation  ; land  ; country	nazione	society
+national	nazionale	adjective
+natural	naturale	adjective
+nature	natura	nature
+near  ; close  ; nigh	vicino	adjective-basic
+necessary	necessario	adjective
+neck  ; cervix	collo	anatomy
+need  ; necessitate  ; ask  ; postulate  ; require  ; take  ; involve  ; call for  ; demand	necessitare	verb-basic
+needle	ago	tool
+neighbor  ; neighbour	vicino	family
+nerve  ; nervus	nervo	anatomy
+net  ; network  ; mesh  ; meshing  ; meshwork	filo	mathematics
+never	mai	adverb
+new	nuovo	adjective-basic
+newspaper  ; paper	giornale	communication
+next  ; adjacent  ; side by side	adiacente	adjective
+nice	bello	adjective-basic
+night  ; nighttime  ; dark	notte	time
+nine  ; 9  ; ix	nove	number
+nineteen  ; 19  ; xix	diciannove	number
+ninety  ; 90  ; xc	novanta	number
+no	nessuno	adjective
+no	non	conversation
+noise  ; dissonance  ; racket	rumore	society
+normal	normale	adjective
+north  ; due north  ; northward  ; N	nord	geography
+nose  ; olfactory organ	naso	anatomy
+not  ; non	non	adverb
+note  ; annotation  ; notation	appunto	communication
+note  ; musical note  ; tone	nota	art
+nothing  ; nil  ; nix  ; nada  ; null  ; aught  ; cipher  ; cypher  ; goose egg  ; naught  ; zero  ; zilch  ; zip  ; zippo	niente	number
+now	ora	time
+now  ; at present	attualmente	adverb
+number	numero	communication
+nurse	infermiera	medicine
+nut	dado	object
+nut	noce	fruit
+obviously  ; evidently  ; manifestly  ; patently  ; apparently  ; plainly  ; plain	in modo evidente	adverb
+occupation  ; business  ; job  ; line of work  ; line	occupazione	business
+of	da	preposition
+off	finito	adjective
+offer	offrire	verb-basic
+offer  ; offering	offerta	business
+office  ; business office	ufficio	business
+officer  ; officeholder	funzionario	business
+often  ; frequently  ; oftentimes  ; oft  ; ofttimes	frequentemente	adverb
+oil	olio	food
+oil  ; petroleum  ; crude oil  ; crude  ; rock oil  ; fossil oil	petrolio	material
+old	vecchio	adjective-people
+olive	oliva	vegetable
+on	a	preposition
+on	a	preposition
+on	su	adjective
+once  ; one time  ; in one case	una volta	adverb
+one  ; 1  ; i  ; ane	uno	number
+onion  ; onion plant  ; Allium cepa	cipolla	vegetable
+open  ; open up	aprire	verb-basic
+operation	azionamento	business
+operation  ; functioning  ; performance	funzione	abstract
+operation  ; surgery  ; surgical operation  ; surgical procedure  ; surgical process	operazione	medicine
+opinion  ; sentiment  ; persuasion  ; view  ; thought	opinione	communication
+opposite	opposto	adjective
+opposite  ; reverse  ; contrary	contraddire	abstract
+option  ; alternative  ; choice	alternativa	science
+or	o	conjunction
+orange	arancia	fruit
+orange  ; orangish	arancione	color
+orchestra	orchestra	art
+order	ordine	society
+order  ; tell  ; enjoin  ; say	ingiungere	verb
+organization  ; organisation	organizzazione	society
+original	originale	adjective
+other	altro	adjective
+our	nostro	pronoun
+outburst  ; burst  ; flare-up	scoppio	abstract
+outside	fuori	adverb
+outside  ; exterior	esterno	mathematics
+oven	forno	device
+own  ; ain	proprio	adjective
+own  ; have  ; possess	possedere	verb
+owner  ; possessor	proprietario	business
+ozone	ozono	environment
+package  ; bundle  ; packet  ; parcel	collo	business
+page	pagina	communication
+pain  ; hurting	dolore	medicine
+paint  ; pigment	pittura	art
+painting  ; picture	dipinto	art
+paper	carta	art
+parallel	parallelo	adjective
+parent	padre	family
+park  ; commons  ; common  ; green	parco	city
+parsnip  ; Pastinaca sativa	pastinaca	vegetable
+part  ; portion  ; component part  ; component  ; constituent	parte	abstract
+part  ; section  ; division	sezione	business
+part  ; share  ; portion  ; percentage	parte	abstract
+particular	particolare	adjective
+particularly  ; peculiarly  ; especially  ; specially	particolarmente	adverb
+party	festa	relations
+pass  ; hand  ; reach  ; pass on  ; turn over  ; give	consegnare	verb
+pass  ; laissez passer	lasciapassare	society
+passenger  ; rider	passeggero	transport
+passport	passaporto	society
+past	passato	adjective
+past  ; past times  ; yesteryear	passato	time
+patient	paziente	adjective-people
+patient	paziente	medicine
+pause  ; intermission  ; break  ; interruption  ; suspension	intervallo	time
+pay	pagare	verb-basic
+payment	remunerazione	business
+peace	pace	society
+peach	pesca	fruit
+pear	pera	fruit
+peel  ; skin  ; pare	sbucciare	verb
+pen	penna	art
+pencil	matita	art
+people	gente	society
+percent  ; percentage  ; per centum  ; pct	percentuale	mathematics
+period  ; time period  ; period of time	periodo	time
+person  ; individual  ; someone  ; somebody  ; mortal  ; soul	persona	family
+personal	personale	adjective
+personality	personalità	abstract
+phase  ; stage	fase	science
+photographer  ; lensman	fotografo	profession
+physical	fisico	adjective
+picture  ; image  ; icon  ; ikon	immagine	art
+piece	pezzo	abstract
+pig  ; hog  ; grunter  ; squealer  ; Sus scrofa	maiale	animal
+pilot  ; airplane pilot	pilota	profession
+pin	spillo	object
+pineapple  ; ananas	ananas	fruit
+pink  ; pinkish	rosa	color
+pipe  ; pipage  ; piping	tubo	object
+place  ; topographic point  ; spot	posto	abstract
+plain  ; field  ; champaign	pianura	geography
+plan  ; program  ; programme	piano	business
+plane  ; airplane  ; aeroplane	aeroplano	transport
+plant  ; flora  ; plant life	pianta	nature
+plate	piatto	container
+play	giocare	verb-basic
+player  ; participant	giocatore	sports
+pleasure  ; pleasance	piacere	feeling
+plow  ; plough  ; turn	arare	verb
+plum	prugna	fruit
+poem  ; verse form	poesia	art
+poetry  ; poesy  ; verse	poesia	art
+point  ; dot	punto	communication
+poison	avvelenare	verb
+poison  ; toxicant  ; poisonous substance	veleno	material
+police  ; police force  ; constabulary  ; law	corpo di polizia	society
+policeman  ; police officer  ; officer	poliziotto	profession
+policy	politica	society
+polish  ; smooth  ; smoothen  ; shine	lucidare	verb
+political	politico	adjective
+politician  ; politico  ; pol  ; political leader	politico	profession
+pollution	polluzione	environment
+poor  ; hapless  ; miserable  ; misfortunate  ; pathetic  ; piteous  ; pitiable  ; pitiful  ; wretched	povero	adjective
+popular  ; pop	popolare	adjective
+population	popolazione	society
+position  ; place	posizione	abstract
+possible	possibile	adjective
+possibly  ; perchance  ; perhaps  ; maybe  ; mayhap  ; peradventure	forse	adverb
+potato  ; white potato  ; Irish potato  ; murphy  ; spud  ; tater	patata	vegetable
+powder  ; pulverization  ; pulverisation	polvere	material
+power  ; powerfulness	potere	abstract
+practice	pratica	abstract
+prepare  ; fix  ; set up  ; ready  ; gear up  ; set	preparare	verb
+present	presente	adjective
+present	regalo	object
+present  ; nowadays	presente	time
+president	presidente	profession
+press	premere	verb
+pressure  ; pressure level  ; force per unit area	pressione	physics
+prevent  ; forestall  ; foreclose  ; preclude  ; forbid	impedire	verb
+previous  ; old	precedente	adjective
+price  ; cost  ; toll	costo	business
+print  ; impress	stampare	verb
+prison  ; prison house	prigione	city
+private	privato	adjective
+private  ; individual	personale	adjective-people
+probable  ; likely	probabile	adjective
+probably  ; likely  ; in all likelihood  ; in all probability  ; belike	probabilmente	adverb
+problem  ; job	problema	business
+procedure  ; process	procedura	science
+process  ; physical process	processo	physics
+process  ; treat	sviluppare	verb
+product  ; production	prodotto	business
+production	rappresentazione	science
+professional	professionale	adjective
+professional  ; professional person	professionista	profession
+profit  ; net income  ; net  ; net profit  ; lucre  ; profits  ; earnings	profitto	business
+profit  ; turn a profit	approfittare	verb
+program  ; programme  ; computer program  ; computer programme	programma	science
+project  ; projection	progetto	science
+project  ; undertaking  ; task  ; labor	compito	abstract
+promise  ; hope	speranza	feeling
+pronunciation	pronuncia	communication
+property	proprietà	abstract
+property  ; belongings  ; holding	proprietà	business
+proposal	proposta	communication
+protest	protestare	verb
+protest  ; protestation	protesta	communication
+prove  ; testify  ; bear witness  ; evidence  ; show	provare	verb
+public	pubblico	adjective
+public  ; populace  ; world	popolino	society
+publish  ; bring out  ; put out  ; issue  ; release	pubblicare	verb
+pull  ; draw  ; force	tirare	verb-basic
+pump	pompa	tool
+punishment  ; penalty  ; penalization  ; penalisation	punizione	society
+purpose  ; function  ; role  ; use	scopo	mathematics
+push  ; force	spingere	verb-basic
+put  ; set  ; place  ; pose  ; position  ; lay	posare	verb-basic
+quality	qualità	abstract
+question  ; inquiry  ; enquiry  ; query  ; interrogation	domanda	communication
+quickly  ; rapidly  ; speedily  ; chop-chop  ; apace	rapidamente	adverb
+quiet	calmo	adjective
+quiet  ; repose  ; placidity  ; serenity  ; tranquillity  ; tranquility	serenità	abstract
+radish	ravanello	vegetable
+rain  ; rainfall	pioggia	weather
+rainbow	arcobaleno	weather
+raise  ; rear  ; bring up  ; nurture  ; parent	educare	verb
+range  ; scope  ; reach  ; orbit  ; compass  ; ambit	ambito	science
+raspberry	lampone	fruit
+rate  ; charge per unit	tariffa	business
+rate  ; rank  ; range  ; order  ; grade  ; place	valutare	verb
+reach  ; make  ; attain  ; hit  ; arrive at  ; gain	arrivare a	verb
+reaction	reazione	communication
+read	leggere	verb-basic
+ready	pronto	adjective
+real  ; existent	vero	adjective-basic
+really  ; actually	in realtà	adverb
+really  ; truly  ; genuinely	molto	adverb
+reason  ; ground	ragione	communication
+receive  ; have	ricevere	verb
+recent	recente	adjective
+recently  ; late  ; lately  ; of late  ; latterly	recentemente	adverb
+record	record	sports
+record  ; tape	registrare	verb
+recycling	riciclaggio	environment
+red  ; reddish  ; ruddy  ; blood-red  ; carmine  ; cerise  ; cherry  ; cherry-red  ; crimson  ; ruby  ; ruby-red  ; scarlet	comunista	color
+reduce  ; cut down  ; cut back  ; trim  ; trim down  ; trim back  ; cut  ; bring down	tagliare	verb
+reflect  ; reverberate	riflettere	verb
+refuse  ; reject  ; pass up  ; turn down  ; decline	declinare	verb
+region  ; part	regione	geography
+regular	regolare	adjective
+relation	relazione	communication
+relationship  ; human relationship	relazione	family
+religion  ; faith  ; organized religion	religione	society
+religion  ; faith  ; religious belief	fede	society
+remember  ; retrieve  ; recall  ; call back  ; call up  ; recollect  ; think	ricordare	verb-basic
+remove  ; take  ; take away  ; withdraw	rimuovere	verb
+render  ; return	restituire	verb
+replace  ; supplant  ; supersede  ; supervene upon  ; supercede	rimpiazzare	verb
+reply  ; answer  ; respond	rispondere	verb
+report	raccontare	verb
+report  ; study  ; written report	rapporto	abstract
+represent  ; stand for  ; correspond	rappresentare	verb
+representative	rappresentante	profession
+request  ; asking	richiesta	communication
+request  ; bespeak  ; call for  ; quest	richiedere	verb
+research	ricerca	science
+research  ; inquiry  ; enquiry	indagine	science
+respect  ; honor  ; honour  ; abide by  ; observe	onorare	verb
+responsibility  ; responsibleness	responsabilità	abstract
+responsible	responsabile	adjective
+rest  ; ease  ; repose  ; relaxation	riposo	abstract
+rest  ; remainder  ; balance  ; residual  ; residue  ; residuum	resto	business
+restaurant  ; eating house  ; eating place  ; eatery	ristorante	city
+result  ; resultant  ; final result  ; outcome  ; termination	risultato	mathematics
+return  ; homecoming	ritorno	abstract
+reveal  ; unwrap  ; disclose  ; let on  ; bring out  ; discover  ; expose  ; divulge  ; break  ; give away  ; let out	rivelare	verb
+rhythm  ; beat  ; musical rhythm	ritmo	art
+rice	riso	food
+rich	ricco	adjective-people
+right	destro	adjective-basic
+right	diritto	business
+rigid  ; stiff	rigido	adjective
+ring  ; band	anello	clothes
+rise  ; rising  ; ascent  ; ascension	ascesa	abstract
+risk  ; gamble  ; chance  ; hazard  ; take chances  ; adventure  ; run a risk  ; take a chance	rischiare	verb
+risk  ; hazard  ; jeopardy  ; peril  ; endangerment	rischio	abstract
+river	fiume	geography
+road  ; route	strada	city
+roof	tetto	house
+room	stanza	house
+root	radice	nature
+root	root	mathematics
+rope	corda	object
+rough  ; unsmooth	sgarbato	adjective
+round  ; circular	rotondo	adjective
+royal  ; imperial  ; majestic  ; purple  ; regal	regale	adjective-people
+rule  ; govern	governare	verb
+rule  ; regulation	regola	mathematics
+run	correre	verb-basic
+sad	triste	adjective-people
+sad  ; deplorable  ; distressing  ; lamentable  ; pitiful  ; sorry	triste	adjective
+safe	sicuro	adjective
+sail  ; canvas  ; canvass  ; sheet	vela	object
+sailor  ; crewman	marinaio	profession
+salad	insalata	food
+sale	vendita	business
+salt  ; table salt  ; common salt	sale	food
+same	stesso	adjective
+sand	sabbia	material
+sandwich	sandwich	food
+sauce	salsa	food
+save  ; preserve	risparmiare	verb
+save  ; salvage  ; salve  ; relieve	salvare	verb
+say  ; tell  ; state	dire	verb-basic
+school  ; schoolhouse	scuola	city
+science  ; scientific discipline	scienza	science
+scientist	scienziato	profession
+scissors  ; pair of scissors	forbici	tool
+sea	mare	geography
+season	stagione	time
+seat	posto	furniture
+seat  ; place	posto	abstract
+second  ; 2nd  ; 2d	secondo	adjective
+second  ; sec  ; s	secondo	time
+secret	segreto	communication
+secret  ; clandestine  ; cloak-and-dagger  ; hole-and-corner  ; hugger-mugger  ; hush-hush  ; surreptitious  ; undercover  ; underground	clandestino	adjective
+secretary  ; secretarial assistant	segretario	profession
+section  ; subdivision	sezione	business
+see	vedere	verb
+see  ; consider  ; reckon  ; view  ; regard	considerare	verb
+seed	seme	object
+sell	vendere	verb-basic
+send  ; mail  ; post	mandare	verb
+sentence	frase	communication
+separate	separato	adjective
+serious	serio	adjective
+servant  ; retainer	domestico	profession
+serve	servire	verb
+service	servizio	business
+set	collezione	abstract
+set	partita	mathematics
+set  ; laid	stabilito	adjective
+seven  ; 7  ; vii	sette	number
+seventy  ; 70  ; lxx	settanta	number
+several	vari	adjective
+sew  ; run up  ; sew together  ; stitch	cucire	verb
+sex	sesso	nature
+sex  ; sexual activity  ; sexual practice  ; sex activity	sesso	relations
+shake  ; tremble  ; shiver	brivido	abstract
+shape  ; form  ; cast	forma	art
+share	azione	business
+share	condividere	verb
+sharp  ; acuate  ; acute  ; needlelike	acuto	adjective-basic
+sharp  ; astute  ; shrewd	astuto	adjective-people
+she	lei	pronoun
+sheep	pecora	animal
+shelf	mensola	furniture
+ship	nave	transport
+shirt	camicia	clothes
+shock  ; daze  ; stupor	shock	feeling
+shoe	scarpa	clothes
+shop  ; store	negozio	business
+short	corto	adjective
+shout  ; shout out  ; cry  ; call  ; yell  ; scream  ; holler  ; hollo  ; squall	gridare	verb
+show	spettacolo	business
+show  ; demo  ; exhibit  ; present  ; demonstrate	mostrare	verb
+shower	doccia	house
+side	lato	mathematics
+sign	segno	communication
+silence  ; quiet	calma	abstract
+silent  ; soundless  ; still	silenzioso	adjective
+silk	seta	material
+silver  ; Ag  ; atomic number 47	argento	material
+similar	simile	adjective-basic
+simple  ; elementary  ; uncomplicated  ; unproblematic	semplice	adjective
+simply  ; merely  ; just  ; only  ; but	soltanto	adverb
+since	da	preposition
+sincere	sincero	adjective-people
+sing	cantare	verb-basic
+singer  ; vocalist  ; vocalizer  ; vocaliser	cantante	art
+single	solo	adjective
+single  ; unmarried	celibe	adjective-people
+sink	lavandino	furniture
+sister  ; sis	sorella	family
+sit  ; sit down	sedersi	verb-basic
+situation  ; state of affairs	situazione	abstract
+six  ; 6  ; vi  ; half dozen  ; half-dozen	sei	number
+sixteen  ; 16  ; xvi	sedici	number
+sixty  ; 60  ; lx  ; threescore	sessanta	number
+size	dimensioni	physics
+skid  ; slip  ; sideslip	sbandare	transport
+skilful  ; adept  ; expert  ; good  ; practiced  ; proficient  ; skillful	abile	adjective-people
+skill  ; science	abilità	business
+skin  ; tegument  ; cutis	pelle	anatomy
+skirt	gonna	clothes
+sky	cielo	nature
+sleep  ; slumber	sonno	nature
+slice  ; piece	pezzo	abstract
+slow	lento	adjective-basic
+slowly  ; slow  ; easy  ; tardily	lentamente	adverb
+small  ; little	piccolo	adjective
+smell	odorare	verb
+smell	odorare	verb
+smell	puzzare	verb
+smell  ; olfactory property  ; aroma  ; odor  ; odour  ; scent	odore	nature
+smile	sorridere	verb-basic
+smile  ; smiling  ; grin  ; grinning	sorriso	relations
+smog  ; smogginess	smog	environment
+smoke  ; fume	fumo	nature
+smooth	liscio	adjective
+snake  ; serpent  ; ophidian	serpente	animal
+snow	neve	weather
+so	così	adverb
+soap	sapone	material
+society	società	science
+sock	calza	clothes
+soft	morbido	adjective-basic
+soldier	soldato	profession
+solid	solido	adjective
+sometimes	talvolta	adverb
+son  ; boy	figlio	family
+song  ; vocal	canzone	art
+soon  ; shortly  ; presently  ; before long	presto	adverb
+sorry	mi scusi	conversation
+sorry	scusi	conversation
+sound	suono	physics
+soup	zuppa	food
+south  ; due south  ; southward  ; S	sud	geography
+space  ; infinite	spazio	geography
+sparse  ; thin	rado	adjective
+special  ; especial  ; exceptional  ; particular	speciale	adjective
+specific	specifico	adjective
+speech  ; speech communication  ; spoken communication  ; spoken language  ; language  ; voice communication  ; oral communication	linguaggio	communication
+spelling	spelling	communication
+spend  ; pass	passare	verb
+spoon	cucchiaio	kitchen
+spring	molla	tool
+spring  ; fountain  ; outflow  ; outpouring  ; natural spring	origine	nature
+spring  ; springtime	primavera	time
+square	quadrato	adjective
+square  ; foursquare	quadrato	mathematics
+square  ; second power	quadrato	mathematics
+staff	personale	business
+stage	palco	art
+stamp	timbro	tool
+stamp  ; postage  ; postage stamp	tariffa postale	object
+stand  ; stand up	restare	verb
+standard	standard	adjective
+standard  ; criterion  ; measure  ; touchstone	criterio	communication
+star	stella	geography
+state	stato	abstract
+state	stato	society
+statement	asserzione	communication
+station	stazione	city
+stay  ; remain  ; rest	restare	verb
+steal	rubare	verb
+steam	vapore	physics
+steel	acciaio	material
+stem  ; stalk	gambo	nature
+step  ; footstep  ; pace  ; stride	passo	abstract
+step  ; stair	gradino	house
+stick	bastone	object
+sticky  ; gluey  ; glutinous  ; gummy  ; mucilaginous  ; pasty  ; viscid  ; viscous	glutinoso	adjective
+still	ancora	adverb
+stitch	punto	medicine
+stomach  ; tummy  ; tum  ; breadbasket	stomaco	anatomy
+stone  ; rock	pietra	object
+stop  ; halt	fermare	verb
+stop  ; halt	fermata	abstract
+storm  ; violent storm	tempesta	weather
+straight	diritto	adjective
+strange  ; unusual	strano	adjective
+strawberry	fragola	fruit
+stream  ; flow  ; current	torrente	nature
+street	strada	city
+strength  ; force  ; forcefulness	forza	physics
+strong	forte	adjective-basic
+structure  ; construction	costruzione	city
+student  ; pupil  ; educatee	studente	education
+study	studiare	verb
+stupid	stupido	adjective-people
+style	stile	art
+stylish  ; fashionable	elegante	adjective
+subject  ; topic  ; theme	soggetto	communication
+substitution  ; exchange  ; commutation	cambio	mathematics
+subway  ; metro  ; tube  ; underground  ; subway system	metropolitana	city
+success	successo	business
+successful	fortunato	adjective-people
+such	come	adverb
+sudden	improvviso	adjective
+suffer  ; endure	subire	verb
+sugar  ; refined sugar	zucchero	food
+suggest  ; propose  ; advise	proporre	verb
+suggestion  ; proposition  ; proffer	proposta	communication
+suitcase  ; bag  ; traveling bag  ; travelling bag  ; grip	valigia	clothes
+summer  ; summertime	estate	time
+sun  ; Sun	sole	geography
+supermarket	supermercato	city
+supply  ; provide  ; render  ; furnish	fornire	verb
+support	supporto	business
+support  ; back up	sostenere	verb
+surely  ; certainly  ; sure  ; for sure  ; for certain  ; sure enough  ; sure as shooting	certamente	adverb
+surface	superficie	mathematics
+surprise	sorprendere	verb
+surprise	sorpresa	relations
+survive  ; last  ; live  ; live on  ; go  ; endure  ; hold up  ; hold out	durare	verb
+sweet	dolce	adjective
+sweet  ; sweetness  ; sugariness	dolcezza	food
+system  ; scheme	sistema	science
+table	tavolo	furniture
+table  ; tabular array	tavola	business
+tail	coda	anatomy
+take  ; get hold of	prendere	verb-basic
+talk  ; speak  ; utter  ; mouth  ; verbalize  ; verbalise	parlare	verb-basic
+tall	alto	adjective
+taste  ; gustation  ; sense of taste  ; gustatory modality	gusto	abstract
+taste  ; savor  ; savour	assaggiare	verb
+tax  ; taxation  ; revenue enhancement	imposta	business
+tea	tè	drink
+teach  ; learn  ; instruct	istruire	verb
+teacher  ; instructor	insegnante	education
+team  ; squad	squadra	business
+technology  ; engineering	tecnologia	science
+television  ; tv set  ; television receiver  ; television set  ; tv  ; idiot box  ; boob tube  ; telly  ; goggle box	televisore	device
+television camera  ; tv camera  ; camera	macchina fotografica	device
+ten  ; 10  ; x	dieci	number
+tennis  ; lawn tennis	tennis	sports
+test  ; prove  ; try  ; try out  ; examine  ; essay	esaminare	verb
+than	che	conjunction
+thank  ; give thanks	ringraziare	verb
+thank you very much	tante grazie	conversation
+that	questa	pronoun
+the	la	article
+theater  ; theatre  ; house	teatro	city
+their	loro	pronoun
+them	loro	pronoun
+then  ; so  ; and so  ; and then	allora	adverb
+theory	teoria	science
+there  ; at that place  ; in that location	ecco	adverb
+therefore  ; hence  ; thence  ; thus  ; so	perciò	adverb
+these	queste	pronoun
+they	essi	pronoun
+thick	denso	adjective
+thin	sottile	adjective
+thing	cosa	abstract
+third  ; 3rd  ; tertiary	terzo	number
+thirsty	assetato	adjective-people
+thirteen  ; 13  ; xiii	tredici	number
+thirty  ; 30  ; xxx	trenta	number
+this	questo	pronoun
+those	questo	pronoun
+thousand  ; one thousand  ; 1000  ; M  ; K  ; chiliad  ; G  ; grand  ; thou  ; yard	mille	number
+thousand  ; one thousand  ; 1000  ; m  ; k	mille	number
+three  ; 3  ; iii	tre	number
+throat  ; pharynx	gola	anatomy
+throw	gettare	verb
+throw	getto	sports
+thumb  ; pollex	pollice	anatomy
+thunder	tuono	weather
+ticket	biglietto	object
+tie  ; necktie	cravatta	clothes
+tight	stretto	adjective
+time  ; fourth dimension	tempo	physics
+tired	stanco	adjective-people
+title	titolo	society
+title  ; entitle	intitolare	verb
+to	verso	preposition
+today	oggi	adverb
+today	oggi	time
+toe	dito del piede	anatomy
+together	insieme	adverb
+toilet  ; lavatory  ; lav  ; can  ; john  ; privy  ; bathroom	bagno	house
+tomato	pomodoro	vegetable
+tomorrow	domani	adverb
+tomorrow	domani	time
+tongue  ; lingua  ; glossa  ; clapper	lingua	anatomy
+tonight  ; this evening  ; this night	stasera	adverb
+too  ; besides  ; also  ; likewise  ; as well	anche	adverb
+tooth	dente	anatomy
+top  ; peak  ; summit  ; acme  ; height  ; elevation  ; pinnacle  ;  superlative  ; meridian  ; tiptop	apice	abstract
+total  ; sum  ; amount	somma	mathematics
+touch  ; touching	tocco	abstract
+town	città	city
+trace  ; draw  ; line  ; describe  ; delineate	disegnare	verb-basic
+track  ; rail  ; rails  ; runway	rotaia	transport
+trade	commercio	business
+trade  ; merchandise	commerciare	verb
+train  ; develop  ; prepare  ; educate	istruire	verb
+train  ; railroad train	treno	transport
+training  ; preparation  ; grooming	formazione	education
+transport  ; shipping  ; transportation	trasporto	transport
+travel  ; go  ; move  ; locomote	andare	verb
+treat  ; care for	trattare	verb
+treatment  ; handling	trattamento	abstract
+tree	albero	nature
+trend  ; tendency	tendenza	science
+trick	trucco	abstract
+trick  ; flim-flam  ; play a joke on  ; play tricks  ; fob  ; fox  ; pull a fast one on  ; play a trick on	imbrogliare	verb
+trouble  ; problem	problema	science
+true	vero	adjective
+try  ; seek  ; attempt  ; essay  ; assay	tentare	verb
+turn	girare	verb
+twenty  ; 20  ; xx	venti	number
+two  ; 2  ; ii	due	number
+type	tipo	abstract
+ugly	brutto	adjective
+under  ; nether	sotto	adjective
+understand	capire	verb-basic
+unemployed	disoccupato	adjective-people
+union	unione	society
+unit  ; unit of measurement	unità	physics
+university	università	city
+until	fino a	conjunction
+unusual	insolito	adjective
+up  ; upwards  ; upward  ; upwardly	su	adverb
+us	noi	pronoun
+use  ; usage  ; utilization  ; utilisation  ; employment  ; exercise	uso	abstract
+use  ; utilize  ; utilise  ; apply  ; employ	usare	verb-basic
+user	utente	science
+usual  ; common	comune	adjective
+usually  ; normally  ; unremarkably  ; commonly  ; ordinarily	normalmente	adverb
+value	valore	business
+various  ; diverse	diverso	adjective
+very  ; really  ; real  ; rattling	molto	adverb
+village  ; small town  ; settlement	paese	city
+violent	violento	adjective-people
+violet  ; purple  ; purplish	violetta	color
+visit	visita	relations
+visit  ; see	visitare	verb
+vogue  ; trend  ; style	stile	art
+voice  ; vocalization  ; vocalisation  ; vocalism  ; phonation  ; vox	voce	communication
+wages  ; reward  ; payoff	ricompensa	business
+wait  ; hold off  ; hold back	aspettare	verb-basic
+walk	camminare	verb
+wall	muro	house
+war  ; state of war	guerra	society
+warm	caldo	adjective
+warm	riscaldare	verb
+wash  ; launder	pulire	verb
+waste  ; waste material  ; waste matter  ; waste product	scarto	environment
+watch  ; see  ; view  ;  catch  ; take in	guardare	verb
+watch  ; ticker	orologio	device
+water  ; H2O	acqua	drink
+wave  ; moving ridge	onda	nature
+we	noi	pronoun
+weak	debole	adjective-basic
+wear	usura	abstract
+wear  ; have on	indossare	verb
+weather  ; weather condition  ; conditions  ; atmospheric condition	tempo	nature
+wedding  ; marriage  ; marriage ceremony	matrimonio	family
+wedding  ; wedding ceremony  ; nuptials  ; hymeneals	nozze	family
+week  ; calendar week	settimana	time
+weekend	fine settimana	time
+weigh	pesare	verb
+weight	peso	physics
+well	pozzo	house
+well  ; good	bene	adverb
+west  ; due west  ; westward  ; W	ovest	geography
+wet	bagnato	adjective
+what	che	pronoun
+what is your name	Come si chiama	conversation
+wheel	ruota	object
+when	quando	pronoun
+whenever	ogni qual volta	conjunction
+which	quale	pronoun
+which	quale	pronoun
+while  ; piece  ; spell  ; patch	momento	time
+whip	frusta	tool
+white	bianco	color
+who	chi	pronoun
+whole	intero	adjective
+whole	tutto	abstract
+whom	chi	pronoun
+whose	di chi	pronoun
+why	perché	adverb
+wide  ; broad	largo	adjective
+wife  ; married woman	moglie	family
+will	volontà	society
+will  ; testament	testamento	society
+will  ; volition	volontà	abstract
+win	vincere	verb
+win	vittoria	sports
+wind  ; air current  ; current of air	vento	weather
+window	finestra	house
+wine  ; vino	vino	drink
+wing	ala	anatomy
+winter  ; wintertime	inverno	time
+wire	filo	object
+wise	saggio	adjective-people
+wish	desiderare	verb
+wish  ; wishing  ; want	desiderio	abstract
+with	con	preposition
+with	con	preposition
+without	senza	preposition
+woman  ; adult female	donna	family
+wood	legno	material
+wool	lana	material
+word	parola	communication
+work	lavoro	business
+worker	operaio	business
+world	mondo	nature
+write	scrivere	verb-basic
+writer  ; author	scrittore	profession
+writing	scrittura	communication
+wrong  ; incorrect	scorretto	adjective-basic
+year  ; twelvemonth  ; yr	anno	time
+yellow  ; yellowish  ; xanthous	giallo	color
+yes	si	conversation
+young  ; immature	giovane	adjective-people
+your	loro	pronoun
+yourself	te stesso	pronoun
+you're welcome	prego	conversation

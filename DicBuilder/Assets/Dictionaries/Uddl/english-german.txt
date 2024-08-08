@@ -1,0 +1,1701 @@
+# English-German translations created from the Universal dictionary at 2018-06-03T19:42:13+00:00
+# (c) Copyright 2018 by All free dictionaries project
+# ALL FREE DICTIONARIES PROJECT DISCLAIMS ALL
+# WARRANTIES WITH REGARD TO THESE TRANSLATIONS, INCLUDING ALL
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+# EVENT SHALL ALL FREE DICTIONARIES PROJECT OR ANY OF ITS CONTRIBUTORS
+# BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES
+# OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+# PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+# OR OTHER ACTION, ARISING OUT OF OR IN CONNECTION
+# WITH THE USE OR PERFORMANCE OF THESE TRANSLATIONS.
+#
+# In other words there may be incorrect translations.
+# If you need to be sure never use these translations!
+#
+# French, German and Czech entries are added manually. The entries for
+# remaining languages are added automatically. Entries for these languages
+# are only experimental.
+#
+# You may not place this file on WWW, ftp and equivalent servers because
+# this file gets outdated very quickly. You may not distribute this file
+# with your dictionary applications without permission. You can contact
+# authors of the Universal dictionary at: http://dicts.info/contact.php
+#
+# This file is for personal use only. You may not distribute this file.
+#
+# New version of this file can be created at: https://www.dicts.info/uddl.php
+#
+
+April  ; Apr	April	time
+August  ; Aug	der August	time
+China  ; People's Republic of China  ; mainland China  ; Communist China  ; Red China  ; PRC  ; Cathay	China	country
+Chinese	Chinesisch	language
+Czech Republic	Tschechische Republik	country
+December  ; Dec	Dezember	time
+Earth  ; earth  ; world  ; globe	Erde	geography
+English  ; English language	Englisch	language
+February  ; Feb	Februar	time
+France  ; French Republic	Frankreich	country
+French	Französisch	language
+Friday  ; Fri	Freitag	time
+German  ; High German  ; German language	Deutsch ; Deutsche	language
+Germany  ; Federal Republic of Germany  ; Deutschland  ; FRG	Deutschland	country
+Hindi	Hindi	language
+I don't know	ich weiß nicht	conversation
+I don't understand	ich verstehe nicht	conversation
+India  ; Republic of India  ; Bharat	Indien	country
+Italian	Italienisch	language
+Italy  ; Italian Republic  ; Italia	Italien	country
+January  ; Jan	Januar	time
+Japan  ; Nippon  ; Nihon	Japan	country
+Japanese	Japanisch	language
+July	Juli	time
+June	Juni	time
+May	Mai	time
+Monday  ; Mon	Montag	time
+Moon  ; moon	Mond	geography
+November  ; Nov	November	time
+October  ; Oct	Oktober	time
+Russian	Russisch	language
+Saturday  ; Sabbatum  ; Sat	Samstag	time
+September  ; Sep  ; Sept	September	time
+Spain  ; Kingdom of Spain  ; Espana	Spanien	country
+Spanish	Spanisch	language
+Sunday  ; Lord's Day  ; Dominicus  ; Sun	Sonntag	time
+Thursday  ; Th	Donnerstag	time
+Tuesday  ; Tues	Dienstag	time
+United Kingdom  ; UK  ; U.K.  ; Britain  ; United Kingdom of Great Britain and Northern Ireland  ; Great Britain	Britannien	country
+United States  ; United States of America  ; America  ; the States  ; US  ; U.S.  ; USA  ; U.S.A.	Vereinigte Staaten	country
+Wednesday  ; Midweek  ; Wed	Mittwoch	time
+a  ; an	ein	article
+ability  ; power	Fähigkeit	abstract
+able	fähig	adjective-people
+about  ; around	rund um	adverb
+above  ; higher up  ; in a higher place  ; to a higher place	oben ; ober ; oberhalb ; über	adverb
+accept  ; take  ; have	akzeptieren ; annehmen ; entgegennehmen	verb
+accident	Unfall ; Unglück	transport
+account  ; business relationship	Konto	business
+accuse  ; charge	beschuldigen	verb
+achieve  ; accomplish  ; attain  ; reach	erreichen ; erzielen	verb
+acid	Säure	material
+acid	sauer	adjective
+acid rain  ; acid precipitation	Saurer Regen	environment
+act  ; deed  ; human action  ; human activity	Tat	abstract
+act  ; move	tun	verb
+action	Akt ; Tat	abstract
+activity  ; action  ; activeness	Aktivität	abstract
+actor  ; histrion  ; player  ; thespian  ; role player	Akteur ; Schauspieler	profession
+actress	Schauspielerin	profession
+add  ; add together	addieren ; zurechnen	verb
+addition  ; add-on  ; improver	Ergänzung ; Zugabe	abstract
+addition  ; summation  ; plus	Addition	mathematics
+address	Adresse	house
+admit  ; acknowledge	zugeben ; zulassen ; anerkennen	verb
+advantage  ; vantage	Vorteil	business
+advertisement  ; ad  ; advertizement  ; advertising  ; advertizing  ; advert	Inserat ; Reklame ; Werbung ; Zeitungsanzeige	business
+advice	Rat	business
+affect  ; impact  ; bear upon  ; bear on  ; touch on  ; touch	beeinflussen	verb
+after	nach	adjective
+afternoon	Nachmittag	time
+again  ; once again  ; once more  ; over again	wiederum	adverb
+against	gegen	preposition
+age	Alter	time
+ago  ; agone	vor	adjective
+agree  ; hold  ; concur  ; concord	zustimmen ; übereinstimmen	verb
+agreement  ; understanding	Abkommen ; Vertrag	business
+air	Luft	nature
+airport  ; airdrome  ; aerodrome  ; drome	Flughafen ; Flugplatz	city
+alive  ; live	lebend ; lebendig	adjective-people
+all	alles	adjective
+allow  ; let  ; permit	erlauben ; gestatten ; gewähren ; zulassen ; ermöglichen	verb
+almost  ; about  ; most  ; nearly  ; near  ; nigh  ; virtually  ; well-nigh	fast	adverb
+alone  ; lone  ; lonely  ; solitary	einsam	adjective-people
+along	entlang	adverb
+already	bereits	adverb
+always  ; ever  ; e'er	stets ; immer	adverb
+among  ; amongst  ; amid  ; amidst	mitten ; unter ; zwischen ; mitten unter	preposition
+amount	Menge	abstract
+and	und	conjunction
+angle	Winkel	mathematics
+angry	erzürnt	adjective-people
+animal  ; animate being  ; beast  ; brute  ; creature  ; fauna	Kreatur ; Tier ; Vieh	nature
+announce  ; denote	ansagen ; annoncieren	verb
+announcement  ; proclamation  ; annunciation  ; declaration	Ankündigung ; Bekanntmachung ; Proklamation	communication
+another  ; some other	andere ; anders	adjective-basic
+answer  ; reply  ; response	Antwort	communication
+ant  ; emmet  ; pismire	Ameise	animal
+any  ; whatever  ; whatsoever	ein ; beliebig	adjective
+anyone	irgendjemand	pronoun
+anything	irgendetwas	pronoun
+apple	Apfel	fruit
+approval  ; blessing  ; approving	Genehmigung ; Billigung	communication
+approximately  ; about  ; close to  ; just about  ; some  ; roughly  ; more or less  ; around  ; or so	nahezu ; um ; gegen ; etwa ; ungefähr	adverb
+apricot	Aprikose ; Marille	fruit
+area  ; expanse  ; surface area	Fläche	mathematics
+argue  ; contend  ; debate  ; fence	streiten ; sich streiten	verb
+argument  ; controversy  ; contention  ; contestation  ; disputation  ; disceptation  ; tilt  ; arguing	Streit ; Kontroverse ; Anfechtung ; Auseinandersetzung	communication
+argument  ; statement	Argument	communication
+arm	Arm	anatomy
+army  ; regular army  ; ground forces	Armee	society
+arrive  ; make it  ; get in  ; go far	ankommen ; anreisen ; eintreffen	verb
+art  ; fine art	Kunst ; Arte	art
+artist  ; creative person	Artist	art
+ask  ; inquire  ; enquire	fragen	verb
+at	auf	preposition
+at	auf	preposition
+atmosphere  ; air	Atmosphäre	environment
+attack  ; assail  ; assault  ; set on	angreifen ; attackieren	verb
+attack  ; onslaught  ; onset  ; onrush	Angriff ; Anfall ; Attacke	abstract
+attempt  ; effort  ; endeavor  ; endeavour  ; try	Anstrengung ; Bemühung ; Mühe ; Versuch	abstract
+attention  ; attending	Aufmerksamkeit	business
+attitude  ; mental attitude	Standpunkt ; Stellung	abstract
+authority  ; authorization  ; authorisation  ; potency  ; dominance  ; say-so	Autorität ; Berechtigung ; Bevollmächtigung ; Ermächtigung	business
+automatic	automatisch	adjective
+autumn  ; fall	Herbst	time
+available	vorhanden	adjective
+avoid	meiden ; vermeiden	verb
+awake	munter ; wach	adjective-people
+award  ; accolade  ; honor  ; honour  ; laurels	Auszeichnung	sports
+baby  ; babe  ; infant	Baby	family
+back	Rückseite	abstract
+back  ; dorsum	Rücken	anatomy
+bad	schlecht	adjective-basic
+bag	Beutel	container
+bag  ; handbag  ; pocketbook  ; purse	Handtasche	clothes
+balance	Gleichgewicht	physics
+ball	Ball	sports
+banana	Banane	fruit
+band  ; dance band  ; dance orchestra	Kapelle	art
+bank	Ufer	geography
+bank  ; depository financial institution  ; banking concern  ; banking company	Bank	city
+banknote  ; bill  ; note  ; government note  ; bank bill  ; banker's bill  ; bank note  ; Federal Reserve note  ; greenback	Banknote	business
+bargain  ; deal	Handel	business
+base  ; base of operations	Basis ; Stützpunkt	society
+baseball  ; baseball game	Baseball	sports
+basic	elementar ; fundamental ; primär ; grundlegend ; basisch	adjective-basic
+basket  ; handbasket	Korb	container
+bathroom  ; bath	badezimmer	house
+be	sein	verb-basic
+be  ; live	leben	verb
+beach	Strand	geography
+beak  ; bill  ; neb  ; nib  ; pecker	Schnabel	anatomy
+bean  ; edible bean	Bohne	vegetable
+bear	Bär	animal
+bear	tragen	verb
+beat  ; beat out  ; crush  ; shell  ; trounce  ; vanquish	besiegen ; schlagen	verb
+beautiful	schön	adjective-basic
+because	weil	conjunction
+become  ; go  ; get	bekommen	verb
+bed	Bett	furniture
+bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber	Schlafzimmer	house
+bee	Biene ; Honigbiene	animal
+beer	Bier	drink
+before  ; earlier	ehe ; vor	adverb
+begin  ; start  ; get down  ; get  ; start out  ; set about  ; set out  ; commence	anfangen ; beginnen	verb-basic
+beginning  ; commencement  ; first  ; outset  ; get-go  ; start  ; kickoff  ; starting time  ; showtime  ; offset	Anfang ; Beginn	time
+behave  ; acquit  ; bear  ; deport  ; conduct  ; comport  ; carry	handeln ; sich benehmen ; sich verhalten	verb
+behavior  ; demeanor  ; demeanour  ; behaviour  ; conduct  ; deportment	Benehmen ; Verhalten ; Aufführung ; Haltung	abstract
+behind	hinter	adverb
+believe	glauben ; trauen	verb
+bell	Glocke	tool
+benefit  ; do good	nützlig sein	verb
+beside	neben	preposition
+best	beste	adjective-basic
+better	besser	adjective-basic
+between  ; betwixt	zwischen	adverb
+beyond	jenseits	adverb
+big  ; large	groß	adjective-basic
+bike  ; bicycle  ; wheel  ; cycle	Fahrrad	sports
+biology  ; biological science	Biologie	science
+bird	Vogel	animal
+birth  ; nativity  ; nascency  ; nascence	Geburt	family
+birthday	Geburtstag	family
+bit  ; chip  ; flake  ; fleck  ; scrap	Stückchen	abstract
+bite  ; seize with teeth	beißen	verb
+bitter	bitter ; herb	adjective
+black	schwarz	color
+blackberry	Brombeere	fruit
+blade	Blatt ; Klinge	object
+blood	Blut	anatomy
+blow	Schlag	abstract
+blue  ; bluish  ; blueish	blau	color
+board	Brett	object
+boat	Boot	transport
+body  ; torso  ; trunk	Rumpf	anatomy
+bone  ; os	Knochen	anatomy
+book  ; volume	Buch	communication
+boot	Stiefel	clothes
+boring  ; deadening  ; dull  ; ho-hum  ; irksome  ; slow  ; tedious  ; tiresome  ; wearisome	ermüdend ; langweilig	adjective
+both	beide	adjective
+bottle	Flasche	container
+box	Kiste	container
+boy  ; male child	Junge	family
+boyfriend  ; fellow  ; beau  ; swain  ; young man	Freund	relations
+brain  ; encephalon	Gehirn	anatomy
+branch	Ast	nature
+brand  ; make	Ausführung ; Marke	business
+bread  ; breadstuff  ; staff of life	Brot	food
+break	brechen ; zerbrechen	verb-basic
+break  ; respite  ; recess  ; time out	Pause	abstract
+breakfast	Frühstück	food
+breath	Atem ; Atemzug ; Hauch	anatomy
+brick	Backstein ; Ziegel ; Ziegelstein	house
+bridge  ; span	Brücke	city
+bright  ; brilliant  ; vivid	hell ; klar	adjective
+bring  ; convey  ; take	bringen	verb
+broken	kaputt	adjective
+brother  ; blood brother	Bruder	family
+brown  ; brownish  ; chocolate-brown  ; dark-brown	braun	color
+brush	Bürste	art
+build  ; construct  ; make	bauen	verb
+building  ; edifice	Bau ; Bauwerk ; Gebäude	city
+burn  ; fire  ; burn down	verbrennen	verb
+bus  ; autobus  ; coach  ; charabanc  ; double-decker  ; jitney  ; motorbus  ; motorcoach  ; omnibus  ; passenger vehicle	Autobus ; Bus ; Omnibus	transport
+business  ; concern  ; business concern  ; business organization  ; business organisation	Geschäft	business
+businessman  ; man of affairs	Geschäftsmann	profession
+businesswoman	Geschäftsfrau ; Kauffrau	business
+butter	Butter	food
+button  ; push button  ; push	Knopf ; Taste	tool
+buy  ; purchase	kaufen	verb-basic
+by  ; past	vorbei	adverb
+cabbage  ; chou	Kohl	vegetable
+cake	Kuchen	food
+call  ; phone call  ; telephone call	der Anruf	communication
+call  ; telephone  ; call up  ; phone  ; ring	telefonieren ; anrufen	verb
+camera  ; photographic camera	Fotoapparat	device
+campaign  ; cause  ; crusade  ; drive  ; movement  ; effort	Kampagne	abstract
+can  ; tin  ; tin can	dose	container
+capital	die Hauptstadt	city
+capital  ; working capital	Kapital	business
+car  ; auto  ; automobile  ; machine  ; motorcar	Auto ; Kraftwagen ; Personenwagen ; Kraftfahrzeug ; Personenkraftwagen ; Pkw ; Automobil	transport
+card	Karte	object
+care	sorgen	verb
+care  ; attention  ; aid  ; tending	Sorge ; Pflege ; Behandlung ; Sorgfalt	medicine
+carpet  ; rug  ; carpeting	Teppich ; Vorleger	furniture
+carrot  ; cultivated carrot  ; Daucus carota sativa	Möhre ; Mohrrübe ; Karotte	vegetable
+carry  ; transport	tragen	verb
+case  ; instance  ; example	Fall	abstract
+castle	Burg	city
+cat  ; true cat	Katze	animal
+catch  ; grab  ; take hold of	auffangen ; fangen	verb
+cause	Grund ; Ursache	science
+cause  ; induce  ; stimulate  ; have  ; get  ; make	bewirken	verb
+cell	Zelle	anatomy
+cellphone  ; cellular telephone  ; cellular phone  ; cell  ; mobile phone	das Handy	device
+center  ; centre  ; midpoint	Mitte ; Mittelpunkt	mathematics
+center  ; kernel  ; substance  ; core  ; centre  ; essence  ; gist  ; heart  ; heart and soul  ; inwardness  ; marrow  ; meat  ; nub  ; pith  ; sum  ; nitty-gritty	Essenz ; Kern ; Kernel ; Quintessenz ; Wesentliche	science
+central	zentral	adjective
+century	Jahrhundert	time
+certain  ; sure	gewiss ; sicher	adjective
+chain	Kette	object
+chair	Stuhl	furniture
+championship  ; title	Meisterschaft ; Titel	sports
+chance  ; opportunity	Chance ; Gelegenheit	abstract
+change	Kleingeld ; Wechselgeld	business
+change  ; alter  ; modify	abändern ; verändern ; ändern	verb
+change  ; alteration  ; modification	Abwechslung ; Abänderung ; Veränderung ; Wandel ; Wechsel	abstract
+character  ; grapheme  ; graphic symbol	Schriftzeichen ; Zeichen	communication
+charge  ; electric charge	die Ladung	physics
+cheap  ; inexpensive	billig	adjective
+check  ; bank check  ; cheque	Scheck	business
+cheers	prost	conversation
+cheese	Käse	food
+chemical  ; chemic	chemisch	adjective
+chemical  ; chemical substance	die Chemikalie	material
+chemical element  ; element	Element	material
+chemistry  ; chemical science	Chemie	science
+cherry	Kirsche	fruit
+chest  ; breast	Brust	anatomy
+chest  ; thorax  ; pectus	Brust	anatomy
+child  ; kid	Kind	family
+chin  ; mentum	Kinn	anatomy
+chocolate	Schokolade	food
+choice  ; selection  ; option  ; pick	Wahl	abstract
+choose  ; take  ; select  ; pick out	auswählen ; wählen	verb
+church  ; church building	Kirche	city
+cinema  ; movie theater  ; movie theatre  ; movie house  ; picture palace	Kino	city
+circle	Kreis	mathematics
+city  ; metropolis  ; urban center	Metropole ; Stadt	city
+class  ; form  ; grade  ; course	Klasse	education
+classify  ; class  ; sort  ; assort  ; sort out  ; separate	klassifizieren ; sortieren ; ordnen	verb
+clean	rein ; sauber	adjective-basic
+clean  ; make clean	reinigen ; säubern ; putzen ; reinemachen	verb
+clear	deutlich ; klar	adjective
+clearly	deutlich	adverb
+climate change  ; global climate change	Klimaveränderung	environment
+clock	Uhr	device
+close  ; shut	schließen ; zumachen	verb-basic
+closed  ; shut  ; unopen	geschlossen ; ungeöffnet	adjective
+cloth  ; fabric  ; material  ; textile	Stoff	clothes
+clothing  ; article of clothing  ; vesture  ; wear  ; wearable  ; habiliment	die Kleidung	clothes
+cloud	Wolke	weather
+club	Keule ; Knüppel	object
+club  ; social club  ; society  ; guild  ; gild  ; lodge  ; order	Club ; Klub ; Verein ; Gilde ; Innung ; Zunft	society
+coal	Kohle	material
+coat	Mantel	clothes
+coffee  ; java	Kaffe ; Kaffee	drink
+coil  ; whorl  ; roll  ; curl  ; curlicue  ; ringlet  ; gyre  ; scroll	Rolle	object
+cold	kalt	adjective-basic
+cold  ; common cold	Erkältung	medicine
+collar  ; neckband	Kragen	clothes
+color  ; colour	farben ; Farb- ; farbig	adjective
+color  ; colour  ; coloring material  ; colouring material	Farbe	art
+come  ; come up	kommen	verb-basic
+committee  ; commission	Ausschuss ; Komitee ; Kommission	business
+common	geläufig	adjective
+common  ; mutual	gemeinsam	adjective
+company	Firma	business
+company  ; companionship  ; fellowship  ; society	Gesellschaft	society
+compare	vergleichen	verb
+comparison  ; comparing	Vergleich	science
+competition	Konkurrenzkampf	business
+competitor  ; rival  ; challenger  ; competition  ; contender	Gegenspieler ; Gegner ; Konkurrent ; Rival ; Wettbewerber	sports
+complaint  ; charge	Anklage ; Beanstandung ; Beschwerde ; Klage	business
+complete  ; consummate	vollendet ; vollständig	adjective
+component  ; constituent  ; element  ; factor  ; ingredient	Element	mathematics
+computer  ; computing machine  ; computing device  ; data processor  ; electronic computer  ; information processing system	Computer ; Rechner	device
+concert	Konzert	art
+condition  ; status	Zustand ; Status	abstract
+connection  ; connexion  ; connectedness	Verbindung	abstract
+connection  ; connexion  ; connector  ; connecter  ; connective	Anschlussstück ; Stecker	abstract
+conscious  ; witting	bewusst	adjective
+consequence  ; effect  ; outcome  ; result  ; event  ; issue  ; upshot	Effekt ; Ergebnis ; Folge ; Resultat ; Wirkung	science
+contain  ; incorporate  ; comprise	enthalten	verb
+contest  ; competition	Wettbewerb ; Wettkampf	business
+continue  ; go on  ; proceed  ; go along  ; keep	fortsetzen ; weitermachen	verb
+contract	Vertrag ; Kontrakt	business
+control	Kontrolle	science
+control  ; command	beherrschen ; kontrollieren ; steuern ; führen	verb
+cook	Koch ; Köchin	kitchen
+cook	kochen	verb
+copy	Kopie	business
+copy  ; re-create	kopieren	verb
+correct  ; right	korrekt ; richtig	adjective-basic
+cost	Kosten	business
+cotton	Baumwolle	material
+cough	husten	verb
+cough  ; coughing	Husten	medicine
+council	Kollegium ; Rat	business
+country  ; state  ; land	Land	society
+couple  ; pair  ; twosome  ; twain  ; brace  ; span  ; yoke  ; couplet  ; distich  ; duo  ; duet  ; dyad  ; duad	Paar	number
+course  ; class  ; course of study  ; course of instruction	Lehrgang ; Kurs	business
+court  ; tribunal  ; judicature	Gericht	society
+cover  ; screen  ; covert  ; concealment	Deckel ; Hülle ; Mantel ; Umschlag	object
+cow  ; moo-cow	Kuh	animal
+crack  ; cleft  ; crevice  ; fissure  ; scissure	Kluft ; Riss ; Spalte ; Sprung	abstract
+crime  ; offense  ; criminal offense  ; criminal offence  ; offence  ; law-breaking	Kriminalität ; Verbrechen	society
+cruel  ; barbarous  ; brutal  ; fell  ; roughshod  ; savage  ; vicious	barbarisch	adjective
+crush	zerdrücken ; zerquetschen	verb
+crush  ; crunch  ; compaction	Zerquetschung	abstract
+crush  ; squash  ; squelch  ; mash  ; squeeze	zerdrücken ; zerquetschen	verb
+cry  ; outcry  ; call  ; yell  ; shout  ; vociferation	Aufschrei ; Geschrei ; Ruf ; Schrei	communication
+cry  ; weep	weinen	verb
+cucumber  ; cuke	Gurke	vegetable
+culture  ; civilization  ; civilisation	Kultur	society
+cup	Tasse	container
+cup  ; loving cup	Pokal	sports
+cupboard  ; closet	Schrank	furniture
+current	gegenwärtig ; geläufig ; gängig	adjective
+current  ; stream	Strömung	geography
+curtain  ; drape  ; drapery  ; mantle  ; pall	Gardine ; Vorhang	furniture
+curve  ; bend	Kurve	transport
+curve  ; curved shape	Kurve	mathematics
+customer  ; client	Kunde	business
+cut	schneiden	verb-basic
+cut  ; cutting	Schnitt	abstract
+dainty  ; nice  ; overnice  ; prissy  ; squeamish	empfindlich ; heikel	adjective
+damage  ; harm  ; impairment	Beschädigung ; Schaden	abstract
+dance  ; trip the light fantastic  ; trip the light fantastic toe	tanzen	verb-basic
+danger	Gefahr	abstract
+dangerous  ; unsafe	gefährlich	adjective
+dark	dunkel	adjective-basic
+data  ; information	Angaben	communication
+date  ; appointment  ; engagement	Verabredung	relations
+date  ; day of the month	Datum	time
+daughter  ; girl	Tochter	family
+day  ; twenty-four hours  ; twenty-four hour period  ; 24-hour interval  ; solar day  ; mean solar day	tag ; Tag	time
+dead	tot ; leblos	adjective-people
+dear  ; beloved  ; dearest  ; honey  ; love	Liebling	relations
+death	Tod	family
+death  ; decease  ; expiry	Tod ; tod	abstract
+decide  ; make up one's mind  ; determine	entscheiden ; bestimmen	verb
+decision  ; determination  ; conclusion	Beschluss ; Entscheidung ; Entschluss ; Schlussfolgerung	communication
+decoration  ; ornament  ; ornamentation	Verzierung	abstract
+defense  ; defence  ; defense force  ; defence force	Verteidigung ; Abwehr	abstract
+degree	Grad	mathematics
+degree  ; grade  ; level	Grad ; Niveau ; Stufe	mathematics
+delicate	zart ; zierlich	adjective
+demand  ; need	Bedarf ; Bedürfnis	business
+democracy  ; republic  ; commonwealth	Demokratie ; Republik	society
+department  ; section	Abteilung	business
+describe  ; depict  ; draw	beschreiben	verb
+design  ; designing	Entwurf	art
+design  ; plan	entwerfen	verb
+desire  ; want	begehren ; wollen	verb
+desk	Schreibtisch	furniture
+destruction  ; devastation	Vernichtung	abstract
+detail  ; particular  ; item	Einzelheit	abstract
+develop	entwickeln	verb
+dew	Tau	weather
+dictionary  ; lexicon	Lexikon ; Wörterbuch	communication
+die  ; decease  ; perish  ; go  ; exit  ; pass away  ; expire  ; pass  ; kick the bucket  ; cash in one's chips  ; buy the farm  ; conk  ; give-up the ghost  ; drop dead  ; pop off  ; choke  ; croak  ; snuff it	sterben	verb
+difference	Unterschied	mathematics
+different	anders	adjective
+different  ; unlike  ; dissimilar	anders ; ungleich	adjective
+difficult  ; hard	schwer ; schwierig	adjective-basic
+difficulty	Schwierigkeit	business
+direction	Richtung	business
+directly  ; straight  ; direct	direkt ; gerade ; geradewegs	adverb
+director  ; manager  ; managing director	Direktor ; Verwalter ; leitender Verwaltungsangestellter	business
+dirty  ; soiled  ; unclean	schmutzig ; unrein ; unsauber	adjective-basic
+discipline  ; subject  ; subject area  ; subject field  ; field  ; field of study  ; study  ; bailiwick	Disziplin	science
+discover  ; find	entdecken	verb
+discovery  ; find  ; uncovering	Entdeckung	science
+discuss  ; hash out  ; talk over	debattieren ; bereden ; besprechen ; diskutieren	verb
+discussion  ; give-and-take  ; word	Diskussion	communication
+disease	Krankheit	medicine
+distance	Abstand ; Distanz ; Entfernung	mathematics
+diversity  ; diverseness  ; multifariousness  ; variety	Diversität ; Verschiedenheit ; Vielfalt	art
+divide  ; split  ; split up  ; separate  ; dissever  ; carve up	teilen ; verteilen	verb
+division  ; partition  ; partitioning  ; segmentation  ; sectionalization  ; sectionalisation	Segmentierung ; Teilung	mathematics
+do  ; practice  ; practise  ; exercise	praktizieren ; exerzieren	verb-basic
+do you speak English	sprichst du Englisch	conversation
+doctor  ; doc  ; physician  ; MD  ; Dr.  ; medico	Arzt ; Doktor	medicine
+dog  ; domestic dog  ; Canis familiaris	Hund	animal
+dominance  ; ascendance  ; ascendence  ; ascendancy  ; ascendency  ; control	Vorherrschaft ; Oberherrschaft ; Dominanz	abstract
+dominion  ; rule	Oberherrschaft	society
+door	Tür	house
+doubt	anzweifeln ; bezweifeln ; zweifeln	verb
+doubt  ; uncertainty  ; incertitude  ; dubiety  ; doubtfulness  ; dubiousness	Ungewissheit ; Zweifel	communication
+down	unten	adjective
+down  ; downwards  ; downward  ; downwardly	abwärts	adverb
+drawer	Schublade	container
+drink  ; beverage  ; drinkable  ; potable	Getränk ; Trank	drink
+drink  ; imbibe	trinken	verb-basic
+drive	steuern ; lenken	verb
+drop  ; drib  ; driblet	Tropfen	abstract
+dry	trocken	adjective
+dump  ; garbage dump  ; trash dump  ; rubbish dump  ; wasteyard  ; waste-yard  ; dumpsite	Kippe	environment
+during	während	preposition
+dust	Staub	material
+duty	Pflicht ; Verpflichtung	abstract
+each	jede ; jeder ; jedes	adjective
+ear	Ohr	anatomy
+early	früh	adjective
+early  ; early on	früh	adverb
+earth  ; ground	Erde	material
+east  ; due east  ; eastward  ; E	Osten	geography
+easy	leicht	adjective
+eat	essen	verb-basic
+ecology  ; bionomics  ; environmental science	Ökologie	environment
+economic	wirtschaftlich	adjective
+economic  ; economical	sparsam ; ökonomisch	adjective
+economy  ; economic system	Wirtschaft ; Wirtschaftssystem	business
+edge  ; border	Kante ; Rand	mathematics
+education	Ausbildung ; Bildung	education
+education	Erziehung	education
+education  ; instruction  ; teaching  ; pedagogy  ; didactics  ; educational activity	Bildung ; Unterrichtswesen ; Pädagogik	education
+effort  ; elbow grease  ; exertion  ; travail  ; sweat	Kraftanstrengung	abstract
+egg	Ei	food
+eight  ; 8  ; viii	acht	number
+eighteen  ; 18  ; xviii	achtzehn	number
+eighty  ; 80  ; lxxx  ; fourscore	achtzig	number
+either	entweder	adverb
+election	Wahl	society
+electric  ; electrical	elektrisch ; elektrischer	adjective
+elephant	Elefant	animal
+elevator  ; lift	Aufzug ; Fahrstuhl ; Lift	device
+eleven  ; 11  ; xi	elf	number
+embrace  ; encompass  ; comprehend  ; cover	enthalten ; umfassen	verb
+encourage	ermutigen	verb
+end  ; stop  ; finish  ; terminate  ; cease	enden	verb
+end  ; terminal	Eind ; Ende ; Schluss	time
+energy  ; free energy	Energie	physics
+engine	Motor	device
+enhance  ; heighten  ; raise	erhöhen ; steigern	verb
+enjoy  ; bask  ; relish  ; savor  ; savour	genießen	verb
+enough  ; plenty	genug	adverb
+enter  ; come in  ; get into  ; get in  ; go into  ; go in  ; move into	eintreten ; hineingehen ; hineinkommen	verb
+entertainment  ; amusement	Unterhaltung ; Belustigung ; Vergnügung	art
+entirely  ; exclusively  ; solely  ; alone  ; only	allein	adverb
+envelope	Briefumschlag ; Umschlag ; Kuvert	container
+environment	Milieu ; Umgebung ; Umwelt	business
+environment  ; environs  ; surroundings  ; surround	Umgebung	environment
+equal	gleich	adjective
+equally  ; as  ; every bit	wie	adverb
+establish  ; found  ; plant  ; constitute  ; institute	begründen ; gründen ; stiften ; einrichten ; aufbauen	verb
+estimate  ; gauge  ; approximate  ; guess  ; judge	schätzen	verb
+even	gerade	adjective
+even	sogar	adverb
+even  ; fifty-fifty	eben	adjective
+evening  ; eve  ; even  ; eventide	Abend	time
+event	Ereignis ; Begebenheit ; Vorfall ; Geschehnis	science
+every	alle ; jede ; jeder	adjective
+everybody  ; everyone	jeder	pronoun
+everything	alles	pronoun
+evidence	Beweis	science
+evolution  ; development	Entwicklung	nature
+exactly  ; precisely  ; just	genau ; gerade	adverb
+examination  ; exam  ; test	Examen ; Prüfung	education
+example  ; illustration  ; instance  ; representative	Beispiel	science
+exceed  ; transcend  ; overstep  ; pass  ; go past  ; top	übersteigen ; übertreffen	verb
+excellent  ; first-class  ; fantabulous  ; splendid	ausgezeichnet	adjective
+exist  ; be	existieren ; bestehen	verb
+existence  ; being  ; beingness	Dasein ; Existenz ; Sein	society
+expect  ; look  ; await  ; wait	erwarten ; entgegensehen	verb
+experience	Erfahrung	business
+experience	Erlebnis	communication
+expert	Experte	profession
+explain  ; explicate	erklären ; erläutern ; aufklären	verb
+express  ; limited	Schnellzug	transport
+expression  ; look  ; aspect  ; facial expression  ; face	Blick	communication
+eye  ; oculus  ; optic	Auge	anatomy
+face  ; human face	Gesicht	anatomy
+fact	Tatsache	science
+factory  ; mill  ; manufacturing plant  ; manufactory	Fabrik ; Fertigungsanlage	city
+fake  ; false  ; faux  ; imitation  ; simulated	unecht ; falsch	adjective
+fall	fallen ; stürzen	verb-basic
+fall  ; spill  ; tumble	Fall ; Sturz	abstract
+false	falsch	adjective
+family  ; family unit	Familie	family
+far	entfernt ; fern ; weit	adjective
+farm	Bauernhof	nature
+fast	schnell	adjective-basic
+fat	Fett	material
+fat	dick ; gras	adjective
+fat  ; fatty	fettig ; speckig	adjective
+father  ; male parent  ; begetter	Vater	family
+fear  ; fearfulness  ; fright	Angst ; Furcht	feeling
+feather  ; plume  ; plumage	Feder	object
+feature  ; characteristic	Charakteristik ; Eigenschaft ; Merkmal	abstract
+feel  ; sense	fühlen ; tasten	verb-basic
+feeling	Gefühl	communication
+female	weiblich	adjective-people
+female  ; female person	Frau	society
+few	wenig	adjective
+field	Feld	nature
+fifteen  ; 15  ; xv	fünfzehn	number
+fifty  ; 50  ; l	fünfzig	number
+fight  ; contend  ; struggle	kämpfen ; ringen ; sich prügeln ; sich schlagen	verb
+fight  ; fighting  ; combat  ; scrap	Bekämpfung ; Kampf ; Schlacht	abstract
+fill  ; fill up  ; make full	füllen ; auffüllen	verb
+final  ; last  ; concluding  ; terminal	abschließend ; final ; terminal ; endgültig	adjective
+finally  ; last  ; lastly  ; in conclusion	letzter	adverb
+financial  ; fiscal	finanziell	adjective
+find  ; detect  ; observe  ; discover  ; notice	entdecken ; enthüllen ; finden	verb
+find  ; regain	finden	verb-basic
+finger	Finger	anatomy
+finish  ; complete	beenden ; fertig stellen ; fertigstellen ; vollenden ; endigen ; erledigen	verb
+finish  ; goal  ; destination	Bestimmung	sports
+fire  ; flame  ; flaming	Feuer ; Flamme	nature
+fire  ; open fire	feuern ; schießen	verb-basic
+firm  ; house  ; business firm	Firma ; Betrieb	business
+firm  ; solid	fest ; hart	adjective
+first	erst	adjective
+first  ; firstly  ; foremost  ; first of all  ; first off	erst ; zunächst ; erstens ; zuerst	adverb
+fish	Fisch	animal
+five  ; 5  ; v	fünf	number
+fixed	gegeben ; angegeben	adjective
+flag	Flagge	object
+flat  ; apartment	Appartement ; Wohnung	city
+flat  ; level  ; plane	eben ; flach	adjective
+flight  ; flying	Fliegen ; Flug	transport
+floor  ; flooring	Fußboden	house
+floor  ; level  ; storey  ; story	Geschoss ; Etage ; Stockwerk	house
+flower	Blume	nature
+flush  ; level  ; even out  ; even	ausgleichen	verb
+fly	Fielge ; Fliege	animal
+fly  ; wing	fliegen	verb-basic
+fog	der Nebel	weather
+follow	folgen	verb-basic
+following  ; next	folgend ; nächste ; nachfolgend ; nachstehend ; nächster	adjective
+food  ; nutrient	Essen ; Nahrungsmittel ; Nährstoff ; Speise ; essen ; nahrung	food
+foot  ; human foot  ; pes	Fuß ; Fuss	anatomy
+football  ; football game	Fußball	sports
+for	für	preposition
+for	weil	conjunction
+forehead  ; brow	Stirn	anatomy
+foreign  ; strange	ausländisch ; fremd	adjective
+forest  ; wood  ; woods	Gehölz ; Holz ; Wald	nature
+forget	vergessen	verb-basic
+forgive	verzeihen	verb
+fork	Gabel	kitchen
+form	Formblatt ; Formular	business
+former  ; erstwhile  ; old  ; onetime  ; one-time  ; quondam  ; sometime	vorig ; früher	adjective
+forty  ; 40  ; xl  ; twoscore	vierzig	number
+forward  ; forwards  ; frontward  ; frontwards  ; forrad  ; forrard	voraus ; vordere	adverb
+fossil fuel	Fossile Energie	environment
+four  ; 4  ; iv	vier	number
+fourteen  ; 14  ; xiv	vierzehn	number
+fragile  ; delicate  ; frail	brüchig ; gebrechlich ; zerbrechlich	adjective
+frame	Rahmen	object
+free	frei	adjective-people
+free  ; complimentary  ; costless  ; gratis  ; gratuitous	frei ; kostenlos ; umsonst	adjective
+free  ; liberate  ; release  ; unloose  ; unloosen  ; loose	befreien ; erlösen ; freilassen ; freisetzen	verb
+frequent	häufig	adjective
+fresh	frisch	adjective
+friend	Freund ; Freundin	family
+friendly	freundlich	adjective-people
+from	von	preposition
+from	von	preposition
+front	vordere	adjective
+front  ; front end  ; forepart	Front ; Vorderseite ; Vorderteil	abstract
+frost  ; hoar  ; hoarfrost  ; rime	Raureif ; Reif	weather
+fruit	Frucht ; Obst	food
+full	voll	adjective
+full  ; total	ganz ; gesamt ; gesamter ; völlig	adjective
+function  ; office  ; part  ; role	die Funktion	mathematics
+furniture  ; piece of furniture  ; article of furniture	Möbel	furniture
+further  ; farther	weiter	adjective
+future	künftig	adjective
+future  ; hereafter  ; futurity  ; time to come	Zukunft	time
+game	Spiel	sports
+garage	Garage	house
+garden	Garten	house
+garlic  ; ail	Knoblauch	vegetable
+gate	Tor ; Pforte	house
+gene  ; cistron  ; factor	Gen	anatomy
+general	allgemein	adjective
+general  ; full general	General	profession
+get  ; acquire	bekommen	verb-basic
+girl  ; miss  ; missy  ; young lady  ; young woman  ; fille	Fräulein ; Mädchen	family
+girlfriend  ; girl  ; lady friend	Freundin	relations
+give	geben	verb-basic
+give up  ; surrender	kapitulieren	verb
+glass	Glas	material
+glass  ; drinking glass	Glas	container
+global warming	Globale Erwärmung	environment
+glue  ; gum  ; mucilage	Leim	material
+goal	Tor	sports
+goat  ; caprine animal	Geiß ; Ziege	animal
+gold  ; Au  ; atomic number 79	Gold	material
+golf  ; golf game	Golf	sports
+good	gut ; lieb	adjective-basic
+good day	guten Tag	conversation
+good luck	viel Glück	conversation
+government  ; authorities  ; regime	Regierung ; Regime	society
+grade  ; mark  ; score	Note ; Zensur	education
+grain	Korn	material
+grandfather  ; gramps  ; granddad  ; grandad  ; granddaddy  ; grandpa	Großvater ; Opa	family
+grass	Gras ; Ried ; herbe	nature
+gray  ; grey  ; greyish  ; grayish	grau	color
+great	groß	adjective-basic
+great  ; bang-up  ; bully  ; corking  ; cracking  ; dandy  ; groovy  ; keen  ; neat  ; nifty  ; not bad  ; peachy  ; slap-up  ; swell  ; smashing	toll ; großartig	adjective-basic
+green  ; greenish  ; light-green  ; dark-green	grün	color
+greenhouse effect  ; greenhouse warming	Treibhauseffekt	environment
+group  ; grouping	Gruppe ; Gruppierung	business
+grow	anwachsen ; wachsen	verb
+guest  ; invitee	Gast	relations
+gun	Gewehr	tool
+hair	Haare	anatomy
+hair  ; pilus	Haar	anatomy
+half  ; one-half	Hälfte	mathematics
+hall  ; anteroom  ; antechamber  ; entrance hall  ; foyer  ; lobby  ; vestibule	Diele ; Halle ; Vestibül ; Vorhalle ; Vorraum	house
+hammer	Hammer	tool
+hand  ; manus  ; mitt  ; paw	Hand	anatomy
+handle  ; grip  ; handgrip  ; hold	Henkel ; Stiel	object
+happen  ; hap  ; go on  ; pass off  ; occur  ; pass  ; fall out  ; come about  ; take place	stattfinden ; geschehen ; passieren ; vorkommen	verb
+happy	glücklich	adjective-basic
+hat  ; chapeau  ; lid	Hut	clothes
+hate  ; detest	hassen	verb
+hate  ; hatred	Hass	feeling
+have  ; have got  ; hold	haben	verb-basic
+he	er	pronoun
+head  ; caput	Kopf ; Haupt	anatomy
+health  ; wellness	Gesundheit	medicine
+healthy	gesund	adjective-people
+healthy  ; salubrious  ; good for you	gesund	adjective-basic
+hear	hören	verb-basic
+heart  ; pump  ; ticker	Herz	anatomy
+heavy	schwer	adjective-basic
+height  ; altitude	Höhe	geography
+hello  ; hullo  ; hi  ; howdy  ; how-do-you-do	hallo ; tschüss	conversation
+help  ; aid  ; assist  ; assistance	Hilfe ; Mithilfe ; Unterstützung	business
+help  ; assist  ; aid	assistieren ; helfen	verb-basic
+her	ihr	pronoun
+here	hier	adverb
+here  ; hither	hier	adverb
+herself	sich	pronoun
+hide  ; conceal	verbergen ; verstecken	verb
+high	hoch	adjective-basic
+hill	Hügel	geography
+him	ihm	pronoun
+himself	sich ; sich selbst	pronoun
+his	sein	pronoun
+history	Geschichte	society
+hit  ; hitting  ; striking	Schlag ; Hieb	abstract
+hit  ; smash  ; smasher  ; strike  ; bang	Schlager	art
+hold  ; take hold	halten	verb
+hole	Höhle	abstract
+holiday  ; vacation	Urlaub ; Ferien	business
+home  ; place	Heim ; Heimat ; Zuhause ; Eigenheim ; Haus	house
+hook  ; claw	Haken	tool
+hope	hoffen	verb-basic
+horse  ; Equus caballus	Pferd ; Ross	animal
+hospital  ; infirmary	Behandlungsraum ; Krankenhaus	city
+hot	warm	adjective-basic
+hotel	Hotel ; Gasthaus ; Gasthof	city
+hour  ; hr  ; 60 minutes	Stunde	time
+house	Haus	house
+how are you	Wie geht es dir	conversation
+however  ; nevertheless  ; withal  ; still  ; yet  ; all the same  ; even so  ; nonetheless  ; notwithstanding	dennoch ; aber ; nichtsdestotrotz ; nichtsdestoweniger ; gleichwohl ; trotzdem	adverb
+human	human ; menschlich	adjective-people
+human  ; homo  ; man  ; human being	Individuum ; Einzelperson ; Mensch ; Person ; Erdenbürger ; Sterblicher ; Einzelwesen	family
+humor  ; humour  ; sense of humor  ; sense of humour	der Humor	communication
+hungry	hungrig	adjective-people
+husband  ; hubby  ; married man	Ehemann ; Mann ; Gemahl ; Gatte	family
+ice  ; water ice	Eis	material
+idea  ; thought	Gedanke ; Idee	communication
+identify  ; place	identifizieren	verb
+if	wenn	conjunction
+ill  ; sick	krank	adjective-people
+image	das Image	art
+immediately  ; instantly  ; straightaway  ; straight off  ; directly  ; now  ; right away  ; at once  ; forthwith  ; like a shot	sofort	adverb
+impatient	ungeduldig	adjective-people
+important  ; significant	signifikant ; wichtig	adjective-basic
+in  ; inwards  ; inward	hinein ; im	adverb
+include	einschließen	verb
+income	Einkommen	business
+increase	steigen ; wachsen ; zunehmen	verb
+increase  ; increment	Zunahme ; Zuwachs	abstract
+increase  ; increment  ; growth	Wachstum	abstract
+individual	das Individuum	society
+industrial	industriell	adjective
+industry  ; manufacture	Industrie	business
+information  ; info	Information ; Auskunft	communication
+injure  ; wound	verletzen ; verwunden	verb
+ink	Tinte	art
+insect	Insekt	animal
+inside  ; within	innen ; innerhalb ; inwendig	adverb
+instead  ; alternatively  ; or else	statt dessen	adverb
+institution  ; establishment	Institution ; Niederlassung	society
+instrument	Instrument	device
+insurance	Versicherung	business
+intelligent	intelligent ; verständig	adjective-people
+interest	Zins	business
+interest  ; involvement	Interesse	communication
+interesting	interessant	adjective
+international	international	adjective
+internet  ; net  ; cyberspace	Internet	abstract
+interview	Interview	communication
+into	in	preposition
+introduce  ; innovate	vorstellen	verb
+introduce  ; present  ; acquaint	vorstellen	verb
+invention  ; innovation  ; excogitation  ; conception  ; design	Erfindung	art
+invoice  ; bill  ; account	Faktur ; Nota ; Rechnung ; Rechnungsstellung	business
+iron  ; Fe  ; atomic number 26	Eisen	material
+island	Eiland ; Insel	geography
+issue	Problem	science
+it	es	pronoun
+itself	sich	pronoun
+jacket	Jacke ; Sakko	clothes
+jewel  ; gem  ; precious stone	Edelstein ; Juwel ; Kleinod	clothes
+job  ; task  ; chore	Arbeit ; Aufgabe	business
+join  ; bring together	verbinden ; zusammenfügen ; zusammenschließen	verb
+jolt  ; jar  ; jounce  ; shock	Ruck	abstract
+journalist	Journalist	profession
+journey  ; journeying	Fahrt ; Reise	transport
+judge  ; justice  ; jurist	Richter	profession
+jump  ; leap  ;  saltation	Sprung	abstract
+jump  ; leap  ; bound  ; spring	springen	verb-basic
+just	gerecht	adjective-people
+keep  ; maintain  ; hold	halten ; erhalten	verb
+key	Schlüssel	tool
+kick	treten	verb
+kick  ; boot  ; kicking	Tritt	abstract
+kill	töten ; umbringen	verb
+kind	lieb ; nett	adjective-people
+kind  ; sort  ; form  ; variety	Art ; Gattung ; Sorte	abstract
+king  ; male monarch  ; Rex	König	society
+kiss  ; buss  ; osculation	Kuß	relations
+kiss  ; snog  ; buss  ; osculate	küssen	verb-basic
+kitchen	küche	house
+knee  ; knee joint  ; human knee  ; articulatio genus  ; genu	Knie	anatomy
+knife	Messer	kitchen
+knot	Knoten	abstract
+knowledge  ; cognition  ; noesis	Kenntnis	education
+lake	See	geography
+land  ; dry land  ; earth  ; ground  ; solid ground  ; terra firma	Boden ; Erdboden ; Erde	geography
+land  ; set down	landen	verb
+language  ; linguistic communication	Sprache	communication
+language  ; natural language  ; tongue	die Sprache	communication
+last	zuletzt ; letzte ; letzter	adjective
+late	spät ; verzögert	adjective
+late  ; belatedly  ; tardily	spät	adverb
+later  ; after  ; subsequently  ; afterwards  ; afterward  ; later on	nach ; später	adverb
+laugh  ; express joy  ; express mirth	lachen	verb-basic
+law	Gesetz	business
+lead  ; Pb  ; atomic number 82	Blei	material
+lead  ; take  ; direct  ; conduct  ; guide	leiten ; führen	verb
+leader	Führer	society
+leaf  ; leafage  ; foliage	Blatt ; Laub ; Laubwerk ; Blätter	nature
+learn  ; larn  ; acquire	erlernen ; lernen	verb-basic
+least  ; to the lowest degree	wenigsten	adverb
+leather	Leder	material
+leave	hinterlassen ; zurücklassen	verb
+leave  ; leave of absence	Urlaub	business
+left	linke ; links	adjective-basic
+leg	Bein	anatomy
+legal	legal	adjective
+lemon	Zitrone ; Limone	fruit
+let	lassen	verb
+letter  ; letter of the alphabet  ; alphabetic character	Schriftzeichen	communication
+letter  ; missive	Brief	communication
+library	Bücherei	city
+lie	liegen	verb-basic
+lie	lügen	verb-basic
+lie  ; prevarication	Lüge	communication
+life	Leben	family
+life	Leben	nature
+lift  ; raise  ; elevate  ; get up  ; bring up	anheben ; erhöhen ; hochheben	verb
+light	leicht	adjective-basic
+light  ; lite  ; low-cal  ; calorie-free	diät ; kalorienarm ; leicht	adjective
+light  ; visible light  ; visible radiation	Licht	physics
+lightning	Blitz	weather
+like	lieben ; mögen	verb-basic
+limit  ; bound  ; boundary	Grenze	mathematics
+limit  ; restrict  ; restrain  ; trammel  ; bound  ; confine  ; throttle	begrenzen ; beschränken ; einschränken ; limitieren	verb
+line	Linie ; Zeile	art
+lion  ; king of beasts  ; Panthera leo	Löwe	animal
+lip	Lippe	anatomy
+liquid	Flüssigkeit	material
+liquid	flüssig	adjective
+list  ; listing	Liste	abstract
+listen  ; hear  ; take heed	zuhören ; hören ; anhören	verb-basic
+little	wenig ; bisschen	adverb
+little  ; fiddling  ; footling  ; lilliputian  ; niggling  ; piddling  ; piffling  ; petty  ; picayune  ; trivial	klein	adjective-basic
+load  ; charge	laden ; aufladen	verb
+local	lokal	adjective
+lock	Schloss ; Schloß	tool
+lock	schließen ; verschließen ; zuschließen	verb
+long	lang	adjective-basic
+look	schauen	verb-basic
+look  ; appear  ; seem	aussehen	verb
+lose	verlieren	verb
+lose	verlieren	verb-basic
+loss	Verlust	business
+loud	laut	adjective
+love	Liebe	feeling
+love	lieben	verb-basic
+low	niedrig	adjective
+lucky	glücklich	adjective
+lunch  ; luncheon  ; tiffin  ; dejeuner	Lunch ; Mittagessen	food
+machine	Maschine	device
+magazine  ; mag	Zeitschrift	communication
+mail  ; mail service  ; postal service  ; post	Post	communication
+main  ; chief  ; primary  ; principal  ; master	wesentlich ; primär ; haupt- ; hauptsächlich	adjective
+major	hauptsächlich	adjective
+majority  ; bulk	Mehrheit	abstract
+make  ; do	machen ; tun	verb-basic
+male	männlich	adjective-people
+male  ; male person	Mann	society
+male  ; manful  ; manlike  ; manly  ; virile	männlich	adjective-people
+man  ; adult male	Mann	family
+manage  ; deal  ; care  ; handle	leiten	verb
+management  ; direction	Führung ; Management ; Verwaltung	business
+manner  ; mode  ; style  ; way  ; fashion	Art ; Weise	art
+many	viele	adjective
+many thanks	vielen Dank	conversation
+map	Karte	geography
+marker  ; marking  ; mark	Marke ; Zeichen	business
+market  ; marketplace  ; market place	Markt	business
+marriage  ; matrimony  ; union  ; spousal relationship  ; wedlock	Ehe ; Ehegemeinschaft	family
+married	verheiratet	adjective-people
+marry  ; get married  ; wed  ; conjoin  ; hook up with  ; get hitched with  ; espouse	heiraten	verb
+mass	Masse	physics
+mass  ; bulk  ; volume	Masse	physics
+match	Spiel	sports
+match  ; fit  ; correspond  ; check  ; jibe  ; gibe  ; tally  ; agree	korrespondieren ; übereinstimmen	verb
+match  ; lucifer  ; friction match	Zündholz	tool
+material  ; stuff	Material ; materiell ; Stoff ; Zeug	business
+matter	Materie ; Stoff	material
+matter  ; affair  ; thing	Affäre ; Geschäft ; Sache	abstract
+me	mir ; mich	pronoun
+meal  ; repast	Essen ; Mahlzeit	food
+mean  ; hateful	böse	adjective-people
+mean  ; intend  ; think	beabsichtigen ; vorhaben	verb
+mean  ; mean value	Mittel ; Mittelwert	business
+means  ; agency  ; way	Art und Weise	abstract
+measure  ; mensurate  ; measure out	messen	verb
+measurement  ; measuring  ; measure  ; mensuration	Messen ; Messung	physics
+meat	Fleisch ; Fleish	food
+medical	medizinisch	adjective-people
+meet  ; run into  ; encounter  ; run across  ; come across  ; see	treffen ; zusammenkommen ; begegnen	verb-basic
+meeting  ; coming together	Treffen	business
+member  ; fellow member	Mitglied	society
+memory	Andenken ; Erinnerung	communication
+memory  ; retention  ; retentiveness  ; retentivity	das Gedächtnis	communication
+menstruation  ; menses  ; menstruum  ; catamenia  ; period  ; flow	Menorrhö ; Menstruation	medicine
+mention  ; advert  ; bring up  ; cite  ; name  ; refer	zitieren	verb
+menu  ; bill of fare  ; card  ; carte du jour  ; carte	Menü ; Speisekarte	object
+metal  ; metallic	metallisch	adjective
+metallic element  ; metal	Metall	material
+method	Methode	science
+midnight	Mitternacht	time
+military	militärisch	adjective
+milk	Milch	drink
+milkshake  ; milk shake  ; shake	Milchshake	drink
+million  ; 1000000  ; one thousand thousand  ; meg	Million	number
+mind  ; head  ; brain  ; psyche  ; nous	Geist ; Verstand ; Psyche	abstract
+mine	Bergwerk	environment
+minister  ; government minister	Minister	profession
+minute  ; infinitesimal	winzig	adjective
+minute  ; min	Minute	time
+mirror	Spiegel	physics
+miss	verfehlen	verb
+miss	verpassen ; versäumen	verb
+mistake  ; error  ; fault	Fehler ; Irrtum ; Schnitzer	communication
+model	Modell	science
+modern	modern	adjective
+moisture  ; wet	Feuchtigkeit	nature
+moment  ; minute  ; second  ; instant	Augenblick	time
+moment  ; mo  ; minute  ; second  ; bit	Moment	time
+money	Geld	business
+monkey	Affe	animal
+month  ; calendar month	Monat	time
+more  ; more than	mehr	adjective
+more  ; to a greater extent	mehr	adverb
+morning  ; morn  ; morning time  ; forenoon	Morgen ; Vormittag	time
+mostly  ; by and large  ; generally  ; more often than not	gewöhnlich	adverb
+mother  ; female parent	Mutter	family
+mouth  ; oral cavity  ; oral fissure  ; rima oris	Mund	anatomy
+move  ; displace	bewegen	verb-basic
+movement  ; motion	Bewegung	physics
+movie  ; film  ; picture  ; moving picture  ; moving-picture show  ; motion picture  ; motion-picture show  ; picture show  ; pic  ; flick	Film	art
+much	viel	adjective
+muscle  ; musculus	Muskel	anatomy
+museum	Museum	art
+music	Musik	art
+musician  ; instrumentalist  ; player	Musikant ; Musiker	profession
+my	mein ; meine	pronoun
+my name is	ich heiße	conversation
+nail	Nagel	anatomy
+nail	Nagel	tool
+name	Name	communication
+name  ; call	nennen ; benennen	verb
+narrow	eng	adjective
+nation  ; land  ; country	Nation	society
+national	national	adjective
+natural	natürlich	adjective
+nature	Natur	nature
+near  ; close  ; nigh	neben	adjective-basic
+necessary	erforderlich ; notwendig ; nötig ; unerlässlich	adjective
+neck  ; cervix	Hals	anatomy
+need  ; necessitate  ; ask  ; postulate  ; require  ; take  ; involve  ; call for  ; demand	benötigen ; brauchen ; fordern ; verlangen ; bedürfen	verb-basic
+needle	Nadel	tool
+neighbor  ; neighbour	Nachbar	family
+nerve  ; nervus	Nerv	anatomy
+net  ; network  ; mesh  ; meshing  ; meshwork	Netz	mathematics
+never	niemals	adverb
+new	neu	adjective-basic
+news  ; intelligence  ; tidings  ; word	Nachrichten	society
+newspaper  ; paper	Zeitung	communication
+next  ; adjacent  ; side by side	nächst	adjective
+nice	nett	adjective-basic
+night  ; nighttime  ; dark	Nacht ; Nachtzeit	time
+nine  ; 9  ; ix	neun	number
+nineteen  ; 19  ; xix	neunzehn	number
+ninety  ; 90  ; xc	neunzig	number
+no	Nein ; nein ; nicht	conversation
+no	kein	adjective
+noise  ; dissonance  ; racket	Geräusch ; Lärm ; Geräusche	society
+normal	normal	adjective
+north  ; due north  ; northward  ; N	Nord ; Norden	geography
+nose  ; olfactory organ	Nase	anatomy
+not  ; non	nicht	adverb
+note  ; annotation  ; notation	Anmerkung ; Note ; Notiz	communication
+note  ; musical note  ; tone	Note	art
+nothing  ; nil  ; nix  ; nada  ; null  ; aught  ; cipher  ; cypher  ; goose egg  ; naught  ; zero  ; zilch  ; zip  ; zippo	Nichts ; Null ; nichts	number
+now	jetzt ; nun	time
+now  ; at present	jetzt	adverb
+number	Nummer ; Zahl ; nummer ; zahl	communication
+nurse	Krankenschwester	medicine
+nut	Schalenfrucht	fruit
+nut	Schraubenmutter	object
+obviously  ; evidently  ; manifestly  ; patently  ; apparently  ; plainly  ; plain	offensichtlich	adverb
+occupation  ; business  ; job  ; line of work  ; line	Arbeit ; Beruf ; Job	business
+of	aus	preposition
+off	aus	adjective
+offer	anbieten ; bieten	verb-basic
+offer  ; offering	Angebot ; Antrag	business
+office  ; business office	Büro	business
+officer  ; officeholder	Beamter	business
+often  ; frequently  ; oftentimes  ; oft  ; ofttimes	häufig ; oft ; oftmals	adverb
+oil	Öl	food
+oil  ; petroleum  ; crude oil  ; crude  ; rock oil  ; fossil oil	Erdöl ; Rohöl ; Öl	material
+old	alt	adjective-people
+olive	Olive	vegetable
+on	an ; eingeschaltet	adjective
+on	auf	preposition
+on	auf	preposition
+once  ; one time  ; in one case	einmal	adverb
+one  ; 1  ; i  ; ane	ein ; eins	number
+onion  ; onion plant  ; Allium cepa	Zwiebel	vegetable
+open  ; open up	aufmachen ; öffnen	verb-basic
+open  ; unfastened	geöffnet ; ofen ; offen	adjective-basic
+operation	Operation	business
+operation  ; functioning  ; performance	Betrieb	abstract
+operation  ; surgery  ; surgical operation  ; surgical procedure  ; surgical process	Operation	medicine
+opinion  ; sentiment  ; persuasion  ; view  ; thought	Meinung ; Ansicht ; Stellungnahme	communication
+opposite	entgegengesetzt ; gegenüberliegend	adjective
+opposite  ; reverse  ; contrary	Gegenteil	abstract
+option  ; alternative  ; choice	Alternative ; Mehrfachmöglichkeit	science
+or	oder	conjunction
+orange	Orange ; Apfelsine	fruit
+orange  ; orangish	orange	color
+orchestra	Orchester	art
+order	Auftrag ; Befehl	society
+order	Reihenfolge	mathematics
+order  ; tell  ; enjoin  ; say	anordnen ; befehlen	verb
+organization  ; organisation	Gesellschaft	society
+original	original ; originell ; ursprünglich	adjective
+other	ander ; sonstig ; andere ; anders	adjective
+our	unser ; unsere ; unsere	pronoun
+outburst  ; burst  ; flare-up	Ausbruch ; Eruption	abstract
+outside	außen ; außer ; außerhalb ; draußen	adverb
+outside  ; exterior	Äußere	mathematics
+oven	Backofen ; Ofen	device
+own  ; ain	eigen	adjective
+own  ; have  ; possess	besitzen ; eignen	verb
+owner  ; possessor	Besitzer	business
+ozone	Ozon	environment
+package  ; bundle  ; packet  ; parcel	Bündel ; Packung ; Paket	business
+page	Seite	communication
+pain  ; hurting	Schmerz	medicine
+paint  ; pigment	Farbe	art
+painting  ; picture	Gemälde	art
+paper	Papier	art
+parallel	parallel	adjective
+parent	der Elternteil	family
+park  ; commons  ; common  ; green	Park	city
+parsnip  ; Pastinaca sativa	Pastinak	vegetable
+part  ; portion  ; component part  ; component  ; constituent	Anteil ; Teil ; Einzelteil	abstract
+part  ; section  ; division	Abteilung	business
+part  ; share  ; portion  ; percentage	Teil	abstract
+particular	besondere	adjective
+particularly  ; peculiarly  ; especially  ; specially	besonders ; zumal	adverb
+party	Party	relations
+pass  ; hand  ; reach  ; pass on  ; turn over  ; give	übergeben	verb
+pass  ; laissez passer	Ausweis	society
+passenger  ; rider	Fahrgast ; Passagier	transport
+passport	Reisepass	society
+past	vergangen	adjective
+past  ; past times  ; yesteryear	Vergangenheit	time
+patient	Patient	medicine
+patient	geduldig	adjective-people
+pause  ; intermission  ; break  ; interruption  ; suspension	Pause ; Unterbrechung	time
+pay	bezahlen ; zahlen	verb-basic
+payment	Bezahlung ; Zahlung	business
+pea	Erbse	vegetable
+peace	Frieden	society
+peach	Pfirsich	fruit
+pear	Birne	fruit
+peel  ; skin  ; pare	schälen	verb
+pen	Füller	art
+pencil	Bleistift	art
+people	Leute	society
+percent  ; percentage  ; per centum  ; pct	Prozent ; Prozente	mathematics
+period  ; time period  ; period of time	Periode	time
+person  ; individual  ; someone  ; somebody  ; mortal  ; soul	Individuum ; Einzelperson ; Mensch ; Person	family
+personal	persönlich	adjective
+personality	Charakter	abstract
+phase  ; stage	Phase ; Stufe	science
+photographer  ; lensman	Fotograf ; Photograph	profession
+physical	körperlich ; physisch	adjective
+picture  ; image  ; icon  ; ikon	Bild	art
+piece	Stück ; Teil	abstract
+pig  ; hog  ; grunter  ; squealer  ; Sus scrofa	Schwein	animal
+pilot  ; airplane pilot	Pilot	profession
+pin	Nadel ; Stecknadel	object
+pineapple  ; ananas	Ananas	fruit
+pink  ; pinkish	rosa ; rosarot	color
+pipe  ; pipage  ; piping	Rohre ; Rohrleitung	object
+place  ; topographic point  ; spot	Platz	abstract
+plain  ; field  ; champaign	Ebene	geography
+plan	planen	verb
+plan  ; program  ; programme	Plan	business
+plane  ; airplane  ; aeroplane	Flugzeug	transport
+plant  ; flora  ; plant life	Gewächs ; Pflanze	nature
+plate	Teller	container
+play	spielen	verb-basic
+player  ; participant	Spieler	sports
+please  ; delight	erfreuen	verb
+pleasure  ; pleasance	Vergnügen	feeling
+plow  ; plough  ; turn	pflügen	verb
+plum	Pflaume	fruit
+poem  ; verse form	Poem	art
+poetry  ; poesy  ; verse	Poesie	art
+point  ; dot	Punkt	communication
+poison	vergiften	verb
+poison  ; toxicant  ; poisonous substance	Gift	material
+police  ; police force  ; constabulary  ; law	Polizei	society
+policeman  ; police officer  ; officer	Polizist	profession
+policy	Politik	society
+polish  ; smooth  ; smoothen  ; shine	polieren	verb
+political	politisch	adjective
+politician  ; politico  ; pol  ; political leader	Politiker	profession
+pollution	Pollution	environment
+poor  ; hapless  ; miserable  ; misfortunate  ; pathetic  ; piteous  ; pitiable  ; pitiful  ; wretched	arm ; armselig ; bedauernswert ; dürftig ; erbärmlich ; kläglich	adjective
+popular  ; pop	populär	adjective
+population	Bevölkerung	society
+position  ; place	Stelle ; Position ; Stellung	abstract
+possible	möglich	adjective
+possibly  ; perchance  ; perhaps  ; maybe  ; mayhap  ; peradventure	vielleicht	adverb
+potato  ; white potato  ; Irish potato  ; murphy  ; spud  ; tater	Kartoffel	vegetable
+powder  ; pulverization  ; pulverisation	Pulver ; Staub	material
+power  ; powerfulness	Energie ; Kraft	abstract
+practice	Praxis	abstract
+prepare  ; fix  ; set up  ; ready  ; gear up  ; set	vorbereiten	verb
+present	Geschenk	object
+present	gegenwärtig	adjective
+present  ; nowadays	Gegenwart	time
+president	Präsident	profession
+press	drücken ; pressen	verb
+pressure  ; pressure level  ; force per unit area	Druck	physics
+prevent  ; forestall  ; foreclose  ; preclude  ; forbid	hindern ; verhindern ; vorbeugen	verb
+previous  ; old	früher	adjective
+price  ; cost  ; toll	Preis	business
+print  ; impress	ausdrucken ; drucken	verb
+prison  ; prison house	Gefängnis	city
+private	privat	adjective
+private  ; individual	individuell	adjective-people
+probable  ; likely	mutmaßlich ; wahrscheinlich	adjective
+probably  ; likely  ; in all likelihood  ; in all probability  ; belike	wahrscheinlich	adverb
+problem  ; job	Problem	business
+procedure  ; process	Verfahren ; Prozess ; Prozedur	science
+process  ; physical process	Verfahren	physics
+process  ; treat	bearbeiten ; verarbeiten	verb
+product  ; production	Produkt ; Erzeugnis	business
+production	Produktion	science
+professional	professionell	adjective
+professional  ; professional person	Fachmann ; Profi	profession
+profit  ; net income  ; net  ; net profit  ; lucre  ; profits  ; earnings	Gewinn ; Verdienst	business
+profit  ; turn a profit	profitieren	verb
+program  ; programme  ; computer program  ; computer programme	Programm	science
+project  ; projection	Projekt	science
+project  ; undertaking  ; task  ; labor	Projekt ; Aufgabe	abstract
+promise  ; hope	Hoffnung	feeling
+pronunciation	Aussprache	communication
+property	Eigenschaft	abstract
+property  ; belongings  ; holding	Eigentum ; Besitz ; Habseligkeiten	business
+proposal	Vorschlag	communication
+protest	protestieren	verb
+protest  ; protestation	Einspruch	communication
+prove  ; testify  ; bear witness  ; evidence  ; show	beweisen	verb
+public	öffentlich	adjective
+public  ; populace  ; world	Volk ; Leute	society
+publish  ; bring out  ; put out  ; issue  ; release	veröffentlichen	verb
+pull  ; draw  ; force	ziehen	verb-basic
+pump	Pumpe	tool
+punishment  ; penalty  ; penalization  ; penalisation	Bestrafung ; Strafe	society
+purpose  ; function  ; role  ; use	Funktion ; Zweck	mathematics
+push  ; force	schieben ; stecken ; stoßen	verb-basic
+put  ; set  ; place  ; pose  ; position  ; lay	platzieren ; legen ; hinlegen	verb-basic
+quality	Qualität	abstract
+question  ; inquiry  ; enquiry  ; query  ; interrogation	Abfrage ; Erkundigung ; Frage	communication
+quickly  ; rapidly  ; speedily  ; chop-chop  ; apace	schnell	adverb
+quiet	leise	adjective
+quiet  ; repose  ; placidity  ; serenity  ; tranquillity  ; tranquility	Gelassenheit ; Ruhe	abstract
+radish	Radieschen	vegetable
+rain  ; rainfall	Regen	weather
+rainbow	Regenbogen	weather
+raise  ; rear  ; bring up  ; nurture  ; parent	erziehen ; aufziehen	verb
+range  ; scope  ; reach  ; orbit  ; compass  ; ambit	Reichweite ; Rahmen ; Bereich ; Geltungsbereich ; Umfang	science
+raspberry	Himbeere	fruit
+rate  ; charge per unit	Satz ; Tarif	business
+rate  ; rank  ; range  ; order  ; grade  ; place	einschätzen ; schätzen	verb
+reach  ; make  ; attain  ; hit  ; arrive at  ; gain	erreichen ; eintreffen	verb
+reach  ; range	Reichweite	abstract
+reaction	Reaktion	communication
+read	lesen	verb-basic
+ready	bereit	adjective
+real  ; existent	echt ; wahr	adjective-basic
+really  ; actually	tatsächlich ; wirklich	adverb
+really  ; truly  ; genuinely	wahrlich ; wirklich	adverb
+reason  ; ground	Grund	communication
+receive  ; have	bekommen ; empfangen ; erhalten	verb
+recent	rezent	adjective
+recently  ; late  ; lately  ; of late  ; latterly	neulich	adverb
+record	Rekord	sports
+record  ; tape	aufnehmen ; aufzeichnen	verb
+recycling	Recycling ; Wiederverwertung	environment
+red  ; reddish  ; ruddy  ; blood-red  ; carmine  ; cerise  ; cherry  ; cherry-red  ; crimson  ; ruby  ; ruby-red  ; scarlet	rot	color
+reduce  ; cut down  ; cut back  ; trim  ; trim down  ; trim back  ; cut  ; bring down	reduzieren ; vermindern ; verringern	verb
+reflect  ; reverberate	reflektieren ; widerspiegeln ; zurückwerfen ; abspiegeln	verb
+refuse  ; reject  ; pass up  ; turn down  ; decline	ablehnen	verb
+region  ; part	Bereich ; Region	geography
+regular	regelmäßig ; regelrecht ; regulär	adjective
+relation	Verhältnis	communication
+relationship  ; human relationship	Verwandtschaft ; Beziehung ; Relation ; Verhältnis	family
+religion  ; faith  ; organized religion	Religion	society
+religion  ; faith  ; religious belief	Glaube ; Religion	society
+remember  ; retrieve  ; recall  ; call back  ; call up  ; recollect  ; think	erinnern ; sich erinnern	verb-basic
+remove  ; take  ; take away  ; withdraw	entfernen ; beseitigen ; wegschaffen	verb
+render  ; return	zurückgeben	verb
+replace  ; supplant  ; supersede  ; supervene upon  ; supercede	ersetzen	verb
+reply  ; answer  ; respond	antworten ; reagieren	verb
+report	berichten	verb
+report  ; study  ; written report	Bericht	abstract
+represent  ; stand for  ; correspond	darstellen ; verkörpern ; vorstellen ; vertreten	verb
+representative	Stellvertreter	profession
+request  ; asking	Anforderung ; Bitte	communication
+request  ; bespeak  ; call for  ; quest	fordern ; verlangen	verb
+research	Forschung	science
+research  ; inquiry  ; enquiry	Erhebung	science
+respect  ; honor  ; honour  ; abide by  ; observe	achten ; beachten ; respektieren ; ehren	verb
+responsibility  ; responsibleness	Verantwortung	abstract
+responsible	verantwortlich	adjective
+rest  ; ease  ; repose  ; relaxation	Rest	abstract
+rest  ; remainder  ; balance  ; residual  ; residue  ; residuum	Rest ; Relikt ; Überrest ; Rückstand	business
+restaurant  ; eating house  ; eating place  ; eatery	das Restaurant	city
+result  ; resultant  ; final result  ; outcome  ; termination	Ergebnis	mathematics
+return  ; homecoming	Rückkehr ; Wiederkehr	abstract
+reveal  ; unwrap  ; disclose  ; let on  ; bring out  ; discover  ; expose  ; divulge  ; break  ; give away  ; let out	enthüllen ; preisgeben	verb
+rhythm  ; beat  ; musical rhythm	Rhythmus	art
+rice	Reis	food
+rich	reich	adjective-people
+right	Recht	business
+right	recht ; rechts	adjective-basic
+rigid  ; stiff	starr	adjective
+ring  ; band	Ring	clothes
+rise  ; rising  ; ascent  ; ascension	Aufstieg	abstract
+risk  ; gamble  ; chance  ; hazard  ; take chances  ; adventure  ; run a risk  ; take a chance	riskieren	verb
+risk  ; hazard  ; jeopardy  ; peril  ; endangerment	Gefahr ; Risiko ; Wagnis	abstract
+river	Fluss	geography
+road  ; route	Straße ; Strecke ; Weg	city
+roof	Dach	house
+room	Zimmer	house
+root	Wurzel	mathematics
+root	Wurzel	nature
+rope	Seil ; Tau ; Strang	object
+rough  ; unsmooth	derb ; rau ; roh	adjective
+round  ; circular	kreisförmig ; kreisrund ; ringförmig	adjective
+round off  ; round down  ; round out  ; round	abrunden	verb
+royal  ; imperial  ; majestic  ; purple  ; regal	königlich	adjective-people
+rule  ; govern	herrschen ; regieren	verb
+rule  ; regulation	Regel	mathematics
+run	rennen	verb-basic
+sad	traurig	adjective-people
+sad  ; deplorable  ; distressing  ; lamentable  ; pitiful  ; sorry	beklagenswert ; kläglich	adjective
+safe	sicher	adjective
+sail  ; canvas  ; canvass  ; sheet	Segel	object
+sailor  ; crewman	Matrose ; Seemann	profession
+salad	Salat	food
+sale	Verkauf ; Vertrieb	business
+salt  ; table salt  ; common salt	Salz	food
+same	derselbe	adjective
+sand	Sand	material
+sandwich	Sandwich	food
+sauce	Sauce ; Soße	food
+save  ; preserve	sparen	verb
+save  ; salvage  ; salve  ; relieve	retten ; schützen	verb
+say  ; tell  ; state	sagen ; erzählen	verb-basic
+school  ; schoolhouse	Schule	city
+science  ; scientific discipline	Wissenschaft	science
+scientist	Wissenschaftler	profession
+scissors  ; pair of scissors	Schere	tool
+sea	Meer	geography
+season	Saison	time
+seat	Sitz	furniture
+seat  ; place	Platz	abstract
+second  ; 2nd  ; 2d	zweite	adjective
+second  ; sec  ; s	Sekunde	time
+secret	Geheimnis	communication
+secret  ; clandestine  ; cloak-and-dagger  ; hole-and-corner  ; hugger-mugger  ; hush-hush  ; surreptitious  ; undercover  ; underground	geheim	adjective
+secretary  ; secretarial assistant	Sekretär	profession
+section  ; subdivision	Abteilung ; Sektion	business
+see	sehen	verb
+see  ; consider  ; reckon  ; view  ; regard	betrachten	verb
+seed	Same ; Samen	object
+sell	verkaufen	verb-basic
+send  ; mail  ; post	schicken ; übersenden	verb
+sentence	Satz	communication
+separate	abgesondert ; getrennt ; separat	adjective
+serial  ; series	Serie	abstract
+serious	ernst	adjective
+servant  ; retainer	Diener	profession
+serve	dienen	verb
+service	Dienst ; Bedienung ; Dienstleistung	business
+set	Satz	mathematics
+set	Satz ; Set	abstract
+set  ; laid	festgelegt ; festgesetzt	adjective
+seven  ; 7  ; vii	sieben	number
+seventy  ; 70  ; lxx	siebzig	number
+several	mehrere	adjective
+sew  ; run up  ; sew together  ; stitch	nähen	verb
+sex	Geschlecht	nature
+sex  ; sexual activity  ; sexual practice  ; sex activity	Sex	relations
+shake  ; tremble  ; shiver	Zittern	abstract
+shape  ; form  ; cast	Form	art
+share	Aktie	business
+share	teilen	verb
+sharp  ; acuate  ; acute  ; needlelike	scharf	adjective-basic
+sharp  ; astute  ; shrewd	scharfsinnig	adjective-people
+she	sie	pronoun
+sheep	Schaf	animal
+shelf	Regal	furniture
+ship	Schiff	transport
+shirt	Hemd	clothes
+shock  ; daze  ; stupor	Schock	feeling
+shoe	Schuh	clothes
+shop  ; store	Geschäft	business
+short	kurtz	adjective
+shout  ; shout out  ; cry  ; call  ; yell  ; scream  ; holler  ; hollo  ; squall	schreien ; brüllen	verb
+show	Show	business
+show  ; demo  ; exhibit  ; present  ; demonstrate	präsentieren ; zeigen ; demonstrieren	verb
+shower	Dusche	house
+side	Seite	mathematics
+sign	Zeichen	communication
+silence  ; quiet	Stille	abstract
+silent  ; soundless  ; still	geräuschlos ; still	adjective
+silk	Seide	material
+silly  ; airheaded  ; dizzy  ; empty-headed  ; featherbrained  ; giddy  ; light-headed  ; lightheaded	töricht	adjective-people
+silver	silbern	adjective
+silver  ; Ag  ; atomic number 47	Silber	material
+similar	ähnlich	adjective-basic
+simple  ; elementary  ; uncomplicated  ; unproblematic	einfach	adjective
+simply  ; merely  ; just  ; only  ; but	nur	adverb
+since	seit	preposition
+sincere	aufrichtig	adjective-people
+sing	singen	verb-basic
+singer  ; vocalist  ; vocalizer  ; vocaliser	Sänger	art
+single	einzeln ; einzelne ; einzig	adjective
+single  ; unmarried	ledig ; unverheiratet ; alleinstehend	adjective-people
+sink	Spültisch	furniture
+sister  ; sis	Schwester	family
+sit  ; sit down	sitzen	verb-basic
+situation  ; state of affairs	Lage	abstract
+six  ; 6  ; vi  ; half dozen  ; half-dozen	sechs	number
+sixteen  ; 16  ; xvi	sechzehn	number
+sixty  ; 60  ; lx  ; threescore	sechzig	number
+size	Größe	physics
+skid  ; slip  ; sideslip	Schleudern	transport
+skilful  ; adept  ; expert  ; good  ; practiced  ; proficient  ; skillful	erfahren ; geschickt	adjective-people
+skill  ; science	das Geschick	business
+skin  ; tegument  ; cutis	Haut	anatomy
+skirt	Rock	clothes
+sky	Himmel	nature
+sleep  ; slumber	Schlaf ; Schlummer	nature
+slice  ; piece	Stück	abstract
+slow	langsam	adjective-basic
+slowly  ; slow  ; easy  ; tardily	langsam	adverb
+small  ; little	klein	adjective
+smash  ; nail  ; boom  ; blast	schlagen ; hauen	verb
+smell	duften ; riechen	verb
+smell	riechen	verb
+smell	stinken	verb
+smell  ; olfactory property  ; aroma  ; odor  ; odour  ; scent	Aroma ; Geruch	nature
+smile	lächeln	verb-basic
+smile  ; smiling  ; grin  ; grinning	Lächeln ; Grinsen	relations
+smog  ; smogginess	Smog	environment
+smoke	rauchen	verb
+smoke  ; fume	Dunst ; Qualm ; Rauch	nature
+smooth	glatt	adjective
+snake  ; serpent  ; ophidian	Schlange	animal
+snow	der Schnee	weather
+so	so	adverb
+soap	Seife	material
+society	Gesellschaft	science
+sock	Socke	clothes
+soft	weich	adjective-basic
+soldier	Soldat	profession
+solid	fest	adjective
+sometimes	bisweilen ; manchmal	adverb
+son  ; boy	Sohn	family
+song  ; vocal	Song	art
+soon  ; shortly  ; presently  ; before long	bald	adverb
+sorry	entschuldigen Sie bitte	conversation
+sorry	wie bitte	conversation
+sound	Ton	physics
+soup	Suppe	food
+south  ; due south  ; southward  ; S	Süd ; Süden	geography
+space  ; infinite	Weltraum	geography
+sparse  ; thin	spärlich	adjective
+special  ; especial  ; exceptional  ; particular	außergewöhnlich ; ungewöhnlich ; besondere ; speziell	adjective
+specific	spezifisch	adjective
+speech  ; speech communication  ; spoken communication  ; spoken language  ; language  ; voice communication  ; oral communication	Sprache ; Rede	communication
+spelling	Orthographie ; Rechtschreibung ; Schreibweise	communication
+spend  ; pass	verbringen	verb
+spoon	Löffel	kitchen
+spring	Feder	tool
+spring  ; fountain  ; outflow  ; outpouring  ; natural spring	Brunnen ; Quelle	nature
+spring  ; springtime	Frühjahr ; Frühling ; Lenz	time
+square	quadratisch ; viereckig	adjective
+square  ; foursquare	Quadrat	mathematics
+square  ; second power	Quadrat	mathematics
+staff	Belegschaft ; Personal ; Stab	business
+stage	Bühne	art
+stamp	Stempel	tool
+stamp  ; postage  ; postage stamp	Porto	object
+stand  ; stand up	stehen	verb
+standard	normal ; standardmäßig	adjective
+standard  ; criterion  ; measure  ; touchstone	Kriterium ; Maß ; Norm ; Standard	communication
+star	Stern	geography
+state	Staat	society
+state	Zustand	abstract
+statement	Aussage ; Behauptung	communication
+station	Station	city
+stay  ; remain  ; rest	bleiben	verb
+steal	klauen ; stehlen	verb
+steam	Dampf	physics
+steel	Stahl	material
+stem  ; stalk	Stängel	nature
+step  ; footstep  ; pace  ; stride	Schritt	abstract
+step  ; stair	Stufe ; Treppe ; Treppenstufe	house
+stick	Stock	object
+sticky  ; gluey  ; glutinous  ; gummy  ; mucilaginous  ; pasty  ; viscid  ; viscous	klebrig ; pappig	adjective
+still	noch	adverb
+stitch	Nadelstich	medicine
+stomach  ; tummy  ; tum  ; breadbasket	Magen	anatomy
+stone  ; rock	Gestein ; Stein	object
+stop  ; halt	Halt	abstract
+stop  ; halt	anhalten ; halten ; stoppen	verb
+storm  ; violent storm	Sturm	weather
+straight	direkt ; gerade	adjective
+strange  ; unusual	merkwürdig	adjective
+strawberry	Erdbeere	fruit
+stream  ; flow  ; current	Strom	nature
+street	Straße	city
+strength  ; force  ; forcefulness	Kraft ; Gewalt ; Stärke	physics
+strong	stark	adjective-basic
+structure	Struktur	business
+structure  ; construction	Konstruktion ; Struktur ; Aufbau	city
+student  ; pupil  ; educatee	Schüler ; Student	education
+study	studieren	verb
+stupid	dumm	adjective-people
+style	Stil	art
+stylish  ; fashionable	elegant	adjective
+subject  ; dependent	untergeordnet	adjective-people
+subject  ; topic  ; theme	Subjekt ; Thema	communication
+substitution  ; exchange  ; commutation	Ersatz	mathematics
+subway  ; metro  ; tube  ; underground  ; subway system	Metro ; U-Bahn	city
+success	Erfolg	business
+successful	erfolgreich	adjective-people
+such	derart ; derartig ; solch	adverb
+sudden	plötzlich ; unvermittelt	adjective
+suddenly  ; all of a sudden  ; of a sudden	plötzlich	adverb
+suffer  ; endure	erleiden ; erdulden	verb
+sugar  ; refined sugar	Zucker	food
+suggest  ; propose  ; advise	beantragen ; vorschlagen	verb
+suggestion  ; proposition  ; proffer	Vorschlag	communication
+suitcase  ; bag  ; traveling bag  ; travelling bag  ; grip	Koffer ; Handkoffer	clothes
+summer  ; summertime	Sommer ; Sommerzeit	time
+sun  ; Sun	Sonne	geography
+supermarket	Supermarkt	city
+supply  ; provide  ; render  ; furnish	liefern ; zustellen ; bieten ; ausstatten	verb
+support	Hilfe ; Stütze ; Unterstützung	business
+support  ; back up	stützen ; unterstützen	verb
+surely  ; certainly  ; sure  ; for sure  ; for certain  ; sure enough  ; sure as shooting	gewiss ; bestimmt ; sicher ; sicherlich	adverb
+surface	Oberfläche	mathematics
+surprise	Überraschung	relations
+surprise	überraschen	verb
+survive  ; last  ; live  ; live on  ; go  ; endure  ; hold up  ; hold out	halten	verb
+sweet	süß	adjective
+sweet  ; sweetness  ; sugariness	Süßigkeit	food
+swim	schwimmen	verb-basic
+system  ; scheme	system ; System	science
+table	Tisch	furniture
+table  ; tabular array	Tabelle	business
+tail	Schwanz	anatomy
+take  ; get hold of	nehmen	verb-basic
+talk  ; speak  ; utter  ; mouth  ; verbalize  ; verbalise	sprechen ; reden	verb-basic
+tall	gross	adjective
+taste  ; gustation  ; sense of taste  ; gustatory modality	Geschmack	abstract
+taste  ; savor  ; savour	kosten ; schmecken ; verkosten	verb
+tax  ; taxation  ; revenue enhancement	Besteuerung ; Steuer	business
+tea	Tee	drink
+teach  ; learn  ; instruct	lehren ; unterrichten ; beibringen	verb
+teacher  ; instructor	Instrukteur ; Lehrer ; Lehrkraft	education
+team  ; squad	Mannschaft	business
+technology  ; engineering	Technologie	science
+television  ; tv set  ; television receiver  ; television set  ; tv  ; idiot box  ; boob tube  ; telly  ; goggle box	Fernseher	device
+television camera  ; tv camera  ; camera	Kamera	device
+ten  ; 10  ; x	zehn	number
+tennis  ; lawn tennis	Tennis	sports
+test  ; prove  ; try  ; try out  ; examine  ; essay	probieren	verb
+than	als	conjunction
+thank  ; give thanks	danken	verb
+thank you very much	danke schön	conversation
+that	jene	pronoun
+the	der ; die	article
+theater  ; theatre  ; house	Schauspielhaus ; Theater	city
+their	ihr	pronoun
+them	sie	pronoun
+then  ; so  ; and so  ; and then	dann	adverb
+theory	Theorie	science
+there  ; at that place  ; in that location	da ; dort	adverb
+therefore  ; hence  ; thence  ; thus  ; so	also ; daher	adverb
+these	diese	pronoun
+they	sie	pronoun
+thick	dicht ; dick	adjective
+thin	dünn	adjective
+thing	Ding ; Sache	abstract
+third  ; 3rd  ; tertiary	dritte ; dritter	number
+thirsty	durstig	adjective-people
+thirteen  ; 13  ; xiii	dreizehn	number
+thirty  ; 30  ; xxx	dreißig	number
+this	diese	pronoun
+those	diese	pronoun
+thousand  ; one thousand  ; 1000  ; M  ; K  ; chiliad  ; G  ; grand  ; thou  ; yard	tausend	number
+thousand  ; one thousand  ; 1000  ; m  ; k	tausend	number
+three  ; 3  ; iii	drei	number
+throat  ; pharynx	Kehle	anatomy
+throw	Wurf	sports
+throw	schleudern ; werfen	verb
+thumb  ; pollex	Daumen	anatomy
+thunder	Donner	weather
+ticket	Fahrkarte ; Fahrschein ; Karte	object
+tie  ; necktie	Krawatte ; Schlips	clothes
+tight	dicht	adjective
+time  ; fourth dimension	die Zeit	physics
+tired	müde	adjective-people
+title	Titel	society
+title  ; entitle	betiteln ; bezeichnen	verb
+to	zu	preposition
+today	Heute	time
+today	heute	adverb
+toe	Zehe	anatomy
+together	zusammen	adverb
+toilet  ; lavatory  ; lav  ; can  ; john  ; privy  ; bathroom	Toilette	house
+tomato	Tomate	vegetable
+tomorrow	Morgen	time
+tomorrow	morgen	adverb
+tongue  ; lingua  ; glossa  ; clapper	Zunge	anatomy
+tonight  ; this evening  ; this night	heute abend	adverb
+too  ; besides  ; also  ; likewise  ; as well	auch	adverb
+tooth	Zahn	anatomy
+top  ; peak  ; summit  ; acme  ; height  ; elevation  ; pinnacle  ;  superlative  ; meridian  ; tiptop	Gipfel ; Höhepunkt	abstract
+total  ; sum  ; amount	Summe	mathematics
+touch  ; touching	Berührung	abstract
+town	Stadt	city
+trace  ; draw  ; line  ; describe  ; delineate	malen ; zeichnen	verb-basic
+track  ; rail  ; rails  ; runway	Gleis ; Schiene ; Geländer ; Schienen	transport
+trade	Handel	business
+trade  ; merchandise	handeln	verb
+train  ; develop  ; prepare  ; educate	trainieren ; schulen	verb
+train  ; railroad train	Zug	transport
+training  ; preparation  ; grooming	Ausbildung	education
+transport  ; shipping  ; transportation	Transport	transport
+travel  ; go  ; move  ; locomote	gehen ; bewegen sich	verb
+treat  ; care for	heilen ; behandeln	verb
+treatment  ; handling	Behandlung	abstract
+tree	Baum	nature
+trend  ; tendency	Tendenz ; Trend	science
+trick	Kniff ; List	abstract
+trick  ; flim-flam  ; play a joke on  ; play tricks  ; fob  ; fox  ; pull a fast one on  ; play a trick on	betrügen ; hereinlegen	verb
+trouble  ; problem	Problem ; Schwierigkeit	science
+true	richtig ; wahr	adjective
+try  ; seek  ; attempt  ; essay  ; assay	probieren ; versuchen	verb
+turn	drehen	verb
+twenty  ; 20  ; xx	zwantig	number
+two  ; 2  ; ii	zwei	number
+type	Art ; Gattung	abstract
+ugly	mies ; hässlich	adjective
+under  ; nether	unter	adjective
+understand	verstehen ; begreifen	verb-basic
+unemployed	arbeitslos	adjective-people
+union	Verein ; Bund ; Einigkeit ; Gewerkschaft ; Union ; Verbindung ; Vereinigung	society
+unit  ; unit of measurement	Einheit	physics
+university	Universität	city
+until	bis	conjunction
+unusual	ungebräuchlich ; ungewohnt ; ungewöhnlich	adjective
+up  ; upwards  ; upward  ; upwardly	hinauf ; oben ; aufwärts	adverb
+us	uns	pronoun
+use  ; usage  ; utilization  ; utilisation  ; employment  ; exercise	Anwendung ; Nutzung ; Verwendung	abstract
+use  ; utilize  ; utilise  ; apply  ; employ	anwenden ; verwenden ; benutzen	verb-basic
+user	Benutzer	science
+usual	üblich	adjective
+usual  ; common	üblich	adjective
+usually  ; normally  ; unremarkably  ; commonly  ; ordinarily	gewöhnlich	adverb
+value	Wert	business
+various  ; diverse	verschieden	adjective
+very  ; really  ; real  ; rattling	sehr	adverb
+village  ; small town  ; settlement	Dorf	city
+violent	gewaltsam	adjective-people
+violet  ; purple  ; purplish	lila ; violett	color
+visit	Visite	relations
+visit  ; see	besuchen	verb
+vogue  ; trend  ; style	Mode	art
+voice  ; vocalization  ; vocalisation  ; vocalism  ; phonation  ; vox	Stimme	communication
+wages  ; reward  ; payoff	Belohnung	business
+wait  ; hold off  ; hold back	warten	verb-basic
+walk	gehen	verb
+wall	Mauer	house
+war  ; state of war	Krieg	society
+warm	erwärmen ; anwärmen ; aufwärmen	verb
+warm	warm	adjective
+wash  ; launder	waschen	verb
+waste  ; waste material  ; waste matter  ; waste product	Abfall	environment
+watch  ; see  ; view  ;  catch  ; take in	sehen ; schauen ; beobachten ; anschauen ; ansehen	verb
+watch  ; ticker	Uhr	device
+water  ; H2O	Wasser	drink
+wave  ; moving ridge	Welle	nature
+we	wir	pronoun
+weak	schwach	adjective-basic
+wear	die Abnutzung	abstract
+wear  ; have on	anhaben ; tragen	verb
+weather  ; weather condition  ; conditions  ; atmospheric condition	Wetter	nature
+wedding  ; marriage  ; marriage ceremony	Eheschliessung ; Heirat ; Trauung ; Vermählung	family
+wedding  ; wedding ceremony  ; nuptials  ; hymeneals	Hochzeit	family
+week  ; calendar week	Woche	time
+weekend	Wochenende	time
+weigh	wiegen	verb
+weight	Gewicht	physics
+well	Brunnen	house
+well  ; good	gut	adverb
+west  ; due west  ; westward  ; W	westen ; Westen	geography
+wet	feucht ; nass	adjective
+what	was	pronoun
+what is your name	wie heißen Sie	conversation
+wheel	Rad	object
+when	als	pronoun
+whenever	wann immer	conjunction
+which	welch ; welcher	pronoun
+which	welch ; welcher	pronoun
+while  ; piece  ; spell  ; patch	Weile	time
+whip	Peitsche	tool
+white	weiß	color
+who	wer	pronoun
+whole	Ganze	abstract
+whole	vollständig	adjective
+whom	wen	pronoun
+whose	wessen	pronoun
+why	warum	adverb
+wide  ; broad	breit ; weit	adjective
+wife  ; married woman	Ehefrau ; Frau ; Gemahlin	family
+will	Wille	society
+will  ; testament	Testament	society
+will  ; volition	Wille	abstract
+win	Gewinn ; Sieg	sports
+win	gewinnen	verb
+wind  ; air current  ; current of air	Wind	weather
+window	Fenster	house
+wine  ; vino	Wein	drink
+wing	Flügel	anatomy
+winter  ; wintertime	Winter	time
+wire	Draht	object
+wise	weise	adjective-people
+wish	wünschen	verb
+wish  ; wishing  ; want	Wunsch	abstract
+with	mit	preposition
+with	mit	preposition
+without	ohne	preposition
+woman  ; adult female	Frau	family
+wood	Holz	material
+wool	Wolle	material
+word	Wort	communication
+work	Arbeit	business
+worker	Arbeiter	business
+world	Welt	nature
+write	schreiben	verb-basic
+writer  ; author	Schriftsteller	profession
+writing	die Schrift	communication
+wrong  ; incorrect	falsch ; fehlerhaft	adjective-basic
+year  ; twelvemonth  ; yr	Jahr	time
+yellow  ; yellowish  ; xanthous	gelb	color
+yes	ja	conversation
+young  ; immature	jung	adjective-people
+your	dein	pronoun
+yourself	du	pronoun
+you're welcome	bitte	conversation

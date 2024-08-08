@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Dictionaries\DictCC\dictcc-en-de.txt" />
+    <None Remove="Assets\Dictionaries\DictCC\dictcc-en-fr.txt" />
+    <None Remove="Assets\Dictionaries\DictCC\dictcc-en-it.txt" />
+    <None Remove="Assets\Dictionaries\DictCC\dictcc-en-sp.txt" />
+    <None Remove="Assets\Dictionaries\Idp\FRENCH.TXT" />
+    <None Remove="Assets\Dictionaries\Idp\GERMAN.TXT" />
+    <None Remove="Assets\Dictionaries\Idp\ITALIAN.TXT" />
+    <None Remove="Assets\Dictionaries\Idp\SPANISH.TXT" />
+    <None Remove="Assets\Dictionaries\Uddl\english-french.txt" />
+    <None Remove="Assets\Dictionaries\Uddl\english-german.txt" />
+    <None Remove="Assets\Dictionaries\Uddl\english-italian.txt" />
+    <None Remove="Assets\Dictionaries\Uddl\english-spanish.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Dictionaries\DictCC\dictcc-en-de.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\DictCC\dictcc-en-fr.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\DictCC\dictcc-en-it.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\DictCC\dictcc-en-sp.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Idp\FRENCH.TXT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Idp\GERMAN.TXT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Idp\ITALIAN.TXT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Idp\SPANISH.TXT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Uddl\english-french.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Uddl\english-german.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Uddl\english-italian.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Dictionaries\Uddl\english-spanish.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
