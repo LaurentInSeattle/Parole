@@ -488,8 +488,8 @@ public sealed class GameBindable : Bindable<GameView>
         this.Wins = string.Format("Vince : {0} ", statistics.Wins);
         this.Losses = string.Format("Perdite : {0} ", statistics.Losses);
         this.WinRate = string.Format("Percentuale di Vincita : {0} % ", statistics.WinRate);
-        this.BestStreak = string.Format("Serie più Lunga : {0}", statistics.BestStreak);
-        this.CurrentStreak = string.Format("Serie in Corso : {0}", statistics.CurrentStreak);
+        this.BestStreak = string.Format("Seria più Lunga : {0}", statistics.BestStreak);
+        this.CurrentStreak = string.Format("Seria in Corso : {0}", statistics.CurrentStreak);
         this.Histogram.Update(statistics);
     }
 
